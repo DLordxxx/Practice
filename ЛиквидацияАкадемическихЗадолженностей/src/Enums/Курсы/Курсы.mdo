@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5c34b72-a35d-4a4a-8355-ba505ba6a45b">
+  <producedTypes>
+    <refType typeId="dcba032d-9de1-4399-aadb-09277910cfb8" valueTypeId="cefd66b4-a661-4a46-b88b-5fd7f1137d07"/>
+    <listType typeId="b5caa117-0dbd-412d-a628-a31a23d9ec54" valueTypeId="dea94a4e-08c7-4690-9734-746c58db6cc4"/>
+    <managerType typeId="1802a38c-63d8-412a-a030-aa78ac707f5f" valueTypeId="7d98c789-48b9-4de5-af72-bd9bb5b1a42c"/>
+  </producedTypes>
+  <name>Курсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e05b3ab6-beb8-4e48-bd99-18d0d01550bd">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83f48d7f-ec59-4b8d-83e4-1fa940e08986">
+    <name>Второй</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74293e18-f1f7-40e4-8ab9-dbd7f5ee288b">
+    <name>Третий</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="975bdeb0-0d97-413e-b049-984ea338f773">
+    <name>Четвертый</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7424b97-5095-4bf3-b0e8-c579290da534">
+    <name>Пятый</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f65e44cd-4c1f-40e3-8c4e-2b29d846b44a">
+    <name>Шестой</name>
+    <synonym>
+      <key>ru</key>
+      <value>6</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

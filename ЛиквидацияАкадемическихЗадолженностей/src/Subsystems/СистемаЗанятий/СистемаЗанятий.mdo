@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6f547d9-0b7a-4219-9749-f6912fab0771">
+  <name>СистемаЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система занятий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Студенты</content>
+  <content>Catalog.Группы</content>
+  <content>Catalog.Дисциплины</content>
+  <content>Catalog.Преподаватели</content>
+  <content>Catalog.Аудитории</content>
+  <content>Catalog.РасписаниеЭкзаменов</content>
+  <content>Catalog.ФормаКонтроля</content>
+</mdclass:Subsystem>

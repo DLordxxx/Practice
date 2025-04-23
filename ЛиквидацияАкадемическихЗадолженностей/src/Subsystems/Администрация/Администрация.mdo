@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3b767d5-e2f8-4727-9c07-a34609fcc6b3">
+  <name>Администрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Дисциплины</content>
+  <content>Catalog.Специальности</content>
+  <content>Catalog.Кафедры</content>
+  <content>Catalog.Факультеты</content>
+  <content>Catalog.Группы</content>
+  <content>Catalog.Студенты</content>
+  <content>Catalog.Преподаватели</content>
+  <content>Catalog.УчебныеГода</content>
+  <content>Enum.НаименованиеКонтроля</content>
+  <content>Document.ЗакрытиеЗадолженности</content>
+  <content>Document.ЗадолженностиСтудентов</content>
+  <content>Document.Аттестация</content>
+  <content>Document.Консультация</content>
+</mdclass:Subsystem>

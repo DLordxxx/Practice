@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6ffc22a-3791-48ef-8ee5-d0b4b09ab741">
+  <producedTypes>
+    <objectType typeId="17b4ce47-5ac9-4bb8-9691-754f662f273e" valueTypeId="b638f4ef-0dc8-4511-aca4-e68c9ee4091b"/>
+    <refType typeId="40f5fa02-79f9-498f-852b-38c843ca723c" valueTypeId="c466e80a-2d3a-4e02-8205-2e3f03b27440"/>
+    <selectionType typeId="276c56ba-402c-4d64-b6ec-07100da6f115" valueTypeId="a92d3e8c-3ec8-4e75-a47f-f191fc212d2e"/>
+    <listType typeId="0e8df5ed-65b7-48ef-808d-a15739456928" valueTypeId="4fa9f8dc-ec6f-4a2e-a2de-b34edf176e8c"/>
+    <managerType typeId="cf3dc617-e743-4ee6-a05d-50ac20a7e551" valueTypeId="d848c399-f43e-4903-a556-156289505cf2"/>
+  </producedTypes>
+  <name>ЗакрытиеЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие задолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеЗадолженности.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5bebc4fb-1668-43f7-9cd0-7ce17cfc7923">
+    <name>ИдентификаторЗакрытияЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор закрытия задолженности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aeb1a333-01e0-48e8-bfd0-7a019dd740eb">
+    <name>Задолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗадолженностиСтудентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1de42c50-775a-4e16-896a-edae1f79ef37">
+    <name>ДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42ee95ee-907a-495e-87eb-9a69228eb329">
+    <name>СтатусЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задолженности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатусЗадолжностей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21db2bf9-f64d-4942-bee8-f16c792fe13b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
