@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
+  <diagram name="Страница — 1" id="Sz3Q9xjBe3Nz1H3cepPq">
+    <mxGraphModel dx="-91" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="piFgci3BfcfY0e4ov18e-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5gw3Ha4KrqCUjMAuvRb3-2" target="5gw3Ha4KrqCUjMAuvRb3-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-2" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Направление на пересдачу&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="60" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-5" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5gw3Ha4KrqCUjMAuvRb3-25" target="5gw3Ha4KrqCUjMAuvRb3-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-25" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Ликвидация академической задолженности&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5gw3Ha4KrqCUjMAuvRb3-38" target="5gw3Ha4KrqCUjMAuvRb3-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-38" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Ведомость о системе академической задолженности&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-41" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=10;" parent="1" vertex="1">
+          <mxGeometry x="2160" y="322.5" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-42" value="&lt;font style=&quot;font-size: 36px;&quot; face=&quot;Times New Roman&quot;&gt;O&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="5gw3Ha4KrqCUjMAuvRb3-41" vertex="1">
+          <mxGeometry x="12" y="3.5" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-64" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Times New Roman&quot;&gt;J1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5gw3Ha4KrqCUjMAuvRb3-41" vertex="1">
+          <mxGeometry x="30" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5gw3Ha4KrqCUjMAuvRb3-51" target="5gw3Ha4KrqCUjMAuvRb3-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-51" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Просрочена/Неявка/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Неудачная пересдача&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="70" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-60" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Протокол заседания комиссии&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="790" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-69" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=10;" parent="1" vertex="1">
+          <mxGeometry x="2660" y="101.5" width="60" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-70" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;X&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="5gw3Ha4KrqCUjMAuvRb3-69" vertex="1">
+          <mxGeometry x="5" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-74" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Times New Roman&quot;&gt;J2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5gw3Ha4KrqCUjMAuvRb3-69" vertex="1">
+          <mxGeometry x="30" y="37.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-88" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;4&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="387.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5gw3Ha4KrqCUjMAuvRb3-89" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;5&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKS5L1IY6jKayHBlHwoI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="piFgci3BfcfY0e4ov18e-4" target="5gw3Ha4KrqCUjMAuvRb3-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-4" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;Наличие академической задолженности&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1106" y="60" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-6" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1106" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="piFgci3BfcfY0e4ov18e-10" target="piFgci3BfcfY0e4ov18e-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-10" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Заявление на продление сроков ликвидации задолженности&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="67.5" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="piFgci3BfcfY0e4ov18e-12" target="piFgci3BfcfY0e4ov18e-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-12" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Создается индивидуальный план ликвидации задолженностей&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="piFgci3BfcfY0e4ov18e-15" target="5gw3Ha4KrqCUjMAuvRb3-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2930" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-15" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Ведомость о системе академической задолженности для студентов с ИОМ&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="560" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-20" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;6&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="167.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-21" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;7&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-22" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;8&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-23" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;10&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="piFgci3BfcfY0e4ov18e-38" target="5gw3Ha4KrqCUjMAuvRb3-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; background-color: rgb(251, 251, 251); float: none; display: inline !important;&quot;&gt;Успешная пересдача&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="piFgci3BfcfY0e4ov18e-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="132" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="piFgci3BfcfY0e4ov18e-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2230" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-47" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;9&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2300" y="387.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piFgci3BfcfY0e4ov18e-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="322" as="sourcePoint" />
+            <mxPoint x="2300" y="131" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2200" y="131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
