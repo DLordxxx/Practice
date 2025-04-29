@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3dff508-0661-451e-88ca-5f92f5175f7c">
+  <producedTypes>
+    <selectionType typeId="3e14a10b-4c26-4137-b9b6-90f54e48610d" valueTypeId="ee6438c2-9cf4-4545-9afa-9acfbba9c062"/>
+    <listType typeId="89f9e449-2a20-4195-bc28-710321cbd4f6" valueTypeId="33c60717-bfb0-455c-ab53-352ed1abe209"/>
+    <managerType typeId="5fb93152-c2c0-474f-8308-c1757ebd9ddf" valueTypeId="422d8fae-d915-45c4-a1fb-efdee0bdf700"/>
+    <recordSetType typeId="ae30aadf-6247-4e93-bc00-04460adfb09d" valueTypeId="c3e1d1a1-2b56-42d1-befe-9adf4e98a5fc"/>
+    <recordKeyType typeId="294ba970-4d0b-47b8-b532-b925d2f923d2" valueTypeId="25d38b02-a085-4cc2-976b-2c1e2bc5f5cf"/>
+    <recordType typeId="d7457d81-8223-4a6c-9c90-437ec498512b" valueTypeId="cfe57e38-06b4-4080-8c39-342f8af31f01"/>
+  </producedTypes>
+  <name>ДинамикаЛиквидацииЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика ликвидации задолженностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b9feac06-11a9-4290-ac55-28ff186eea03">
+    <name>КоличествоВозникшихЗадолженностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество возникших задолженностей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="68b274be-76b1-474a-a3e2-2096ad004732">
+    <name>КоличествоЛиквидированныхЗадолженностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ликвидированных задолженностей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="98a98086-ac32-4487-b254-496e63d23894">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дисциплины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bd108c62-57f5-45a3-8de4-09c857c027c0">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="8ab2fd85-d938-4852-9220-a038cc628cee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

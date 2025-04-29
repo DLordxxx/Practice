@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f2cde8b-f5aa-43a0-b818-a62bcc1581b4">
+  <producedTypes>
+    <selectionType typeId="10d234ac-e58a-42bb-86c7-7848016cf68c" valueTypeId="b9242dc8-f6b9-4cf0-b877-a9465cb52eca"/>
+    <listType typeId="cc2a2241-8def-4519-8e09-d11a1ffee1e2" valueTypeId="29a75bda-0d57-4084-a330-32478fddb2e7"/>
+    <managerType typeId="476a0d8f-9ac2-43fe-bcbb-4f3546a7aa4c" valueTypeId="5e0819f4-af38-4672-9865-20f8ee4cfe79"/>
+    <recordSetType typeId="beaf62e1-8ac2-45b6-977c-29aa1deb83ca" valueTypeId="0f087f75-d507-4429-8aff-e3abca8c8fbc"/>
+    <recordKeyType typeId="7e83aa23-d37c-492f-b5f4-11a13929ea8b" valueTypeId="50e45ad5-442c-45ff-ac8d-d649ed5dd0ec"/>
+    <recordType typeId="02be5c40-a5f1-4373-aae6-66c2798a4f6d" valueTypeId="e6f4a049-4ab1-435b-9e87-aa4d152d2197"/>
+    <recalcsType typeId="628343cc-1ac7-429d-84f7-0a0afa1aa15f" valueTypeId="4424eaff-16b7-4a4b-b76e-c69904056b6d"/>
+  </producedTypes>
+  <name>РасчетСтипендииСУчетомЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет стипендии с учетом задолженностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей.Form.ФормаСписка</defaultListForm>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bdb14b92-d305-4f1f-a355-20a8f1bd27ae">
+    <name>БазоваяСтипендия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая стипендия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fbcf8cf1-4665-4326-a478-c0c9e1aee118">
+    <name>КоэффициентСнижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент снижения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="ac6cd788-20e1-49e1-bafc-b71fbcbe9a04">
+    <name>ПричинаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="2f6ec4cf-db6f-4ed2-a790-bd2016a451f9">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <forms uuid="e56444aa-8e37-4925-af3f-4bd4f454b873">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:CalculationRegister>

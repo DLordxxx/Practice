@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47d786e9-a0ec-4961-8a63-07f1508e8072">
+  <producedTypes>
+    <selectionType typeId="df90f1b0-d01f-40fb-bb1b-46f4573e8cb8" valueTypeId="ed57f327-acaf-4069-a505-813cb7f7548a"/>
+    <listType typeId="dd2673c9-98dc-4b73-b564-828d73948a1b" valueTypeId="ac2565b1-fbd5-42a5-bc08-166e19bb96d1"/>
+    <managerType typeId="77463e9e-4e93-4660-8a26-a8b099565817" valueTypeId="7de48a22-1e82-42c9-82ce-c02340a742e0"/>
+    <recordSetType typeId="52379a34-d9e9-4a68-9f3d-9523aabd9739" valueTypeId="79b7726a-7b73-4c64-863c-f5cac1342758"/>
+    <recordKeyType typeId="842e1558-0d43-4dea-a281-c18a54451007" valueTypeId="3458f42b-b18b-4038-98b6-d85ece4b2c70"/>
+    <recordType typeId="3b6c4785-d8bd-4e51-96c5-32f450410f1a" valueTypeId="41699e41-8563-4701-87f5-3c7e91a74488"/>
+  </producedTypes>
+  <name>НагрузкаКомиссий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нагрузка комиссий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.НагрузкаКомиссий.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9fcc758c-b523-4285-a3e8-6327662fc63a">
+    <name>КоличествоЗаседаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество заседаний</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="12d997b9-e976-4eb6-a89d-85681fbb9dd8">
+    <name>ЧасыРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы работы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2cd8a366-8b9f-4435-9f31-54c4327ed812">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Преподаватели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e7ed3305-4e2f-49c1-96a7-9da32b84c406">
+    <name>ВидЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид задолженности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидЗадолженостей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="b6ddf30b-825b-4d4c-a023-dca48f0b651c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

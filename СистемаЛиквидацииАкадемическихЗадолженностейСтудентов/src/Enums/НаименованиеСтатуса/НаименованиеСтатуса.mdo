@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="095f5180-ea94-47ad-ad4a-857bbad9b693">
+  <producedTypes>
+    <refType typeId="c153f9da-d17d-4166-be85-8f093b2c97df" valueTypeId="1e77e9c4-136f-4515-97e8-9b7040581f42"/>
+    <listType typeId="296f069a-e345-44f8-be70-611f5f6a1582" valueTypeId="c9ba594c-32db-49da-bea8-961b18614b5a"/>
+    <managerType typeId="a994bd56-0e77-42db-bae8-b14e47518f90" valueTypeId="23ca12df-8994-4bc0-8c62-956c76c6b6cb"/>
+  </producedTypes>
+  <name>НаименованиеСтатуса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование статуса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9de560e4-5a81-4ed8-b5ff-85a243fdcb6b">
+    <name>Активная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75543356-a01c-47bf-9af8-2922ea1d706d">
+    <name>Закрытая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9dcd7587-916e-4638-8936-623b7b990434">
+    <name>Просрочена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочена</value>
+    </synonym>
+    <comment>когда студент не пришел на задолжность и у него вмсето активной, становится неактивной -> просрочена</comment>
+  </enumValues>
+</mdclass:Enum>

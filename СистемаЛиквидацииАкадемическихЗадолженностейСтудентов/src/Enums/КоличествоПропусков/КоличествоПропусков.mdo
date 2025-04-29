@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efe1a2a-ef7c-4814-a49d-bb2bd0a4fcea">
+  <producedTypes>
+    <refType typeId="8ed4f310-8f24-4f97-a6b4-7d75fa8be41f" valueTypeId="b9fb3907-1da9-44b2-b3e5-f0561c145174"/>
+    <listType typeId="4f86d35d-2441-488e-a025-1b59c3a02ae2" valueTypeId="b83c8005-62dd-41b8-b524-83d9538de1c8"/>
+    <managerType typeId="58e7fd7d-4ae8-471f-bfea-2c053bbab5b3" valueTypeId="7cea14c5-9227-434b-b38e-1abb76be0fa8"/>
+  </producedTypes>
+  <name>КоличествоПропусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество пропусков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a3561dc2-164d-4059-b75d-1fc5d66b33ab">
+    <name>Ноль</name>
+    <synonym>
+      <key>ru</key>
+      <value>0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c8cde72-10ba-4978-9faa-bba4036594d0">
+    <name>Один</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d2774bd-21ff-49b5-80d1-317877d19b5d">
+    <name>Два</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

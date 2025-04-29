@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e3b1f15-307d-4e6c-9e42-9b6993d318a0">
+  <name>СтуденческийКабинет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Студенческий кабинет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СтатусЗадолжностей</content>
+  <content>Enum.НаименованиеКонтроля</content>
+  <content>Document.НаправлениеНаПересдачу</content>
+  <content>Document.УведомлениеОНаличииЗадолженности</content>
+  <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
+  <content>Document.ПриказОбОтчислении</content>
+  <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
+  <content>InformationRegister.ГрафикПересдач</content>
+  <content>AccumulationRegister.УспешныеПересдачи</content>
+  <content>AccumulationRegister.НеявкиНаПересдачи</content>
+  <content>AccumulationRegister.ПросроченныеЗадолженности</content>
+  <content>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</content>
+  <content>AccumulationRegister.НагрузкаКомиссий</content>
+  <content>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</content>
+  <content>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</content>
+  <content>Catalog.Дисциплины</content>
+  <content>Catalog.Студенты</content>
+</mdclass:Subsystem>

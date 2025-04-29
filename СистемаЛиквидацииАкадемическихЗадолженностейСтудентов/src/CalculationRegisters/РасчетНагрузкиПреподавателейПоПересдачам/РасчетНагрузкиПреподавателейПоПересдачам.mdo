@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1a05517-3af2-407c-ba67-f78997efa987">
+  <producedTypes>
+    <selectionType typeId="edfb37cf-bcec-45fa-be8f-8dc66efb4a89" valueTypeId="90a1f151-684f-494d-821b-0bc0f9b05c40"/>
+    <listType typeId="fa393b8b-f6d0-46ba-a094-0e803bed07f3" valueTypeId="b6bc2b57-ee94-4c2e-a4c7-365a4b5f733e"/>
+    <managerType typeId="23474d37-a158-4fd7-ba8a-1890e0c06607" valueTypeId="8af3065b-f26b-4291-b955-86fa257a5b3c"/>
+    <recordSetType typeId="ae85b095-1d70-4cb9-8ad4-a8ee5d490f81" valueTypeId="2c4f345d-504c-48e0-b239-d3a81908658b"/>
+    <recordKeyType typeId="f1078fd5-2877-43d1-b5b8-fa20101457a0" valueTypeId="aab27820-f397-4812-a476-da2e3a3154b9"/>
+    <recordType typeId="9b432c3c-8f67-465d-a5b2-0524c8f77934" valueTypeId="d22c34b0-666f-444b-a69d-9fbe094a465d"/>
+    <recalcsType typeId="77302934-8031-487b-a52c-4837e26b743d" valueTypeId="6f7ea9d3-bb03-4c29-a06a-4731d0496c9f"/>
+  </producedTypes>
+  <name>РасчетНагрузкиПреподавателейПоПересдачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет нагрузки преподавателей по пересдачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b0557d14-8c7a-4175-8f7a-d82d1c7e00c9">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5cf9f2ac-476a-47dd-a850-50d03aa91a37">
+    <name>НадбавкаЗаПересдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надбавка за пересдачи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="aadc7c55-4161-42c9-a0a1-f043d397d180">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Преподаватели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="355182fe-5b1b-40ae-848b-e54502a2a274">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>
