@@ -67,6 +67,7 @@
   <catalogs>Catalog.Расписание</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ФормаКонтроля</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьУчетаЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
@@ -92,9 +93,9 @@
   <enums>Enum.РольВКомиссии</enums>
   <enums>Enum.РешениеКомиссии</enums>
   <enums>Enum.СтатусРассмотрения</enums>
-  <enums>Enum.ТипВыплаты</enums>
   <enums>Enum.КоличествоПропусков</enums>
   <reports>Report.ТекущиеСтатусыЗадолженностейСтудентов</reports>
+  <reports>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</reports>
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикПересдач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>

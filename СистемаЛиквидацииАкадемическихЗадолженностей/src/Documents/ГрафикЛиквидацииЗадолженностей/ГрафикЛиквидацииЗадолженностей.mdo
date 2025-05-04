@@ -70,7 +70,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ГрафикЛиквидацииЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</registerRecords>
+  <registerRecords>InformationRegister.ГрафикПересдач</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3e7bcf56-d859-4666-af9e-e89fea41c2e5">
@@ -129,6 +129,21 @@
     </synonym>
     <type>
       <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a3523f3-6542-46e3-90d1-fea34b0bdd51">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

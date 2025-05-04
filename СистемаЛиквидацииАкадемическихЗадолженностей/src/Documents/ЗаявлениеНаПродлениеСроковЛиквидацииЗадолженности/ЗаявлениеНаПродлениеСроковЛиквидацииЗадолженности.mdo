@@ -42,6 +42,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата подачи</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -71,24 +75,6 @@
   <defaultObjectForm>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="bcdb8e28-aca0-4139-a108-4e6a6b4cba91">
-    <name>ДатаПодачи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата подачи</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="d234c4b7-8cd1-4b5e-be53-bddaf2986c85">
     <name>Студент</name>
     <synonym>

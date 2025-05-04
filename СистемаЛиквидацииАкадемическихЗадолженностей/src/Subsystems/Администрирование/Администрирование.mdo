@@ -42,4 +42,6 @@
   <content>Catalog.ФормаКонтроля</content>
   <content>BusinessProcess.КонтрольАкадемическойУспеваемости</content>
   <content>Task.Задачи</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Аудитории</content>
 </mdclass:Subsystem>

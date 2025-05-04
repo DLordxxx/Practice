@@ -51,21 +51,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="efce3d7f-aca2-48ca-a2cc-c4a14922f7c7">
-    <name>ФормаКонтроля</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма контроля</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФормаКонтроля</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <dimensions uuid="0d6c64f6-dfbf-4f54-919b-9be12d30711a">
     <name>Преподаватель</name>
     <synonym>

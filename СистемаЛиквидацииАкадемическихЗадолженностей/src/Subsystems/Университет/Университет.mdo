@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonForm.КарточкаУниверситета</content>
   <content>Report.ТекущиеСтатусыЗадолженностейСтудентов</content>
+  <content>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</content>
 </mdclass:Subsystem>

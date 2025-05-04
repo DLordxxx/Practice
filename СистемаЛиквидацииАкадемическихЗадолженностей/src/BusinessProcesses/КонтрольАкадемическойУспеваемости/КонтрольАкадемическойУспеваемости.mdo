@@ -20,6 +20,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.КонтрольАкадемическойУспеваемости.Form.ФормаБизнесПроцесса</defaultObjectForm>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -27,4 +28,13 @@
   <autonumbering>true</autonumbering>
   <task>Task.Задачи</task>
   <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <forms uuid="d522fc12-8031-4fe8-9f56-e5e0dc761271">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:BusinessProcess>
