@@ -79,6 +79,7 @@
   <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>AccountingRegister.ЖурналПроводок</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
+  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="bbc4cdb8-eb28-41c7-b76a-55e55eec1e19">
@@ -115,6 +116,34 @@
       <key>ru</key>
       <value>Результат заседания комиссии</value>
     </synonym>
+    <attributes uuid="0b356f06-1a87-49eb-9519-0afe274d94ad">
+      <name>УчебныеГода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учебные года</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчебныеГода</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a5e6d7e-ce5f-4b5e-900b-190e88c5f5fa">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="34b30157-b184-4c75-91b5-c162f9d81401">
       <name>Студент</name>
       <synonym>
@@ -123,6 +152,20 @@
       </synonym>
       <type>
         <types>CatalogRef.Студенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ce6fcd5-30d0-44f4-9d32-3744638e23df">
+      <name>ВидКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид контроля</value>
+      </synonym>
+      <type>
+        <types>EnumRef.НаименованиеКонтроля</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

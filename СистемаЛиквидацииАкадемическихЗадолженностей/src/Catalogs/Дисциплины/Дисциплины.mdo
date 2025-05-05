@@ -152,21 +152,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4b9bb807-0f9e-46dd-933f-bc1809dc3fe9">
-    <name>ТипДисциплины</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип дисциплины</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипДисциплины</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="525c4093-a64f-4136-b515-189d02165202">
     <name>ФормаЭлемента</name>
     <synonym>

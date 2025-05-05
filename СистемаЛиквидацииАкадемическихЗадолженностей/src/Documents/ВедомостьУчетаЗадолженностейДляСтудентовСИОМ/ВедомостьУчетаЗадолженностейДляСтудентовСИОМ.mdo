@@ -70,7 +70,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4e44f8b1-3130-4237-861d-52634449ea31">

@@ -40,4 +40,18 @@
       <value>Отлично</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="61483a03-d38d-45f2-be9b-d6ebfd98698f">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a306fe1-9bb5-49e5-8030-824d6a8d5466">
+    <name>Незачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незачет</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -73,7 +73,6 @@
   <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
-  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="2345b1e6-5159-4821-899f-7621c6020a8e">

@@ -507,9 +507,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НазначениеСтудентаДляПреподавателя.НаименованиеВида</segments>
-      </dataPath>
       <extendedTooltip>
         <name>НазначениеСтудентаДляПреподавателяНаименованиеВидаРасширеннаяПодсказка</name>
         <id>49</id>

@@ -25,7 +25,6 @@
   <content>Catalog.Студенты</content>
   <content>Catalog.Группы</content>
   <content>Catalog.Дисциплины</content>
-  <content>Catalog.ВидЗадолженостей</content>
   <content>Catalog.СтатусЗадолжностей</content>
   <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
 </mdclass:Subsystem>
