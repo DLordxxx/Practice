@@ -10,4 +10,8 @@
   <content>CommonForm.КарточкаУниверситета</content>
   <content>Report.ТекущиеСтатусыЗадолженностейСтудентов</content>
   <content>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</content>
+  <content>Report.АнализЗадолженностей</content>
+  <content>DataProcessor.Академ_задолженность</content>
+  <content>InformationRegister.ОценкиСтудентов</content>
+  <content>Enum.ВидыФинансирования</content>
 </mdclass:Subsystem>

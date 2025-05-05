@@ -42,6 +42,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата составления</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>

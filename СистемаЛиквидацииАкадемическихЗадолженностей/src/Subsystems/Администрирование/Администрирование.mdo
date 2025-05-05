@@ -13,7 +13,6 @@
   <content>AccumulationRegister.НеявкиНаПересдачи</content>
   <content>AccumulationRegister.ПросроченныеЗадолженности</content>
   <content>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</content>
-  <content>AccumulationRegister.НагрузкаКомиссий</content>
   <content>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</content>
   <content>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</content>
   <content>ChartOfAccounts.ПланСчетов</content>
@@ -44,4 +43,5 @@
   <content>Task.Задачи</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.Аудитории</content>
+  <content>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</content>
 </mdclass:Subsystem>

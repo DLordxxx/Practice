@@ -73,6 +73,7 @@
   <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
+  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="2345b1e6-5159-4821-899f-7621c6020a8e">
@@ -183,7 +184,17 @@
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </editFormat>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -214,7 +225,17 @@
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </editFormat>
+      <minValue xsi:type="core:StringValue">
+        <value>0</value>
+      </minValue>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>

@@ -199,6 +199,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПриказОбОтчислении</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВидЗадолженостей</name>
 		<right>
 			<name>Read</name>
@@ -233,6 +244,17 @@
 	</object>
 	<object>
 		<name>Constant.ЮридическийАдрес</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

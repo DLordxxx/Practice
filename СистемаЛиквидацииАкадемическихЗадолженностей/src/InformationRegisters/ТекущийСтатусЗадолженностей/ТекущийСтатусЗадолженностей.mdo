@@ -30,6 +30,14 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -48,6 +56,14 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

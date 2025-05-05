@@ -35,22 +35,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="fbcf8cf1-4665-4326-a478-c0c9e1aee118">
-    <name>КоэффициентСнижения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Коэффициент снижения</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
   <attributes uuid="ac6cd788-20e1-49e1-bafc-b71fbcbe9a04">
     <name>ПричинаИзменения</name>
     <synonym>
@@ -59,9 +43,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>1000</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

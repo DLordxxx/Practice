@@ -74,7 +74,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.НагрузкаКомиссий</registerRecords>
   <registerRecords>AccumulationRegister.НеявкиНаПересдачи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

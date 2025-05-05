@@ -20,12 +20,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.НагрузкаКомиссий.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>AccumulationRegister.НеявкиНаПересдачи.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>

@@ -78,6 +78,7 @@
   <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
   <documents>Document.ПриказОбОтчислении</documents>
+  <documents>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</documents>
   <enums>Enum.Пол</enums>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
@@ -94,15 +95,18 @@
   <enums>Enum.РешениеКомиссии</enums>
   <enums>Enum.СтатусРассмотрения</enums>
   <enums>Enum.КоличествоПропусков</enums>
+  <enums>Enum.ВидыФинансирования</enums>
   <reports>Report.ТекущиеСтатусыЗадолженностейСтудентов</reports>
   <reports>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</reports>
+  <reports>Report.АнализЗадолженностей</reports>
+  <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикПересдач</informationRegisters>
+  <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.НеявкиНаПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.НагрузкаКомиссий</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристик</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.ЖурналПроводок</accountingRegisters>

@@ -42,6 +42,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата составления</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -72,24 +76,6 @@
   <registerRecords>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="60966b4c-875a-49c1-a5d9-1e8bbddff601">
-    <name>ДатаСоставления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата составления</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="9d268d34-ff84-4b7d-830e-381bdfa3412f">
     <name>Студент</name>
     <synonym>

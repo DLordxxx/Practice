@@ -64,6 +64,8 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <basedOn>ChartOfCalculationTypes.ПланВидовРасчета</basedOn>
+  <basedOn>Document.ВедомостьУчетаЗадолженностей</basedOn>
+  <basedOn>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -74,27 +76,11 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПротоколЗаседанияКомиссии.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</registerRecords>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>AccountingRegister.ЖурналПроводок</registerRecords>
+  <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f6fb3191-98e9-4891-987b-9a1fc9920d5d">
-    <name>ДатаЗаседания</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата заседания</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="bbc4cdb8-eb28-41c7-b76a-55e55eec1e19">
     <name>Председатель</name>
     <synonym>
@@ -103,21 +89,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Преподаватели</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="071ab65a-5fe1-483a-91d5-89d24e50244c">
-    <name>Студент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Студент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Студенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -144,6 +115,20 @@
       <key>ru</key>
       <value>Результат заседания комиссии</value>
     </synonym>
+    <attributes uuid="34b30157-b184-4c75-91b5-c162f9d81401">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Студенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="f813a79b-e909-47d3-a8a6-00cce97caa51">
       <name>Дисциплина</name>
       <synonym>
@@ -191,23 +176,6 @@
       <synonym>
         <key>ru</key>
         <value>Базовая стипендия</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="43d4b81c-2620-4583-89f7-175cbcd0c86a">
-      <name>КоэффициентСнижения</name>
-      <synonym>
-        <key>ru</key>
-        <value>Коэффициент снижения</value>
       </synonym>
       <type>
         <types>Number</types>

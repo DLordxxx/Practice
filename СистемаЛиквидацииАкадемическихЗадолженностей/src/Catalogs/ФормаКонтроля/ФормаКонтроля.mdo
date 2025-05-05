@@ -76,10 +76,8 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
-    <dataHistory>Use</dataHistory>
     <name>Description</name>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -140,7 +138,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="b9c2fd36-df3d-4bbe-9e1e-c302c9b35371">
+  <forms uuid="010ba6c6-29a7-4161-bd46-71ba1adac215">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

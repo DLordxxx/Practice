@@ -44,7 +44,7 @@
     <name>Date</name>
     <synonym>
       <key>ru</key>
-      <value>Дата проведения</value>
+      <value>Дата выдачи</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -187,10 +187,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2a82ada2-b4f8-40a4-a0f8-6604dc047041">
-    <name>ДатаПересдачи</name>
+    <name>ДатаПроведения</name>
     <synonym>
       <key>ru</key>
-      <value>Дата пересдачи</value>
+      <value>Дата проведения</value>
     </synonym>
     <type>
       <types>Date</types>
