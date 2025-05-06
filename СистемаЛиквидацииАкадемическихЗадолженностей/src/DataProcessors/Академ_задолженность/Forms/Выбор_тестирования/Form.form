@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Button">
-    <name>Открыть_динамику</name>
+    <name>Учебное_тестирование</name>
     <id>1</id>
-    <title>
-      <key>ru</key>
-      <value>Статистика</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Открыть_динамикуРасширеннаяПодсказка</name>
+      <name>Учебное_тестированиеРасширеннаяПодсказка</name>
       <id>2</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -23,15 +19,15 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.Открыть_динамику</commandName>
+    <commandName>Form.Command.Учебное_тестирование</commandName>
     <representation>PictureAndText</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
     <backColor xsi:type="core:ColorDef">
-      <red>131</red>
+      <red>137</red>
       <green>255</green>
-      <blue>98</blue>
+      <blue>242</blue>
     </backColor>
     <font xsi:type="core:FontRef">
       <font>Style.NormalTextFont</font>
@@ -40,12 +36,12 @@
       <scale>100</scale>
     </font>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.CalculationType</picture>
+      <picture>StdPicture.CollaborationSystemExternalUser</picture>
     </picture>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:Button">
-    <name>Открыть_тестирование</name>
+    <name>Психологическое_тестирование</name>
     <id>3</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -53,7 +49,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>Открыть_тестированиеРасширеннаяПодсказка</name>
+      <name>Психологическое_тестированиеРасширеннаяПодсказка</name>
       <id>4</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -63,14 +59,14 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.Открыть_тестирование</commandName>
+    <commandName>Form.Command.Психологическое_тестирование</commandName>
     <representation>PictureAndText</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
     <backColor xsi:type="core:ColorDef">
-      <red>213</red>
-      <green>125</green>
+      <red>187</red>
+      <green>145</green>
       <blue>255</blue>
     </backColor>
     <font xsi:type="core:FontRef">
@@ -80,7 +76,7 @@
       <scale>100</scale>
     </font>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ActivateTask</picture>
+      <picture>StdPicture.EventLogByUser</picture>
     </picture>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
@@ -114,43 +110,43 @@
     <main>true</main>
   </attributes>
   <formCommands>
-    <name>Открыть_динамику</name>
+    <name>Учебное_тестирование</name>
     <title>
       <key>ru</key>
-      <value>Открыть динамику</value>
+      <value>Учебное тестирование</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Открыть динамику</value>
+      <value>Учебное тестирование</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Открыть_динамику</name>
+        <name>Учебное_тестирование</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Открыть_тестирование</name>
+    <name>Психологическое_тестирование</name>
     <title>
       <key>ru</key>
-      <value>Тесты</value>
+      <value>Психологическое тестирование</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Открыть тестирование</value>
+      <value>Психологическое тестирование</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Открыть_тестирование</name>
+        <name>Психологическое_тестирование</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

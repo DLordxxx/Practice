@@ -47,4 +47,31 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="90d91f82-a2d8-4b1e-95dc-da16a264125f">
+    <name>Выбор_тестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор тестирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1f54900-b764-4eb2-9459-38de90982309">
+    <name>Тестирование_по_учёбе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование по учёбе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3281c7c-94fd-4c07-a919-875cc97a2d74">
+    <name>Тестирование_на_психологию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование на психологию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
