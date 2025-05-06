@@ -16,7 +16,7 @@
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-10" value="Академическая задолженность" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="120" y="-255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-22" value="Отчетная информация" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-22" value="Отчетная документация" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="-255" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-36" value="Группа" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
             <mxPoint x="-290" y="-185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gt99MTRjlvwQo3MLIf0x-8" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Gt99MTRjlvwQo3MLIf0x-8" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-300" y="-50" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gt99MTRjlvwQo3MLIf0x-9" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">

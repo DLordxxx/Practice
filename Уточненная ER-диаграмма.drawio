@@ -52,7 +52,7 @@
             <mxPoint x="380" y="-350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-22" value="Отчетная информация" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-22" value="Отчетная документация" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-300" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-23" value="" style="endArrow=none;html=1;rounded=0;entryX=1.001;entryY=0.818;entryDx=0;entryDy=0;exitX=0.002;exitY=0.452;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;fontSize=14;entryPerimeter=0;" parent="1" source="IAvjB-8o-SGQpHQ1kvBk-11" target="IAvjB-8o-SGQpHQ1kvBk-6" edge="1">
