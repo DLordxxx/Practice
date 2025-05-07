@@ -89,7 +89,7 @@
       <value>Председатель</value>
     </synonym>
     <type>
-      <types>CatalogRef.Преподаватели</types>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

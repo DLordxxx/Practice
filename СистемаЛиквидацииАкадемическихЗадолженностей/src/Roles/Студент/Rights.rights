@@ -81,17 +81,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ГрафикЛиквидацииЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.НаправлениеНаПересдачу</name>
 		<right>
 			<name>Read</name>
@@ -121,7 +110,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.УведомлениеОНаличииЗадолженности</name>
+		<name>Document.СоставлениеРекомендацийПоСтудентам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -221,17 +210,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Расписание</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ЮридическийАдрес</name>
 		<right>
 			<name>Read</name>
@@ -254,7 +232,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Кафедры</name>
+		<name>Catalog.НаправлениеПодготовки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -276,7 +254,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Преподаватели</name>
+		<name>Catalog.Сотрудники</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -354,7 +332,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.АкадемическиеЗадолженностиСтудентов</name>
+		<name>Configuration.СистемаЛиквидацииАкадемическихЗадолженностейСтудентов</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>
@@ -412,7 +390,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.СистемаЗанятий</name>
+		<name>Subsystem.МониторингКлючевыхПоказателейЭффективности</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

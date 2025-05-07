@@ -7,13 +7,13 @@
     <listType typeId="08f89dab-17fa-4234-9471-ec795b8d3295" valueTypeId="bb9ee908-c5d2-454a-8611-2d7edfa05173"/>
     <managerType typeId="1561473f-538b-484d-b89d-b88bef26a55e" valueTypeId="94163541-8ea1-4001-8b06-864721624ee9"/>
   </producedTypes>
-  <name>УведомлениеОНаличииЗадолженности</name>
+  <name>СоставлениеРекомендацийПоСтудентам</name>
   <synonym>
     <key>ru</key>
-    <value>Уведомление о наличии задолженности</value>
+    <value>Составление рекомендаций по студентам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.УведомлениеОНаличииЗадолженности.StandardAttribute.Number</inputByString>
+  <inputByString>Document.СоставлениеРекомендацийПоСтудентам.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -68,27 +68,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.УведомлениеОНаличииЗадолженности.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.СоставлениеРекомендацийПоСтудентам.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="ce7cf87e-fa0e-4924-8533-a4376e8fa55d">
-    <name>ДатаСоставления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата составления</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="715403c0-6713-44b9-bbfb-608fad812e16">
     <name>Студент</name>
     <synonym>
@@ -134,21 +116,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="98bfe9d3-c582-4f2e-b075-3dc2ce6ff323">
-    <name>СрокЛиквидации</name>
+  <attributes uuid="d0ffed24-ce53-4f2e-8889-a47a3f0a0f11">
+    <name>Рекомендация</name>
     <synonym>
       <key>ru</key>
-      <value>Срок ликвидации</value>
+      <value>Рекомендация</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

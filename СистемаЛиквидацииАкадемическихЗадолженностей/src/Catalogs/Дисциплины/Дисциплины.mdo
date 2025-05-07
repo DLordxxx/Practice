@@ -144,7 +144,7 @@
       <value>Кафедра</value>
     </synonym>
     <type>
-      <types>CatalogRef.Кафедры</types>
+      <types>CatalogRef.НаправлениеПодготовки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

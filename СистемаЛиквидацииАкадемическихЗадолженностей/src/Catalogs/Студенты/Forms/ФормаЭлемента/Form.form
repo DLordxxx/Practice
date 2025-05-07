@@ -90,9 +90,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ДатаРождения</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ДатаРожденияРасширеннаяПодсказка</name>
       <id>9</id>
@@ -131,9 +128,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Пол</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ПолРасширеннаяПодсказка</name>
       <id>12</id>
@@ -336,9 +330,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.УровеньОбразования</segments>
-    </dataPath>
     <extendedTooltip>
       <name>УровеньОбразованияРасширеннаяПодсказка</name>
       <id>27</id>

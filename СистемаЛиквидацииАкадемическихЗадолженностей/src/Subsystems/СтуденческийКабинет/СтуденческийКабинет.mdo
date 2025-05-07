@@ -10,7 +10,7 @@
   <content>Catalog.СтатусЗадолжностей</content>
   <content>Enum.НаименованиеКонтроля</content>
   <content>Document.НаправлениеНаПересдачу</content>
-  <content>Document.УведомлениеОНаличииЗадолженности</content>
+  <content>Document.СоставлениеРекомендацийПоСтудентам</content>
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ПриказОбОтчислении</content>
   <content>InformationRegister.ТекущийСтатусЗадолженностей</content>

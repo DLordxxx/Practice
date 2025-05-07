@@ -111,33 +111,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Факультеты.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="089d6af0-ceba-43d2-957b-71a67aea58cb">
-    <name>КодФакультета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код факультета</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <format>
-      <key>ru</key>
-      <value>ЧРГ=.; ЧГ=2,2,0</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧРГ=.; ЧГ=2,2,0</value>
-    </editFormat>
-    <mask>99.99.99</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="5853fb0f-9de1-4129-8878-79ccd8b87399">
     <name>Декан</name>
     <synonym>

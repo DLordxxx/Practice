@@ -23,17 +23,16 @@
   <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
   <content>Document.ВедомостьУчетаЗадолженностей</content>
   <content>Document.НаправлениеНаПересдачу</content>
-  <content>Document.ГрафикЛиквидацииЗадолженностей</content>
   <content>Document.ПротоколЗаседанияКомиссии</content>
-  <content>Document.УведомлениеОНаличииЗадолженности</content>
+  <content>Document.СоставлениеРекомендацийПоСтудентам</content>
   <content>Document.СводныйОтчетПоЗадолженностям</content>
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
   <content>Catalog.Факультеты</content>
-  <content>Catalog.Кафедры</content>
+  <content>Catalog.НаправлениеПодготовки</content>
   <content>Catalog.Специальности</content>
   <content>Catalog.Дисциплины</content>
-  <content>Catalog.Преподаватели</content>
+  <content>Catalog.Сотрудники</content>
   <content>Catalog.Студенты</content>
   <content>Catalog.Группы</content>
   <content>Catalog.УчебныеГода</content>

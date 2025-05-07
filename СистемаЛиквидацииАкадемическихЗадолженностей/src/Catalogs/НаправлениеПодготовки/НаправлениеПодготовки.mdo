@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c035ad43-f89d-4b69-9097-6b73ede39d52">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1ba4504-1595-4064-9de2-0efca61122f5">
   <producedTypes>
-    <objectType typeId="5fb179f9-d9dd-483e-b918-da8c00c0ea1e" valueTypeId="90b4cb63-8bf2-47c7-8475-1066a738100a"/>
-    <refType typeId="1e34942d-ddb9-4947-b173-c0051aa22aae" valueTypeId="f70d6bbe-5308-42f1-a50a-cad0c2b5e1d7"/>
-    <selectionType typeId="88e8537d-066f-4948-beab-f8679cffac0f" valueTypeId="8138230a-5adb-495f-9c92-a3812040a665"/>
-    <listType typeId="c0f3d008-2a59-4b0d-991f-ef0809b10a4b" valueTypeId="499e2488-631b-4259-a1d7-493251cf3aee"/>
-    <managerType typeId="dcd6e1d2-a8cf-4029-8f87-2aa0321d8e62" valueTypeId="7467d849-df4c-4861-a991-1d3f3fd47591"/>
+    <objectType typeId="02c2858a-681d-4051-9db0-14d5231367a2" valueTypeId="5b511168-e839-48de-9b3f-bfa2b625e22c"/>
+    <refType typeId="1202e5a5-b12a-44c6-9e55-818700517232" valueTypeId="f793586f-7cd5-4d76-ae58-ba30e5771122"/>
+    <selectionType typeId="df7a7926-1a08-445a-9f0c-b16e395d1596" valueTypeId="225ea73e-9b57-4a00-a500-33536db93ee0"/>
+    <listType typeId="e01eb975-f753-4155-bdf6-da97dfc614de" valueTypeId="0d1f5ecf-b1bd-4ffe-9c43-223be889aea6"/>
+    <managerType typeId="363cf95a-9766-44b2-8b4d-9df4dae2dad6" valueTypeId="009f14e9-bd15-41a6-b4d5-4c3fd1d81216"/>
   </producedTypes>
-  <name>Преподаватели</name>
+  <name>НаправлениеПодготовки</name>
   <synonym>
     <key>ru</key>
-    <value>Преподаватели</value>
+    <value>Направление подготовки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Преподаватели.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Преподаватели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаправлениеПодготовки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаправлениеПодготовки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -80,7 +80,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>ФИО</value>
+      <value>Наименование кафедры</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -90,10 +90,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -102,6 +98,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -113,15 +110,56 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Преподаватели.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="cc5f2cf6-6f22-4cd2-9e81-d2b67cc18f33">
-    <name>Кафедра</name>
+  <defaultObjectForm>Catalog.НаправлениеПодготовки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="beef0618-ecb1-4088-9e0a-b4ce09cd170a">
+    <name>КодКафедры</name>
     <synonym>
       <key>ru</key>
-      <value>Кафедра</value>
+      <value>Код кафедры</value>
     </synonym>
     <type>
-      <types>CatalogRef.Кафедры</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask>99.99.99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="952e8625-0aa1-410e-b8ae-7c3bb12245f2">
+    <name>ЗаведущийКафедрой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заведущий кафедрой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51aacf3a-5392-49f1-a567-c89f3f39fb79">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -129,22 +167,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="78123105-22d4-461e-a335-c3a739382519">
-    <name>УченоеЗвание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ученое звание</value>
-    </synonym>
-    <type>
-      <types>EnumRef.УченоеЗвание</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="6daeed68-eb82-4500-bd69-9c6124e39b3f">
+  <forms uuid="b2165dd6-5cbf-464d-889f-e63d2f3aeca9">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

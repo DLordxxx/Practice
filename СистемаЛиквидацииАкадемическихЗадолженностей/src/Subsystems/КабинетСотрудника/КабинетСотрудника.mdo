@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef54b529-f66e-4071-b968-9857a77a7074">
-  <name>КабинетПреподавателя</name>
+  <name>КабинетСотрудника</name>
   <synonym>
     <key>ru</key>
-    <value>Кабинет преподавателя</value>
+    <value>Кабинет сотрудника</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -19,7 +19,6 @@
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.СводныйОтчетПоЗадолженностям</content>
   <content>Document.ПротоколЗаседанияКомиссии</content>
-  <content>Document.ГрафикЛиквидацииЗадолженностей</content>
   <content>Document.ВедомостьУчетаЗадолженностей</content>
   <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
   <content>Catalog.Студенты</content>

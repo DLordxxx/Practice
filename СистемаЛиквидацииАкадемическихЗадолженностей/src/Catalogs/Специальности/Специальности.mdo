@@ -138,6 +138,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c82d00b5-0fdd-49d4-80c0-2f617e99ad07">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Курсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="18c63cf0-d3c3-465f-b139-238fa45147da">
     <name>Студент</name>
     <synonym>
@@ -146,21 +161,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Студенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="a5f4060e-723f-4ad0-9e82-6773e0a2b96f">
-    <name>УровеньОбразования</name>
-    <synonym>
-      <key>ru</key>
-      <value>Уровень образования</value>
-    </synonym>
-    <type>
-      <types>EnumRef.УровеньОбразования</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -105,6 +105,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос1ответ1</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос1ответ1ПриИзменении</name>
@@ -152,6 +153,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос1ответ2</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос1ответ2ПриИзменении</name>
@@ -199,6 +201,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос1ответ3</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос1ответ3ПриИзменении</name>
@@ -358,6 +361,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос2ответ1</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>Вопрос2ответ1РасширеннаяПодсказка</name>
         <id>34</id>
@@ -401,6 +405,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос2ответ2</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>Вопрос2ответ2РасширеннаяПодсказка</name>
         <id>38</id>
@@ -444,6 +449,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос2ответ3</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>Вопрос2ответ3РасширеннаяПодсказка</name>
         <id>42</id>
@@ -487,6 +493,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос2ответ4</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>Вопрос2ответ4РасширеннаяПодсказка</name>
         <id>46</id>
@@ -530,6 +537,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос2ответ5</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>Вопрос2ответ5РасширеннаяПодсказка</name>
         <id>50</id>
@@ -691,6 +699,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос3ответ1</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос3ответ1ПриИзменении</name>
@@ -738,6 +747,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос3ответ2</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос3ответ2ПриИзменении</name>
@@ -785,6 +795,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос3ответ3</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос3ответ3ПриИзменении</name>
@@ -944,6 +955,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос4ответ1</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос4ответ1ПриИзменении</name>
@@ -991,6 +1003,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос4ответ2</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос4ответ2ПриИзменении</name>
@@ -1038,6 +1051,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос4ответ3</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос4ответ3ПриИзменении</name>
@@ -1197,6 +1211,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос5ответ1</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос5ответ1ПриИзменении</name>
@@ -1244,6 +1259,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос5ответ2</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос5ответ2ПриИзменении</name>
@@ -1291,6 +1307,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Вопрос5ответ3</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <handlers>
         <event>OnChange</event>
         <name>Вопрос5ответ3ПриИзменении</name>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24dc079-4395-48db-8f95-303c316df892">
-  <name>АкадемическиеЗадолженностиСтудентов</name>
+  <name>СистемаЛиквидацииАкадемическихЗадолженностейСтудентов</name>
   <synonym>
     <key>ru</key>
-    <value>Академические задолженности студентов</value>
+    <value>Система ликвидации академических задолженностей студентов</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a154f719-cb2e-47a0-b460-b0f495f715c9"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="aa725fc8-2bcd-405b-8e96-f748768318ab"/>
@@ -40,9 +40,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <subsystems>Subsystem.КабинетПреподавателя</subsystems>
+  <subsystems>Subsystem.КабинетСотрудника</subsystems>
   <subsystems>Subsystem.СтуденческийКабинет</subsystems>
-  <subsystems>Subsystem.СистемаЗанятий</subsystems>
+  <subsystems>Subsystem.МониторингКлючевыхПоказателейЭффективности</subsystems>
   <subsystems>Subsystem.Университет</subsystems>
   <roles>Role.Декан</roles>
   <roles>Role.Ректор</roles>
@@ -55,15 +55,14 @@
   <catalogs>Catalog.Студенты</catalogs>
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
-  <catalogs>Catalog.Кафедры</catalogs>
+  <catalogs>Catalog.НаправлениеПодготовки</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Дисциплины</catalogs>
-  <catalogs>Catalog.Преподаватели</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтатусЗадолжностей</catalogs>
   <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
   <catalogs>Catalog.УчебныеГода</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
-  <catalogs>Catalog.Расписание</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ФормаКонтроля</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
@@ -72,7 +71,7 @@
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ГрафикЛиквидацииЗадолженностей</documents>
   <documents>Document.ПротоколЗаседанияКомиссии</documents>
-  <documents>Document.УведомлениеОНаличииЗадолженности</documents>
+  <documents>Document.СоставлениеРекомендацийПоСтудентам</documents>
   <documents>Document.СводныйОтчетПоЗадолженностям</documents>
   <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
