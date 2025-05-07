@@ -23,4 +23,5 @@
   <content>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</content>
   <content>Catalog.Дисциплины</content>
   <content>Catalog.Студенты</content>
+  <content>Catalog.СтуденческийБилет</content>
 </mdclass:Subsystem>

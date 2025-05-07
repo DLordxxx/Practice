@@ -110,6 +110,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СтатусЗадолжностей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатусЗадолжностей.Form.ФормаСписка</defaultListForm>
   <attributes uuid="27b0c755-0f23-45ec-9689-6be577a6e152">
     <name>Студент</name>
     <synonym>
@@ -145,6 +146,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="982da8ec-e2d5-4beb-a115-d12fc700d296">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

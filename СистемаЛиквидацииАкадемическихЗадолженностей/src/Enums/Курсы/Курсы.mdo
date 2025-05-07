@@ -47,11 +47,4 @@
       <value>5</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f65e44cd-4c1f-40e3-8c4e-2b29d846b44a">
-    <name>Шестой</name>
-    <synonym>
-      <key>ru</key>
-      <value>6</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

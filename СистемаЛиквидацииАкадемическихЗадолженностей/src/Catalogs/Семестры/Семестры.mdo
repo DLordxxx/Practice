@@ -126,21 +126,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ebe04ec0-2755-43f0-8b2c-a7257d4fa002">
-    <name>УчебныйГод</name>
-    <synonym>
-      <key>ru</key>
-      <value>Учебный год</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.УчебныеГода</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="cf0d5ac5-61c0-4595-96fb-98e2e81c5d11">
     <name>ФормаЭлемента</name>
     <synonym>

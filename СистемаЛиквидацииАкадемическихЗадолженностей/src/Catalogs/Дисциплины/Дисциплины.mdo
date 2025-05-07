@@ -110,6 +110,36 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Дисциплины.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3f0ff4b9-295e-4e97-bf66-e2bc5e7d8f88">
+    <name>НаименованиеКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование контроля</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаименованиеКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4779bab-bb6a-45a1-8897-d472e3641489">
+    <name>КлассификацияДисциплины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификация дисциплины</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КлассификацияДисциплин</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="7f148a13-9c42-45d8-a2d3-3918748d73aa">
     <name>КодДисциплин</name>
     <synonym>
@@ -144,7 +174,7 @@
       <value>Кафедра</value>
     </synonym>
     <type>
-      <types>CatalogRef.НаправлениеПодготовки</types>
+      <types>CatalogRef.Кафедры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

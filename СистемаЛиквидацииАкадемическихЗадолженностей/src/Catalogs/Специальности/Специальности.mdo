@@ -111,7 +111,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Специальности.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="724d76d1-69cc-4df4-83cb-cad0fcb9add2">
+  <attributes uuid="c9c276e5-907d-4da2-84c1-e2903542bff9">
     <name>КодСпециальности</name>
     <synonym>
       <key>ru</key>
@@ -123,18 +123,12 @@
         <length>10</length>
       </stringQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ЧРГ=.; ЧГ=2,2,0</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧРГ=.; ЧГ=2,2,0</value>
-    </editFormat>
     <mask>99.99.99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -161,6 +155,21 @@
     </synonym>
     <type>
       <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="446ed401-2d19-4d91-9ad4-6b05b600d685">
+    <name>УровеньОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень образования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровеньОбразования</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

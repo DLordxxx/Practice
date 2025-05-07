@@ -48,17 +48,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.УчебныеГода</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Специальности</name>
 		<right>
 			<name>Read</name>
@@ -409,7 +398,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НаправлениеПодготовки</name>
+		<name>Catalog.Кафедры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

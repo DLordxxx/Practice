@@ -90,9 +90,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.УчебныйГод</segments>
-    </dataPath>
     <extendedTooltip>
       <name>УчебныйГодРасширеннаяПодсказка</name>
       <id>9</id>

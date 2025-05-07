@@ -29,13 +29,12 @@
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
   <content>Catalog.Факультеты</content>
-  <content>Catalog.НаправлениеПодготовки</content>
+  <content>Catalog.Кафедры</content>
   <content>Catalog.Специальности</content>
   <content>Catalog.Дисциплины</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Студенты</content>
   <content>Catalog.Группы</content>
-  <content>Catalog.УчебныеГода</content>
   <content>Catalog.Семестры</content>
   <content>Catalog.ФормаКонтроля</content>
   <content>BusinessProcess.КонтрольАкадемическойУспеваемости</content>
@@ -43,4 +42,6 @@
   <content>Catalog.Пользователи</content>
   <content>Catalog.Аудитории</content>
   <content>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</content>
+  <content>Catalog.СтуденческийБилет</content>
+  <content>Catalog.НаправлениеПодготовки</content>
 </mdclass:Subsystem>

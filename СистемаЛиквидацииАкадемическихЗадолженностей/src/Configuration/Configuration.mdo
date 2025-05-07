@@ -55,17 +55,18 @@
   <catalogs>Catalog.Студенты</catalogs>
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
-  <catalogs>Catalog.НаправлениеПодготовки</catalogs>
+  <catalogs>Catalog.Кафедры</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтатусЗадолжностей</catalogs>
   <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
-  <catalogs>Catalog.УчебныеГода</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.ФормаКонтроля</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтуденческийБилет</catalogs>
+  <catalogs>Catalog.НаправлениеПодготовки</catalogs>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьУчетаЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
@@ -93,6 +94,7 @@
   <enums>Enum.СтатусРассмотрения</enums>
   <enums>Enum.КоличествоПропусков</enums>
   <enums>Enum.ВидыФинансирования</enums>
+  <enums>Enum.КлассификацияДисциплин</enums>
   <reports>Report.ТекущиеСтатусыЗадолженностейСтудентов</reports>
   <reports>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</reports>
   <reports>Report.АнализЗадолженностей</reports>
