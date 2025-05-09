@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="214a5303-fbfc-47b6-8e88-577f60c0916e">
+  <name>Ректор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ректор</value>
+  </synonym>
+</mdclass:Role>

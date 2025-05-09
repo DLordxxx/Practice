@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2e0e6f-60d6-4c52-a547-61317e96ad34">
+  <producedTypes>
+    <refType typeId="bb1a18a6-0ffc-4a44-a2b6-ab5b348db245" valueTypeId="8a857b27-42d6-4bff-8046-22e2faf5844f"/>
+    <listType typeId="010fb44e-1b6d-4681-9bf1-5951f6da28be" valueTypeId="1660d7d7-524f-4d05-ab24-7c37b2cf5e73"/>
+    <managerType typeId="0e6a72c9-c0ed-4822-8bee-6be65ea00859" valueTypeId="51f21b46-5e9c-4e3e-b0c0-f5e75ec6a864"/>
+  </producedTypes>
+  <name>ОписаниеПричины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание причины</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a600017c-a322-49df-8a1d-8537a36d5e42">
+    <name>ПропускПоБолезни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск по болезни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ca98a03-9870-4730-a4cf-a6b5f5a707da">
+    <name>Неуспеваемость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неуспеваемость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f9cb402-81b2-4f70-9299-c5e9312631c1">
+    <name>ДругаяПричина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другая причина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

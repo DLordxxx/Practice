@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3675ea8d-28df-4731-8564-ea738ebfdf5e">
+  <producedTypes>
+    <objectType typeId="d22ee42e-c258-4395-8809-acada71e0630" valueTypeId="138f9892-43af-4899-964c-e485bd8b5f56"/>
+    <managerType typeId="9da63574-8c16-4f2d-b708-dbbdf2d21ea9" valueTypeId="59186bd4-6bc1-4915-9732-8b04e10127a3"/>
+  </producedTypes>
+  <name>ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты пересдач по ликвидации академических задолженностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1c13b7fc-252f-469b-94c4-4130fde8dd20">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

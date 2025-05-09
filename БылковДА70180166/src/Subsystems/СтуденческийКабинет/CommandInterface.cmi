@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.StandardCommand.Open</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.StandardCommand.Open</commands>
+      <commands>DataProcessor.Академ_задолженность.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.СтуденческийКабинет.Subsystem.УчебныйПортал</subsystems>
+    <subsystems>Subsystem.СтуденческийКабинет.Subsystem.НормативноСправочнаяИнформация</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

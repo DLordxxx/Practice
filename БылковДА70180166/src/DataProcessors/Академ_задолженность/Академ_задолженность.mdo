@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed5c7b6d-e0f8-4cc7-a589-e0356dad9192">
+  <producedTypes>
+    <objectType typeId="20191239-d40e-4a46-9470-582038907b43" valueTypeId="af44f7a8-1d21-492b-8de5-d77ab9629a4b"/>
+    <managerType typeId="db9b0f78-47e6-4530-8274-5c2cd16aae21" valueTypeId="cca44f9f-ca4f-4efa-93c6-f827cc82e122"/>
+  </producedTypes>
+  <name>Академ_задолженность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Академ задолженность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Академ_задолженность.Form.Главная</defaultForm>
+  <forms uuid="56d7e553-4386-4457-879c-45c12c59a719">
+    <name>Главная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b5029b5-8a54-4bb0-8389-700090a502eb">
+    <name>ДиаграммаСпидометр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма спидометр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6d8bd0f-cc58-4a46-9050-350e81330c94">
+    <name>Функционал_первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функционал первый</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b0c4fd1-86bd-46a7-aad8-e7757e160b5c">
+    <name>ДиаграммаКруговая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма круговая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90d91f82-a2d8-4b1e-95dc-da16a264125f">
+    <name>Выбор_тестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор тестирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1f54900-b764-4eb2-9459-38de90982309">
+    <name>Тестирование_по_учёбе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование по учёбе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3281c7c-94fd-4c07-a919-875cc97a2d74">
+    <name>Тестирование_на_психологию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование на психологию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37e61fc7-f07c-4a54-945a-57c843e76642">
+    <name>Справочная_информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочная информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

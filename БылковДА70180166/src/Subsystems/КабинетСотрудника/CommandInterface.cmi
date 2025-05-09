@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.КабинетСотрудника.Subsystem.Документооборот</subsystems>
+    <subsystems>Subsystem.КабинетСотрудника.Subsystem.НормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

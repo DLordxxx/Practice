@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41a1435b-a586-4557-8627-bf1cc90c281c">
+  <name>МониторингОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг остатков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ПросроченныеЗадолженности</content>
+  <content>AccumulationRegister.НеудачныеПересдачи</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>
