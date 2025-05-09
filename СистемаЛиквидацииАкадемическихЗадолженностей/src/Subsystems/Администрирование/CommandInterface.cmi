@@ -2,19 +2,13 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>InformationRegister.ГрафикПересдач.StandardCommand.OpenList</command>
+      <command>InformationRegister.ДатыПересдач.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>AccountingRegister.ЖурналПроводок.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -27,18 +21,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.ПросроченныеЗадолженности.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>

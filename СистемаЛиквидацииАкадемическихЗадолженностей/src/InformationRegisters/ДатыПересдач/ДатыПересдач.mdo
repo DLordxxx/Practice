@@ -9,14 +9,14 @@
     <recordType typeId="ed639a24-2f82-4a8d-82a9-ea84a87a4865" valueTypeId="2d4f5e9e-9228-4c8b-839c-e69386a395d7"/>
     <recordManagerType typeId="ac7a999d-d8c0-4e4b-8c48-ada61638fa82" valueTypeId="61dcae16-f25c-4243-90b4-d7e8c27af062"/>
   </producedTypes>
-  <name>ГрафикПересдач</name>
+  <name>ДатыПересдач</name>
   <synonym>
     <key>ru</key>
-    <value>График пересдач</value>
+    <value>Даты пересдач</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <defaultListForm>InformationRegister.ГрафикПересдач.Form.ФормаСписка</defaultListForm>
+  <defaultListForm>InformationRegister.ДатыПересдач.Form.ФормаСписка</defaultListForm>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="37517be7-fca1-47c2-a660-ca8985ab79ef">

@@ -4,13 +4,13 @@
     <objectType typeId="d22ee42e-c258-4395-8809-acada71e0630" valueTypeId="138f9892-43af-4899-964c-e485bd8b5f56"/>
     <managerType typeId="9da63574-8c16-4f2d-b708-dbbdf2d21ea9" valueTypeId="59186bd4-6bc1-4915-9732-8b04e10127a3"/>
   </producedTypes>
-  <name>РасписаниеЛиквидацииАкадемическихЗадолженностей</name>
+  <name>ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</name>
   <synonym>
     <key>ru</key>
-    <value>Расписание ликвидации академических задолженностей</value>
+    <value>Даты пересдач по ликвидации академических задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="1c13b7fc-252f-469b-94c4-4130fde8dd20">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

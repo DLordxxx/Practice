@@ -69,7 +69,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СводныйОтчетПоЗадолженностям.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccountingRegister.ЖурналПроводок</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

@@ -12,6 +12,6 @@
   <content>Document.ВедомостьУчетаЗадолженностей</content>
   <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
   <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
-  <content>InformationRegister.ГрафикПересдач</content>
+  <content>InformationRegister.ДатыПересдач</content>
   <content>Catalog.Аудитории</content>
 </mdclass:Subsystem>

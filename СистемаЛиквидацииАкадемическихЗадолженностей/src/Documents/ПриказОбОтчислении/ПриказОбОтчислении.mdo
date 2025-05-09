@@ -73,7 +73,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриказОбОтчислении.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</registerRecords>
   <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

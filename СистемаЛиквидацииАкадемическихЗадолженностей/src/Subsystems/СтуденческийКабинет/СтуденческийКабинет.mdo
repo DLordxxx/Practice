@@ -14,13 +14,11 @@
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ПриказОбОтчислении</content>
   <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
-  <content>InformationRegister.ГрафикПересдач</content>
+  <content>InformationRegister.ДатыПересдач</content>
   <content>AccumulationRegister.УспешныеПересдачи</content>
   <content>AccumulationRegister.НеявкиНаПересдачи</content>
   <content>AccumulationRegister.ПросроченныеЗадолженности</content>
   <content>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</content>
-  <content>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</content>
-  <content>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</content>
   <content>Catalog.Дисциплины</content>
   <content>Catalog.Студенты</content>
   <content>Catalog.СтуденческийБилет</content>

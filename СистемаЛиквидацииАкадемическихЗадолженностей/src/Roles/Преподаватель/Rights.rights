@@ -92,17 +92,6 @@
 		</right>
 	</object>
 	<object>
-		<name>ChartOfCharacteristicTypes.ПланВидовХарактеристик</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.НаименованиеУниверситета</name>
 		<right>
 			<name>Read</name>
@@ -114,7 +103,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ГрафикПересдач</name>
+		<name>InformationRegister.ДатыПересдач</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -96,19 +96,16 @@
   <enums>Enum.ВидыФинансирования</enums>
   <enums>Enum.КлассификацияДисциплин</enums>
   <reports>Report.ТекущиеСтатусыЗадолженностейСтудентов</reports>
-  <reports>Report.РасписаниеЛиквидацииАкадемическихЗадолженностей</reports>
+  <reports>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</reports>
   <reports>Report.АнализЗадолженностей</reports>
   <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
-  <informationRegisters>InformationRegister.ГрафикПересдач</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>
   <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.НеявкиНаПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристик</chartsOfCharacteristicTypes>
-  <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
-  <accountingRegisters>AccountingRegister.ЖурналПроводок</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</calculationRegisters>
   <calculationRegisters>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</calculationRegisters>

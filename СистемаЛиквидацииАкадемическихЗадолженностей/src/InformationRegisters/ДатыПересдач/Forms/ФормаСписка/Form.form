@@ -457,7 +457,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>InformationRegister.ГрафикПересдач</mainTable>
+      <mainTable>InformationRegister.ДатыПересдач</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

@@ -74,7 +74,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ГрафикЛиквидацииЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ГрафикПересдач</registerRecords>
+  <registerRecords>InformationRegister.ДатыПересдач</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3e7bcf56-d859-4666-af9e-e89fea41c2e5">

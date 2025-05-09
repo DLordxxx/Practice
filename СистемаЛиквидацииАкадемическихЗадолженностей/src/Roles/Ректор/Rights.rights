@@ -858,7 +858,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ГрафикПересдач</name>
+		<name>InformationRegister.ДатыПересдач</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

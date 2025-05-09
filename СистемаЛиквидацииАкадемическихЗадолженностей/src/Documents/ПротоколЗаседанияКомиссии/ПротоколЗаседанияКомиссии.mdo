@@ -75,9 +75,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПротоколЗаседанияКомиссии.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</registerRecords>
   <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
-  <registerRecords>AccountingRegister.ЖурналПроводок</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

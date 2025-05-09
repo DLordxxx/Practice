@@ -221,25 +221,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Дисциплины</name>
 		<right>
 			<name>Read</name>
@@ -608,29 +589,6 @@
 		</right>
 	</object>
 	<object>
-		<name>AccountingRegister.ЖурналПроводок</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПротоколЗаседанияКомиссии</name>
 		<right>
 			<name>Read</name>
@@ -853,109 +811,6 @@
 		</right>
 	</object>
 	<object>
-		<name>ChartOfCharacteristicTypes.ПланВидовХарактеристик</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.НаименованиеУниверситета</name>
 		<right>
 			<name>Read</name>
@@ -1003,7 +858,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ГрафикПересдач</name>
+		<name>InformationRegister.ДатыПересдач</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1284,109 +1139,6 @@
 	</object>
 	<object>
 		<name>Catalog.Факультеты</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>ChartOfAccounts.ПланСчетов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1962,25 +1714,6 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>

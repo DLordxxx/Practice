@@ -73,8 +73,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.НаправлениеНаПересдачу.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ГрафикПересдач</registerRecords>
-  <registerRecords>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</registerRecords>
+  <registerRecords>InformationRegister.ДатыПересдач</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0061c012-28bd-420c-803e-ee9fe39c1f48">
@@ -193,9 +192,7 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
