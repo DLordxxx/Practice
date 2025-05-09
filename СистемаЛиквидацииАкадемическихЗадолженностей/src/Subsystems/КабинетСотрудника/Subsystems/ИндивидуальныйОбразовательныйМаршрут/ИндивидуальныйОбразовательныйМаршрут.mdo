@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
-  <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
-  <content>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</content>
+  <content>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</content>
+  <content>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</content>
+  <content>Document.ВедомостиОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</content>
   <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>
 </mdclass:Subsystem>

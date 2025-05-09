@@ -210,9 +210,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВышестоящийФакультет</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВышестоящийФакультетРасширеннаяПодсказка</name>
       <id>18</id>

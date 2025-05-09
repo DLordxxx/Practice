@@ -19,10 +19,10 @@
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="6a028d9f-36e2-46b8-8d78-3654eab04a9c">
-    <name>КоличествоВозникшихЗадолженностей</name>
+    <name>КоличествоЗадолженностей</name>
     <synonym>
       <key>ru</key>
-      <value>Количество возникших задолженностей</value>
+      <value>Количество задолженностей</value>
     </synonym>
     <type>
       <types>Number</types>

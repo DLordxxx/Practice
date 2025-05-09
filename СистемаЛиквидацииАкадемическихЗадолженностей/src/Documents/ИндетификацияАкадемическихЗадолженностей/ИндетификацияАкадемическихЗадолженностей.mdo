@@ -69,8 +69,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ИндетификацияАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
-  <registerRecords>AccumulationRegister.НеявкиНаПересдачи</registerRecords>
+  <registerRecords>AccumulationRegister.НеудачныеПересдачи</registerRecords>
   <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -122,6 +121,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="56d87ece-1746-46bd-8e56-fe237f070368">
+    <name>Специальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Специальности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8eaf30d2-5593-4043-a40c-c5d42bbbae50">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="affd2f1f-8aa0-4e2e-8045-44824c354ba5">
     <name>Семестр</name>
     <synonym>
@@ -145,21 +174,6 @@
     </synonym>
     <type>
       <types>EnumRef.ФормаОбучения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8eaf30d2-5593-4043-a40c-c5d42bbbae50">
-    <name>Факультет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Факультет</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Факультеты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -236,7 +250,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="a80db13b-46fa-49a3-b6a8-98ac74b901ad">
+  <forms uuid="c386f7c5-9bbc-40c2-ac8a-3133a969743d">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -373,6 +387,20 @@
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76f03fb9-0742-4e0f-a9eb-44a592c6be22">
+      <name>ФормаКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Форма контроля</value>
+      </synonym>
+      <type>
+        <types>EnumRef.НаименованиеКонтроля</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

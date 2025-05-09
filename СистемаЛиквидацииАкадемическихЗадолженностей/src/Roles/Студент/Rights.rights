@@ -26,6 +26,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Факультет</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Аудитории</name>
 		<right>
 			<name>Read</name>
@@ -59,7 +66,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатусЗадолжностей</name>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтатуcыЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -70,11 +84,54 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.НаправлениеНаПересдачу</name>
+		<name>InformationRegister.ТекущийСтатусЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.НаправленияНаПересдачу</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Группа</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.СтуденческийКабинет.Subsystem.УчебныйПортал</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -92,6 +149,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДатыПересдач</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.КарточкаУниверситета</name>
 		<right>
 			<name>View</name>
@@ -99,7 +167,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.СоставлениеРекомендацийПоСтудентам</name>
+		<name>Subsystem.Университет.Subsystem.Документооборот</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.TabularSection.Долги</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.РекомендацииПоСтудентам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -110,7 +192,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ФормаКонтроля</name>
+		<name>Catalog.ФормыКонтроля</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -118,6 +200,13 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Студент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -132,7 +221,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя.Attribute.Студент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ПреподавательКомиссии</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -143,6 +246,14 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -157,12 +268,49 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.РольВКомиссии</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
 	</object>
 	<object>
 		<name>Subsystem.СтуденческийКабинет</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Группа</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -177,7 +325,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении</name>
+		<name>Document.ПриказыОбОтчислении</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -188,7 +336,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -196,6 +344,55 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Студент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ДокументОснование</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -221,14 +418,24 @@
 		</right>
 	</object>
 	<object>
-		<name>ChartOfCalculationTypes.ПланВидовРасчета</name>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ЧасыРаботы</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.ФормаКонтроля</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -243,7 +450,7 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.КонтрольАкадемическойУспеваемости</name>
+		<name>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -265,7 +472,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</name>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -282,13 +489,54 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.СтуденческийКабинет.Subsystem.НормативноСправочнаяИнформация</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Причина</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -296,6 +544,27 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.ДатаПересдачи</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Семестр</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.TabularSection.Долги.Attribute.Дисциплина</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -357,7 +626,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколЗаседанияКомиссии</name>
+		<name>Document.ПротоколыЗаседанияКомиссии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -368,7 +637,57 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.МониторингКлючевыхПоказателейЭффективности</name>
+		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Posted</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндетификацияАкадемическихЗадолженностей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.Академ_задолженность</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -386,7 +705,25 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
+		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОценкиСтудентов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Семестр</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

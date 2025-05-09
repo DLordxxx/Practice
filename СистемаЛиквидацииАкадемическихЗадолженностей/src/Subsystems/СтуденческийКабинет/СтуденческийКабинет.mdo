@@ -7,17 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.СтатусЗадолжностей</content>
-  <content>Enum.НаименованиеКонтроля</content>
-  <content>Document.НаправлениеНаПересдачу</content>
-  <content>Document.СоставлениеРекомендацийПоСтудентам</content>
-  <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
-  <content>Document.ПриказОбОтчислении</content>
-  <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
-  <content>InformationRegister.ДатыПересдач</content>
-  <content>AccumulationRegister.УспешныеПересдачи</content>
-  <content>AccumulationRegister.НеявкиНаПересдачи</content>
-  <content>AccumulationRegister.ПросроченныеЗадолженности</content>
-  <content>Catalog.Студенты</content>
-  <content>Catalog.СтуденческийБилет</content>
+  <content>DataProcessor.Академ_задолженность</content>
+  <subsystems>УчебныйПортал</subsystems>
+  <subsystems>НормативноСправочнаяИнформация</subsystems>
 </mdclass:Subsystem>

@@ -7,11 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>AccumulationRegister.УспешныеПересдачи</content>
-  <content>AccumulationRegister.НеявкиНаПересдачи</content>
-  <content>AccumulationRegister.ПросроченныеЗадолженности</content>
-  <content>InformationRegister.ДатыПересдач</content>
-  <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
   <subsystems>НормативноСправочнаяИнформация</subsystems>
   <subsystems>Документооборот</subsystems>
   <subsystems>ИндивидуальныйОбразовательныйМаршрут</subsystems>

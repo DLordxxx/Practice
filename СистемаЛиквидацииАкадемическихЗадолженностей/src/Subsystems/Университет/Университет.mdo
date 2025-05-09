@@ -8,10 +8,9 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonForm.КарточкаУниверситета</content>
-  <content>Report.ТекущиеСтатусыЗадолженностейСтудентов</content>
-  <content>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</content>
   <content>Report.АнализЗадолженностей</content>
   <content>DataProcessor.Академ_задолженность</content>
-  <content>InformationRegister.ОценкиСтудентов</content>
   <content>Enum.ВидыФинансирования</content>
+  <content>Report.ТекущиеСтатусыЗадолженностейСтудентов</content>
+  <subsystems>Документооборот</subsystems>
 </mdclass:Subsystem>

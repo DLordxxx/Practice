@@ -131,9 +131,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.КлассификацияДисциплины</segments>
-    </dataPath>
     <extendedTooltip>
       <name>КлассификацияДисциплиныРасширеннаяПодсказка</name>
       <id>12</id>

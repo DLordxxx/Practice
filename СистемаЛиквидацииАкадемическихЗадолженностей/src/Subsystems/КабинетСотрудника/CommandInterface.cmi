@@ -3,5 +3,6 @@
   <subsystemsOrder>
     <subsystems>Subsystem.КабинетСотрудника.Subsystem.Документооборот</subsystems>
     <subsystems>Subsystem.КабинетСотрудника.Subsystem.НормативноСправочнаяИнформация</subsystems>
+    <subsystems>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

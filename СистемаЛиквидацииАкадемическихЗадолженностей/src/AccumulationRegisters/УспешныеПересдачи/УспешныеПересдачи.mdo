@@ -15,6 +15,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultListForm>AccumulationRegister.УспешныеПересдачи.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="38c428f2-6ef4-405c-86df-50b456fdefeb">

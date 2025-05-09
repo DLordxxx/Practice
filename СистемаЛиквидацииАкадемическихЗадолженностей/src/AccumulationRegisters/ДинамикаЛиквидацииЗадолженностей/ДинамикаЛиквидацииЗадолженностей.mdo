@@ -17,7 +17,7 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="b9feac06-11a9-4290-ac55-28ff186eea03">
+  <resources uuid="255a1c8d-b755-4257-b971-acde752bf630">
     <name>КоличествоВозникшихЗадолженностей</name>
     <synonym>
       <key>ru</key>
@@ -29,14 +29,6 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

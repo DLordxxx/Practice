@@ -59,32 +59,30 @@
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.СтатусЗадолжностей</catalogs>
+  <catalogs>Catalog.СтатуcыЗадолженностей</catalogs>
   <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
-  <catalogs>Catalog.ФормаКонтроля</catalogs>
+  <catalogs>Catalog.ФормыКонтроля</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.СтуденческийБилет</catalogs>
-  <catalogs>Catalog.НаправлениеПодготовки</catalogs>
-  <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
-  <documents>Document.НаправлениеНаПересдачу</documents>
-  <documents>Document.ГрафикЛиквидацииЗадолженностей</documents>
-  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностей</documents>
-  <documents>Document.ПротоколЗаседанияКомиссии</documents>
-  <documents>Document.СоставлениеРекомендацийПоСтудентам</documents>
+  <catalogs>Catalog.СтуденческиеБилеты</catalogs>
+  <catalogs>Catalog.НаправленияПодготовки</catalogs>
   <documents>Document.ИндетификацияАкадемическихЗадолженностей</documents>
-  <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
-  <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
-  <documents>Document.ПриказОбОтчислении</documents>
+  <documents>Document.НаправленияНаПересдачу</documents>
+  <documents>Document.ГрафикЛиквидацииЗадолженностей</documents>
+  <documents>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
+  <documents>Document.ВедомостиОСистемеАкадемическихЗадолженностей</documents>
+  <documents>Document.РекомендацииПоСтудентам</documents>
+  <documents>Document.ПротоколыЗаседанияКомиссии</documents>
+  <documents>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</documents>
+  <documents>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</documents>
-  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</documents>
-  <enums>Enum.Пол</enums>
+  <documents>Document.ВедомостиОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
+  <documents>Document.ПриказыОбОтчислении</documents>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
   <enums>Enum.Курсы</enums>
   <enums>Enum.УченоеЗвание</enums>
-  <enums>Enum.НаименованиеВида</enums>
   <enums>Enum.НаименованиеСтатуса</enums>
   <enums>Enum.ОписаниеПричины</enums>
   <enums>Enum.ТипАудитории</enums>
@@ -104,12 +102,11 @@
   <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>
   <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НеудачныеПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.НеявкиНаПересдачи</accumulationRegisters>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</calculationRegisters>
   <calculationRegisters>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</calculationRegisters>
-  <businessProcesses>BusinessProcess.КонтрольАкадемическойУспеваемости</businessProcesses>
+  <businessProcesses>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</businessProcesses>
   <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6297842a-3e50-4d11-a4b5-076abfcdc703">
+  <producedTypes>
+    <objectType typeId="2b9c5d45-70b8-4f6a-830d-e30fd0d1a2bb" valueTypeId="abf1b2e3-020e-4024-875b-b01ebc8391ad"/>
+    <refType typeId="25015f2d-8f5a-4e09-a735-b0432e1aea43" valueTypeId="2d8d33b9-2e0d-4138-88f5-95a1907ec687"/>
+    <selectionType typeId="6416022c-545b-4a82-8caa-68267873c25e" valueTypeId="96b3e0cb-71f2-4832-ac1a-7a37d7a75dc3"/>
+    <listType typeId="7728aeaf-9bbe-40d4-ba87-e8894aaed7ee" valueTypeId="bf6ecdbc-66c0-4662-a00b-c5d733f03b85"/>
+    <managerType typeId="3efb54a5-de24-4a75-811a-e17f77e2ca4f" valueTypeId="134a4140-040b-485a-83e1-fee6a106cbfd"/>
+  </producedTypes>
+  <name>НаправленияПодготовки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления подготовки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаправленияПодготовки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаправленияПодготовки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1bd4336c-f0b8-4fd0-b50b-dffe1a77bfb7">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd16449-4f08-4317-9e54-d66de6e9ba54">
+    <name>КодПрофиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код профиля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask>99.99.99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

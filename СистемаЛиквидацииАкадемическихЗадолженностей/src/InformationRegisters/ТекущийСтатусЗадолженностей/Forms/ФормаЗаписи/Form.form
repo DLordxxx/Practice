@@ -132,7 +132,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Запись.КоличествоВозникшихЗадолженностей</segments>
+      <segments>Запись.КоличествоЗадолженностей</segments>
     </dataPath>
     <extendedTooltip>
       <name>КоличествоПопытокПередачРасширеннаяПодсказка</name>
@@ -251,9 +251,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.ПричинаВозникновения</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ПричинаВозникновенияРасширеннаяПодсказка</name>
       <id>21</id>

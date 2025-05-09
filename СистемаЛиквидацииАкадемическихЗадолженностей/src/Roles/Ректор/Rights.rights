@@ -427,7 +427,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатусЗадолжностей</name>
+		<name>Catalog.СтатуcыЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -589,7 +589,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -700,7 +700,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.НаправлениеНаПересдачу</name>
+		<name>Document.НаправленияНаПересдачу</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -924,7 +924,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.СоставлениеРекомендацийПоСтудентам</name>
+		<name>Document.РекомендацииПоСтудентам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1035,7 +1035,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ФормаКонтроля</name>
+		<name>Catalog.ФормыКонтроля</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1241,7 +1241,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1373,7 +1373,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении</name>
+		<name>Document.ПриказыОбОтчислении</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1484,7 +1484,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
+		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1848,7 +1848,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</name>
+		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2076,7 +2076,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколЗаседанияКомиссии</name>
+		<name>Document.ПротоколыЗаседанияКомиссии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

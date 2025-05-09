@@ -3,9 +3,9 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
-      <commands>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ.StandardCommand.OpenList</commands>
+      <commands>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
+      <commands>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.ВедомостиОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

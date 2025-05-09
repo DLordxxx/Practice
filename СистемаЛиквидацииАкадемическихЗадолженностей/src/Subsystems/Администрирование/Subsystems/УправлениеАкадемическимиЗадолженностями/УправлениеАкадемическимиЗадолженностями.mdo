@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c7b5369-7323-4be0-91d0-1519839f081e">
+  <name>УправлениеАкадемическимиЗадолженностями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление академическими задолженностями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ИндетификацияАкадемическихЗадолженностей</content>
+  <content>Document.ПротоколыЗаседанияКомиссии</content>
+  <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
+  <content>Catalog.СтатуcыЗадолженностей</content>
+  <content>Document.ПриказыОбОтчислении</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>
