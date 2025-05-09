@@ -9,9 +9,10 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Студенты</content>
   <content>Catalog.ФормаКонтроля</content>
-  <content>Document.ВедомостьУчетаЗадолженностей</content>
+  <content>Document.ПротоколЗаседанияКомиссии</content>
   <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
   <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
   <content>InformationRegister.ДатыПересдач</content>
   <content>Catalog.Аудитории</content>
+  <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
 </mdclass:Subsystem>

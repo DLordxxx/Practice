@@ -172,9 +172,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.КоличествоУспешныхПересдач</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ДнейДоКрайнегоСрокаРасширеннаяПодсказка</name>
       <id>15</id>

@@ -68,16 +68,17 @@
   <catalogs>Catalog.СтуденческийБилет</catalogs>
   <catalogs>Catalog.НаправлениеПодготовки</catalogs>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
-  <documents>Document.ВедомостьУчетаЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ГрафикЛиквидацииЗадолженностей</documents>
+  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностей</documents>
   <documents>Document.ПротоколЗаседанияКомиссии</documents>
   <documents>Document.СоставлениеРекомендацийПоСтудентам</documents>
-  <documents>Document.СводныйОтчетПоЗадолженностям</documents>
+  <documents>Document.ИндетификацияАкадемическихЗадолженностей</documents>
   <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
   <documents>Document.ПриказОбОтчислении</documents>
   <documents>Document.ВедомостьУчетаЗадолженностейДляСтудентовСИОМ</documents>
+  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</documents>
   <enums>Enum.Пол</enums>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
@@ -102,10 +103,10 @@
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>
   <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.НеявкиНаПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НеявкиНаПересдачи</accumulationRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ПланВидовРасчета</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.РасчетСтипендииСУчетомЗадолженностей</calculationRegisters>
   <calculationRegisters>CalculationRegister.РасчетНагрузкиПреподавателейПоПересдачам</calculationRegisters>

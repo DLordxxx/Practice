@@ -542,9 +542,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НазначениеСтудентаДляПреподавателя.КоличествоПропусков</segments>
-      </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>НазначениеСтудентаДляПреподавателяКоличествоПропусковПриИзменении</name>
@@ -587,9 +584,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НазначениеСтудентаДляПреподавателя.ПотерянныеЧасыПреподавателя</segments>
-      </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>НазначениеСтудентаДляПреподавателяПотерянныеЧасыПреподавателяПриИзменении</name>

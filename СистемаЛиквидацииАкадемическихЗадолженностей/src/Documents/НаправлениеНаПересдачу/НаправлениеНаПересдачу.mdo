@@ -64,6 +64,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.ИндетификацияАкадемическихЗадолженностей</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -76,6 +77,36 @@
   <registerRecords>InformationRegister.ДатыПересдач</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0aa435da-0eb6-49d9-9eaf-14ae105ca909">
+    <name>Специальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Специальности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8c34c4b-9116-4bb1-beef-bac7b9ec9bb3">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Курсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="0061c012-28bd-420c-803e-ee9fe39c1f48">
     <name>ДатаВыдачи</name>
     <synonym>
@@ -109,14 +140,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="518c879e-f3b8-4516-af99-47921691bd06">
-    <name>Группа</name>
+  <attributes uuid="2349740c-2be9-439d-adb6-e53d725632d5">
+    <name>ЛичныйИндекс</name>
     <synonym>
       <key>ru</key>
-      <value>Группа</value>
+      <value>Личный индекс</value>
     </synonym>
     <type>
-      <types>CatalogRef.Группы</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -139,6 +173,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="aab50fc5-d815-468e-9a24-7c61113f68c0">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5be11bdc-a5d2-4d5b-91ac-db0e659ed91a">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5dbe4707-68d9-4673-9f51-94bbde44bbd6">
     <name>Дисциплина</name>
     <synonym>
@@ -147,21 +211,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Дисциплины</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8ecbd736-2b92-4e83-b74c-699b77d7648b">
-    <name>Факультет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Факультет</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Факультеты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -230,7 +279,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="10c35e51-2d08-48d0-b606-a4d50d5242f0">
+  <forms uuid="981b94ce-9b7e-453b-aabe-f4b4ec554261">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

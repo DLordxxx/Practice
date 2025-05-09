@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8caf07eb-0ac6-45d2-9b82-68817a513ff1">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1458a4-a028-41fb-b7f6-6537be50540d">
   <producedTypes>
-    <objectType typeId="67dc7ea5-cdd1-4cdd-bb84-75615693f9b5" valueTypeId="423191c5-0ed2-44c6-bad9-02194255d734"/>
-    <refType typeId="680bf27a-2bd9-4757-b13b-ef612fe4a429" valueTypeId="6bdc1913-408a-4918-9867-07815392605f"/>
-    <selectionType typeId="05f2ad70-4a76-47fc-aa41-6bf5d3bae3a3" valueTypeId="31f75a30-5e94-48b3-9ef6-7a0fe1f42bbe"/>
-    <listType typeId="c547cd30-b4af-4568-86b4-cecbee6dfbbc" valueTypeId="21ddc2bb-9bc1-487e-9c12-c202adfd8f55"/>
-    <managerType typeId="c4bbe0cb-21b6-4d88-903b-a41fd3a15231" valueTypeId="4faeda34-f9d5-40f5-973f-dc849929ab9c"/>
+    <objectType typeId="93cba890-dd7e-4cc3-b0c2-d23c9f793120" valueTypeId="72e2a810-d42b-4327-ab45-a1268097d077"/>
+    <refType typeId="38d679d5-5ee4-4c03-882c-5e5be263dc92" valueTypeId="3e2674d0-c18b-4c02-aa91-201e675de7c0"/>
+    <selectionType typeId="f126da16-3285-4785-a32f-3434884f4787" valueTypeId="2a9f8253-1e47-40c5-8610-d28fdc58c660"/>
+    <listType typeId="16a83ef8-5f76-43f8-9b84-3ffee0df5ff1" valueTypeId="4b2e5358-5160-4c95-acae-d8220a8b5dd6"/>
+    <managerType typeId="421440b0-595c-46d9-b575-e9f2c3a6e740" valueTypeId="cf3b71fd-97cc-4da1-a77c-919a21603a59"/>
   </producedTypes>
-  <name>ПриказОбОтчислении</name>
+  <name>ВедомостьОСистемеАкадемическихЗадолженностей</name>
   <synonym>
     <key>ru</key>
-    <value>Приказ об отчислении</value>
+    <value>Ведомость о системе академических задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПриказОбОтчислении.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВедомостьОСистемеАкадемическихЗадолженностей.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -44,10 +44,9 @@
     <name>Date</name>
     <synonym>
       <key>ru</key>
-      <value>Дата приказа</value>
+      <value>Дата проведения</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -57,13 +56,14 @@
     <name>Number</name>
     <synonym>
       <key>ru</key>
-      <value>Номер приказа</value>
+      <value>Номер протокола</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.НаправлениеНаПересдачу</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -72,41 +72,20 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПриказОбОтчислении.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
+  <defaultObjectForm>Document.ВедомостьОСистемеАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
+  <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
+  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="233c78b1-41aa-4567-9c13-8219f038b1c0">
-    <name>Основание</name>
+  <attributes uuid="bbc4cdb8-eb28-41c7-b76a-55e55eec1e19">
+    <name>Председатель</name>
     <synonym>
       <key>ru</key>
-      <value>Основание</value>
+      <value>Председатель</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4bd7a1a8-95c1-41c8-8716-eebd9bf62608">
-    <name>ДатаОтчисления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата отчисления</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -114,7 +93,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="ab7cbbe0-f5ea-4464-9f55-44b28abf8ff9">
+  <forms uuid="3f112daa-d7c2-4afc-9540-26fedad2c0ff">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -123,31 +102,31 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="2088fba9-2633-49a0-aa2c-2b7e887b0810">
+  <tabularSections uuid="b9e6ff07-0b6c-4ee5-8f30-eab49bcfe34f">
     <producedTypes>
-      <objectType typeId="040a0510-6c4a-4150-8d0a-10bda811a014" valueTypeId="b2224016-6f3d-479a-8be4-73eddb0bf735"/>
-      <rowType typeId="faccd38a-da28-4eba-a636-495ef1064a31" valueTypeId="c8e27d22-8dc5-4fc6-b74a-938b29c5db94"/>
+      <objectType typeId="54603cf7-0c2c-4a63-a470-8d9d5fcfdc9d" valueTypeId="cc4293cb-d601-4fdd-b012-9749b5410afc"/>
+      <rowType typeId="12f2a8c7-279d-41e8-bb03-e6da0cb01a54" valueTypeId="fec0836a-b947-48a2-ac8f-b43a8252358d"/>
     </producedTypes>
-    <name>ОтчисляемыеСтуденты</name>
+    <name>РезультатЗаседанияКомиссии</name>
     <synonym>
       <key>ru</key>
-      <value>Отчисляемые студенты</value>
+      <value>Результат заседания комиссии</value>
     </synonym>
-    <attributes uuid="731fc8d2-eddb-468d-ae01-c9206d621751">
-      <name>Студент</name>
+    <attributes uuid="0b356f06-1a87-49eb-9519-0afe274d94ad">
+      <name>УчебныеГода</name>
       <synonym>
         <key>ru</key>
-        <value>Студент</value>
+        <value>Учебные года</value>
       </synonym>
       <type>
-        <types>CatalogRef.Студенты</types>
+        <types>CatalogRef.УчебныеГода</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="821e377d-c954-4039-b42b-37d99f763dcc">
+    <attributes uuid="7a5e6d7e-ce5f-4b5e-900b-190e88c5f5fa">
       <name>Группа</name>
       <synonym>
         <key>ru</key>
@@ -161,39 +140,81 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8a64a724-abfc-48b8-8c6e-9dfeb81d23d8">
-      <name>Семестр</name>
+    <attributes uuid="34b30157-b184-4c75-91b5-c162f9d81401">
+      <name>Студент</name>
       <synonym>
         <key>ru</key>
-        <value>Семестр</value>
+        <value>Студент</value>
       </synonym>
       <type>
-        <types>CatalogRef.Семестры</types>
+        <types>CatalogRef.Студенты</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="24fa1d8a-37a5-4614-91a0-9ef666a49d3c">
-      <name>Специальность</name>
+    <attributes uuid="3ce6fcd5-30d0-44f4-9d32-3744638e23df">
+      <name>ВидКонтроля</name>
       <synonym>
         <key>ru</key>
-        <value>Специальность</value>
+        <value>Вид контроля</value>
       </synonym>
       <type>
-        <types>CatalogRef.Специальности</types>
+        <types>EnumRef.НаименованиеКонтроля</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="ea179808-db24-49b5-8cc5-4582d89b5c1a">
-      <name>КоличествоПросроченныхЗадолженностей</name>
+    <attributes uuid="f813a79b-e909-47d3-a8a6-00cce97caa51">
+      <name>Дисциплина</name>
       <synonym>
         <key>ru</key>
-        <value>Количество просроченных задолженностей</value>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дисциплины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ef24957-ec1b-4996-9820-342fdca9d03d">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Оценка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f3a30d8-e92f-4480-974a-52a248cd6690">
+      <name>РешениеКомиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Решение комиссии</value>
+      </synonym>
+      <type>
+        <types>EnumRef.РешениеКомиссии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13f57ed2-bc9b-4baa-b30e-d7e6678f96f8">
+      <name>БазоваяСтипендия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Базовая стипендия</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -206,51 +227,17 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="236571e7-35e0-422e-98d1-b77598fdf77d">
-      <name>СуммарноеВремяПросрочки</name>
+    <attributes uuid="3404e302-ae31-4206-8e6a-1f782844ea47">
+      <name>ПричинаИзменения</name>
       <synonym>
         <key>ru</key>
-        <value>Суммарное время просрочки</value>
+        <value>Причина изменения</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3365c099-f08e-4db8-a51a-8c05e1df8f03">
-      <name>ПериодЗадолженностейС</name>
-      <synonym>
-        <key>ru</key>
-        <value>Период задолженностей С</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6c4ba3af-a412-4f8b-a2c7-b5a8ea08630f">
-      <name>ПериодЗадолженностейПо</name>
-      <synonym>
-        <key>ru</key>
-        <value>Период задолженностей ПО</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

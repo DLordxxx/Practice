@@ -90,6 +90,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6e8b58d3-3af3-4328-92d4-4875e6708553">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="091fdb06-2571-4e03-ad8a-edcdda677519">
     <name>ПричинаПродления</name>
     <synonym>
@@ -193,7 +208,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="1e095867-0f55-4edd-b89e-230e6cfef5c5">
+  <forms uuid="7a328622-8aa4-4421-8d91-b1a5c452ddff">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

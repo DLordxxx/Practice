@@ -7,13 +7,13 @@
     <listType typeId="8f1db38e-56ee-434e-ae89-8179f76985e4" valueTypeId="4354893c-b461-4a9a-bacf-37a4d8a87079"/>
     <managerType typeId="a4b95cb9-9681-4c44-b108-3bf7b82a8768" valueTypeId="9baa0083-e4c3-40c2-966f-ad49f4e7d320"/>
   </producedTypes>
-  <name>СводныйОтчетПоЗадолженностям</name>
+  <name>ИндетификацияАкадемическихЗадолженностей</name>
   <synonym>
     <key>ru</key>
-    <value>Сводный отчет по задолженностям</value>
+    <value>Индетификация академических задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.СводныйОтчетПоЗадолженностям.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ИндетификацияАкадемическихЗадолженностей.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -44,7 +44,7 @@
     <name>Date</name>
     <synonym>
       <key>ru</key>
-      <value>Дата проведения</value>
+      <value>Дата создания</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -68,11 +68,105 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.СводныйОтчетПоЗадолженностям.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
-  <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
+  <defaultObjectForm>Document.ИндетификацияАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
+  <registerRecords>AccumulationRegister.НеявкиНаПересдачи</registerRecords>
+  <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="28d58dcf-a591-453f-b42b-d65b388f6bb9">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55d8d99f-241a-44c4-8f7e-be6d375f80df">
+    <name>ЛичныйИндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный индекс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80564060-d6bc-4878-b6fe-72d6ed6e5d1d">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="affd2f1f-8aa0-4e2e-8045-44824c354ba5">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec6dde94-d48b-4514-a600-5d0dc3b5ba38">
+    <name>ФормаОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обучения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФормаОбучения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8eaf30d2-5593-4043-a40c-c5d42bbbae50">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="3c19bd95-f606-474c-8258-e07bf56fa3a1">
     <name>ДатаСоставления</name>
     <synonym>
@@ -142,7 +236,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="8f12c109-89ac-4afb-b43f-2b2f87998cee">
+  <forms uuid="a80db13b-46fa-49a3-b6a8-98ac74b901ad">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -156,11 +250,39 @@
       <objectType typeId="fafcf0c4-9e61-44a0-90b2-2ff2dd4dbbb7" valueTypeId="98f62f1c-1d90-42d7-b16f-de61348acefc"/>
       <rowType typeId="b4aee29a-4042-4e58-8117-b812cbb0471f" valueTypeId="a06f3d4c-dd89-4d79-9477-c8dfe3a3b9f2"/>
     </producedTypes>
-    <name>Статистика</name>
+    <name>Характеристика</name>
     <synonym>
       <key>ru</key>
-      <value>Статистика</value>
+      <value>Характеристика</value>
     </synonym>
+    <attributes uuid="2623ac28-a3ad-4050-8bc9-131ddce64b30">
+      <name>Дисциплины</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплины</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дисциплины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="67039d65-5634-4be3-a2dd-268c1a1683ee">
+      <name>ПричинаЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина задолженности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричинаВозникновенияЗадолженостей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="b6970b1f-b132-4a04-b2e3-9e9f6c9a639e">
       <name>Студент</name>
       <synonym>

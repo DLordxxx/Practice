@@ -83,18 +83,15 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Группа</name>
+    <name>ДатаЗаседания</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Группа</segments>
-    </dataPath>
     <extendedTooltip>
-      <name>ГруппаРасширеннаяПодсказка</name>
+      <name>ДатаЗаседанияРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -104,7 +101,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ГруппаКонтекстноеМеню</name>
+      <name>ДатаЗаседанияКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -124,7 +121,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Семестр</name>
+    <name>Председатель</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -132,10 +129,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Семестр</segments>
+      <segments>Объект.Председатель</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СеместрРасширеннаяПодсказка</name>
+      <name>ПредседательРасширеннаяПодсказка</name>
       <id>12</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -145,7 +142,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СеместрКонтекстноеМеню</name>
+      <name>ПредседательКонтекстноеМеню</name>
       <id>11</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -165,31 +162,31 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>Долги</name>
-    <id>13</id>
+    <name>РезультатЗаседанияКомиссии</name>
+    <id>16</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Долги</segments>
+      <segments>Объект.РезультатЗаседанияКомиссии</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ДолгиНомерСтроки</name>
-      <id>26</id>
+      <name>РезультатЗаседанияКомиссииНомерСтроки</name>
+      <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Долги.LineNumber</segments>
+        <segments>Объект.РезультатЗаседанияКомиссии.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДолгиНомерСтрокиРасширеннаяПодсказка</name>
-        <id>28</id>
+        <name>РезультатЗаседанияКомиссииНомерСтрокиРасширеннаяПодсказка</name>
+        <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -198,8 +195,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиНомерСтрокиКонтекстноеМеню</name>
-        <id>27</id>
+        <name>РезультатЗаседанияКомиссииНомерСтрокиКонтекстноеМеню</name>
+        <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -213,19 +210,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДолгиСтудент</name>
-      <id>29</id>
+      <name>РезультатЗаседанияКомиссииГруппа</name>
+      <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Долги.Студент</segments>
+        <segments>Объект.РезультатЗаседанияКомиссии.Группа</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДолгиСтудентРасширеннаяПодсказка</name>
-        <id>31</id>
+        <name>РезультатЗаседанияКомиссииГруппаРасширеннаяПодсказка</name>
+        <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -234,8 +231,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиСтудентКонтекстноеМеню</name>
-        <id>30</id>
+        <name>РезультатЗаседанияКомиссииГруппаКонтекстноеМеню</name>
+        <id>54</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -254,7 +251,89 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДолгиДисциплина</name>
+      <name>РезультатЗаседанияКомиссииСтудент</name>
+      <id>50</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.РезультатЗаседанияКомиссии.Студент</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РезультатЗаседанияКомиссииСтудентРасширеннаяПодсказка</name>
+        <id>52</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РезультатЗаседанияКомиссииСтудентКонтекстноеМеню</name>
+        <id>51</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>РезультатЗаседанияКомиссииВидКонтроля</name>
+      <id>56</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.РезультатЗаседанияКомиссии.ВидКонтроля</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РезультатЗаседанияКомиссииВидКонтроляРасширеннаяПодсказка</name>
+        <id>58</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РезультатЗаседанияКомиссииВидКонтроляКонтекстноеМеню</name>
+        <id>57</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>РезультатЗаседанияКомиссииДисциплина</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,10 +341,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Долги.Дисциплина</segments>
+        <segments>Объект.РезультатЗаседанияКомиссии.Дисциплина</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДолгиДисциплинаРасширеннаяПодсказка</name>
+        <name>РезультатЗаседанияКомиссииДисциплинаРасширеннаяПодсказка</name>
         <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -275,7 +354,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиДисциплинаКонтекстноеМеню</name>
+        <name>РезультатЗаседанияКомиссииДисциплинаКонтекстноеМеню</name>
         <id>33</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -295,7 +374,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДолгиСтатусЗадолженности</name>
+      <name>РезультатЗаседанияКомиссииОценка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -303,10 +382,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Долги.СтатусЗадолженности</segments>
+        <segments>Объект.РезультатЗаседанияКомиссии.Оценка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДолгиСтатусЗадолженностиРасширеннаяПодсказка</name>
+        <name>РезультатЗаседанияКомиссииОценкаРасширеннаяПодсказка</name>
         <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -316,7 +395,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиСтатусЗадолженностиКонтекстноеМеню</name>
+        <name>РезультатЗаседанияКомиссииОценкаКонтекстноеМеню</name>
         <id>36</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -335,18 +414,20 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
-    <autoCommandBar>
-      <name>ДолгиКоманднаяПанель</name>
-      <id>15</id>
-      <horizontalAlign>Left</horizontalAlign>
-      <autoFill>true</autoFill>
-    </autoCommandBar>
-    <searchStringAddition>
-      <name>ДолгиСтрокаПоиска</name>
-      <id>17</id>
+    <items xsi:type="form:FormField">
+      <name>РезультатЗаседанияКомиссииРешениеКомиссии</name>
+      <id>38</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.РезультатЗаседанияКомиссии.РешениеКомиссии</segments>
+      </dataPath>
       <extendedTooltip>
-        <name>ДолгиСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>19</id>
+        <name>РезультатЗаседанияКомиссииРешениеКомиссииРасширеннаяПодсказка</name>
+        <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -355,20 +436,112 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиСтрокаПоискаКонтекстноеМеню</name>
-        <id>18</id>
+        <name>РезультатЗаседанияКомиссииРешениеКомиссииКонтекстноеМеню</name>
+        <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>Долги</source>
-      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
-    </searchStringAddition>
-    <viewStatusAddition>
-      <name>ДолгиСостояниеПросмотра</name>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>РезультатЗаседанияКомиссииБазоваяСтипендия</name>
+      <id>41</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>РезультатЗаседанияКомиссииБазоваяСтипендияРасширеннаяПодсказка</name>
+        <id>43</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РезультатЗаседанияКомиссииБазоваяСтипендияКонтекстноеМеню</name>
+        <id>42</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>РезультатЗаседанияКомиссииПричинаИзменения</name>
+      <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>РезультатЗаседанияКомиссииПричинаИзмененияРасширеннаяПодсказка</name>
+        <id>49</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РезультатЗаседанияКомиссииПричинаИзмененияКонтекстноеМеню</name>
+        <id>48</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <extendedEditMultipleValues>true</extendedEditMultipleValues>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>РезультатЗаседанияКомиссииКоманднаяПанель</name>
+      <id>18</id>
+      <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
+    </autoCommandBar>
+    <searchStringAddition>
+      <name>РезультатЗаседанияКомиссииСтрокаПоиска</name>
       <id>20</id>
       <extendedTooltip>
-        <name>ДолгиСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>РезультатЗаседанияКомиссииСтрокаПоискаРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -378,21 +551,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиСостояниеПросмотраКонтекстноеМеню</name>
+        <name>РезультатЗаседанияКомиссииСтрокаПоискаКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>ViewStatusAddition</type>
-      <source>Долги</source>
-      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+      <source>РезультатЗаседанияКомиссии</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
-    </viewStatusAddition>
-    <searchControlAddition>
-      <name>ДолгиУправлениеПоиском</name>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <name>РезультатЗаседанияКомиссииСостояниеПросмотра</name>
       <id>23</id>
       <extendedTooltip>
-        <name>ДолгиУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>РезультатЗаседанияКомиссииСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -402,19 +574,43 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДолгиУправлениеПоискомКонтекстноеМеню</name>
+        <name>РезультатЗаседанияКомиссииСостояниеПросмотраКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>РезультатЗаседанияКомиссии</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <name>РезультатЗаседанияКомиссииУправлениеПоиском</name>
+      <id>26</id>
+      <extendedTooltip>
+        <name>РезультатЗаседанияКомиссииУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>28</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РезультатЗаседанияКомиссииУправлениеПоискомКонтекстноеМеню</name>
+        <id>27</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
       <type>SearchControlAddition</type>
-      <source>Долги</source>
+      <source>РезультатЗаседанияКомиссии</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДолгиРасширеннаяПодсказка</name>
-      <id>16</id>
+      <name>РезультатЗаседанияКомиссииРасширеннаяПодсказка</name>
+      <id>19</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -423,8 +619,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДолгиКонтекстноеМеню</name>
-      <id>14</id>
+      <name>РезультатЗаседанияКомиссииКонтекстноеМеню</name>
+      <id>17</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <changeRowSet>true</changeRowSet>
@@ -451,7 +647,7 @@
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
-    <name>FormCommandBar</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
@@ -469,7 +665,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ПротоколЗаседанияКомиссии</types>
+      <types>DocumentObject.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</types>
     </valueType>
     <view>
       <common>true</common>

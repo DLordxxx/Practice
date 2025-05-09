@@ -26,12 +26,4 @@
       <value>Закрытая</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="9dcd7587-916e-4638-8936-623b7b990434">
-    <name>Просрочена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Просрочена</value>
-    </synonym>
-    <comment>когда студент не пришел на задолжность и у него вмсето активной, становится неактивной -> просрочена</comment>
-  </enumValues>
 </mdclass:Enum>

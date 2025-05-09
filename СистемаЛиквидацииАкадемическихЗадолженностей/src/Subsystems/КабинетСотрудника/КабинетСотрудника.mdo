@@ -10,18 +10,9 @@
   <content>AccumulationRegister.УспешныеПересдачи</content>
   <content>AccumulationRegister.НеявкиНаПересдачи</content>
   <content>AccumulationRegister.ПросроченныеЗадолженности</content>
-  <content>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</content>
   <content>InformationRegister.ДатыПересдач</content>
   <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
-  <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
-  <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
-  <content>Document.СводныйОтчетПоЗадолженностям</content>
-  <content>Document.ПротоколЗаседанияКомиссии</content>
-  <content>Document.ВедомостьУчетаЗадолженностей</content>
-  <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
-  <content>Catalog.Студенты</content>
-  <content>Catalog.Группы</content>
-  <content>Catalog.Дисциплины</content>
-  <content>Catalog.СтатусЗадолжностей</content>
-  <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
+  <subsystems>НормативноСправочнаяИнформация</subsystems>
+  <subsystems>Документооборот</subsystems>
+  <subsystems>ИндивидуальныйОбразовательныйМаршрут</subsystems>
 </mdclass:Subsystem>

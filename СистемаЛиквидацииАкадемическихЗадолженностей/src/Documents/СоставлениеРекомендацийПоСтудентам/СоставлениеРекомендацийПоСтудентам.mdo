@@ -60,6 +60,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностей</basedOn>
+  <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -134,7 +136,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="14448906-c4d1-4cb2-83b0-8e702d717a88">
+  <forms uuid="0ae62242-c8a6-4ba6-9c08-9d4f5d65cbd9">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

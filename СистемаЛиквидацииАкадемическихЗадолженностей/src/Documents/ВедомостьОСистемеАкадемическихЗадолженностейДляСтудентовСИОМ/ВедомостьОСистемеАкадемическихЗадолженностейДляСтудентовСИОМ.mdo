@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92603f21-e715-44db-8afe-9d2d6023454c">
+  <producedTypes>
+    <objectType typeId="55a153da-d477-4e15-8c18-e78e9ef7e78d" valueTypeId="23c29189-dfbf-4d81-817c-7b1fed063b66"/>
+    <refType typeId="4339877a-76c3-4432-842c-c5f35657c94d" valueTypeId="382a9399-bc3a-40c3-b5fd-17eb8fc0b7e9"/>
+    <selectionType typeId="b7aba4cd-c5ae-40cd-bfb6-9f52006b48de" valueTypeId="7f46155d-8db8-4017-8597-5fa6879a081a"/>
+    <listType typeId="93e1e6fd-cd10-46e5-9fe1-6d43cd5c6f6d" valueTypeId="5a2fa232-09cc-4196-8c16-453327a4509c"/>
+    <managerType typeId="10b22dca-4378-4062-afb4-fdcc308da427" valueTypeId="988493b6-5346-4e69-bd36-7b574d1a6b12"/>
+  </producedTypes>
+  <name>ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость о системе академических задолженностей для студентов СИОМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проведения</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер протокола</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовСИОМ.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
+  <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
+  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4ff3f819-f756-47f7-aae7-8703aa3b33c2">
+    <name>Председатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Председатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fdda003b-6988-40c6-bc35-4c1ae54a327a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="eed98976-4b23-49cd-968c-37aab0b03efd">
+    <producedTypes>
+      <objectType typeId="c1fe82e0-dfa2-4630-980e-41655b05e3d9" valueTypeId="5755fa9f-66f4-420b-8638-930d22402992"/>
+      <rowType typeId="29fb0fb7-7719-47bf-894c-2cf3a5144f8c" valueTypeId="022a0a40-3b8e-4ba5-ab65-4c2dcffa2a6e"/>
+    </producedTypes>
+    <name>РезультатЗаседанияКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат заседания комиссии</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f590b0bd-680a-4ca9-be6e-08ec4517faf9">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Группы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d6fb26bd-55bf-40eb-b012-0cb610c12152">
+      <name>Студент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Студент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Студенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b35f6685-e435-4ee7-873d-60199800ac60">
+      <name>ВидКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид контроля</value>
+      </synonym>
+      <type>
+        <types>EnumRef.НаименованиеКонтроля</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f1839489-23de-4dcc-9b45-a5bab435aa78">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дисциплины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c379d4e7-3964-49c7-9d02-0d0e658fc6ff">
+      <name>Оценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Оценка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ce38fb38-6660-4bce-bcde-2c3ab37c8d82">
+      <name>РешениеКомиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Решение комиссии</value>
+      </synonym>
+      <type>
+        <types>EnumRef.РешениеКомиссии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

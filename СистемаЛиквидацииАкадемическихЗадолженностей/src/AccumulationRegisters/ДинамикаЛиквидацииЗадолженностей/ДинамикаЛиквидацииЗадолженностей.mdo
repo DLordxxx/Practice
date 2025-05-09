@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3dff508-0661-451e-88ca-5f92f5175f7c">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="589220f7-1a67-4eda-bec6-faa40992cd93">
   <producedTypes>
-    <selectionType typeId="3e14a10b-4c26-4137-b9b6-90f54e48610d" valueTypeId="ee6438c2-9cf4-4545-9afa-9acfbba9c062"/>
-    <listType typeId="89f9e449-2a20-4195-bc28-710321cbd4f6" valueTypeId="33c60717-bfb0-455c-ab53-352ed1abe209"/>
-    <managerType typeId="5fb93152-c2c0-474f-8308-c1757ebd9ddf" valueTypeId="422d8fae-d915-45c4-a1fb-efdee0bdf700"/>
-    <recordSetType typeId="ae30aadf-6247-4e93-bc00-04460adfb09d" valueTypeId="c3e1d1a1-2b56-42d1-befe-9adf4e98a5fc"/>
-    <recordKeyType typeId="294ba970-4d0b-47b8-b532-b925d2f923d2" valueTypeId="25d38b02-a085-4cc2-976b-2c1e2bc5f5cf"/>
-    <recordType typeId="d7457d81-8223-4a6c-9c90-437ec498512b" valueTypeId="cfe57e38-06b4-4080-8c39-342f8af31f01"/>
+    <selectionType typeId="67afc89c-8009-423b-92d6-46164ac9f01d" valueTypeId="3bdfc193-6803-42cd-8ef0-0e560e5710bd"/>
+    <listType typeId="de073feb-b507-4a31-9b50-f530d6e62907" valueTypeId="b8c027d5-e9a9-4bea-b627-974873f3bca0"/>
+    <managerType typeId="e2fe9281-ddea-4abb-b4f5-6541a3d5f13b" valueTypeId="74512c57-8980-4756-ad04-99b651b7d170"/>
+    <recordSetType typeId="ef89f6cd-a65c-4495-a4ea-e8f4c45d327b" valueTypeId="26569a82-52da-4855-a4da-99c0db241f94"/>
+    <recordKeyType typeId="731f75fb-6c96-4da3-b05b-a37959f35805" valueTypeId="d0bf069e-8910-4dfc-b1ae-0f863b7a77c1"/>
+    <recordType typeId="50247b1a-aeda-406a-b5e5-2ff288ba3813" valueTypeId="5d4547ee-2cd5-4a1e-8055-714d1f763f1a"/>
   </producedTypes>
   <name>ДинамикаЛиквидацииЗадолженностей</name>
   <synonym>
@@ -14,7 +14,6 @@
     <value>Динамика ликвидации задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultListForm>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.Form.ФормаСписка</defaultListForm>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
@@ -42,7 +41,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="68b274be-76b1-474a-a3e2-2096ad004732">
+  <resources uuid="6fd02a1d-84b9-46aa-8cf0-ed9764d929e8">
     <name>КоличествоЛиквидированныхЗадолженностей</name>
     <synonym>
       <key>ru</key>
@@ -54,18 +53,24 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <dimensions uuid="c5b39386-87e6-4ff6-ab77-88200f3d795a">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="98a98086-ac32-4487-b254-496e63d23894">
     <name>Дисциплина</name>
     <synonym>
@@ -80,7 +85,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="bd108c62-57f5-45a3-8de4-09c857c027c0">
+  <dimensions uuid="703a3e35-ef71-4109-a8b8-dd22be4c1da1">
     <name>Группа</name>
     <synonym>
       <key>ru</key>
@@ -88,6 +93,20 @@
     </synonym>
     <type>
       <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3a9793ff-387d-457d-80b3-018fe221d3e7">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Семестры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
