@@ -60,8 +60,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.ВедомостиОСистемеАкадемическихЗадолженностей</basedOn>
-  <basedOn>Document.ВедомостиОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</basedOn>
+  <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностей</basedOn>
+  <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

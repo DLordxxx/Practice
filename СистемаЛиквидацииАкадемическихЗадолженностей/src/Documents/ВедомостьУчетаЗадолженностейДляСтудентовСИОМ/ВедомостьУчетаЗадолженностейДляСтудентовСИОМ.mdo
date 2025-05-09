@@ -60,7 +60,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</basedOn>
+  <basedOn>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

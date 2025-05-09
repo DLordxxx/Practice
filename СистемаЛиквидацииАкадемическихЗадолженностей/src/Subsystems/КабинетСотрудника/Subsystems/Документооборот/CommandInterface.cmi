@@ -3,12 +3,12 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ИндетификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Document.НаправленияНаПересдачу.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Document.ВедомостиОСистемеАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.НаправлениеНаПересдачу.StandardCommand.OpenList</commands>
+      <commands>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.ВедомостьОСистемеАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.РекомендацииПоСтудентам.StandardCommand.OpenList</commands>
-      <commands>Document.ПротоколыЗаседанияКомиссии.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколЗаседанияКомиссии.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -29,15 +29,15 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ИндетификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Catalog.ПричинаВозникновенияЗадолженостей.StandardCommand.OpenList</commands>
-      <commands>Document.ПротоколыЗаседанияКомиссии.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколЗаседанияКомиссии.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.НеудачныеПересдачи.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ПросроченныеЗадолженности.StandardCommand.OpenList</commands>
       <commands>Catalog.СтатуcыЗадолженностей.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.УспешныеПересдачи.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказыОбОтчислении.StandardCommand.OpenList</commands>
+      <commands>Document.ПриказОбОтчислении.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

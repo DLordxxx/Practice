@@ -95,7 +95,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -274,7 +274,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</name>
+		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -391,7 +391,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.СистемаЛиквидацииАкадемическихЗадолженностейСтудентов</name>
+		<name>Configuration.БылковДА70180166</name>
 		<right>
 			<name>ActiveUsers</name>
 			<value>true</value>

@@ -64,7 +64,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</basedOn>
+  <basedOn>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -147,7 +147,7 @@
       <value>Документ основание</value>
     </synonym>
     <type>
-      <types>DocumentRef.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</types>
+      <types>DocumentRef.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -7,10 +7,10 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ИндетификацияАкадемическихЗадолженностей</content>
-  <content>Document.ПротоколыЗаседанияКомиссии</content>
+  <content>Document.ИдентификацияАкадемическихЗадолженностей</content>
+  <content>Document.ПротоколЗаседанияКомиссии</content>
   <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
   <content>Catalog.СтатуcыЗадолженностей</content>
-  <content>Document.ПриказыОбОтчислении</content>
+  <content>Document.ПриказОбОтчислении</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

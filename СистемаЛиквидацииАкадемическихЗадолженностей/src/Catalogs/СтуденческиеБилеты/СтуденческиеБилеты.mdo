@@ -114,7 +114,7 @@
     <name>ФИОСтудента</name>
     <synonym>
       <key>ru</key>
-      <value>ФИОСтудента</value>
+      <value>ФИО студента</value>
     </synonym>
     <type>
       <types>CatalogRef.Студенты</types>

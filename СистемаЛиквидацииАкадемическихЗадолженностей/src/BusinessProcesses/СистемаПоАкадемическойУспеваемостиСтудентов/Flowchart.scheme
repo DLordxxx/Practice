@@ -256,7 +256,7 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Уведомление о наличии задолженности</v8:content>
+						<v8:content>Индетификация академических задолженностей</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -268,7 +268,7 @@
 				<ZOrder>6</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
+				<Font bold="false" kind="AutoFont"/>
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
@@ -278,12 +278,12 @@
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Уведомление о наличии задолженности</TaskDescription>
+				<TaskDescription>Индетификация академических задолженностей</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
 					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.ЗаведующийКафедрой</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Студент</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -493,8 +493,9 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="1250" y="820"/>
-					<Point x="1250" y="930"/>
-					<Point x="1000" y="930"/>
+					<Point x="1250" y="950"/>
+					<Point x="830" y="950"/>
+					<Point x="830" y="1080"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -502,97 +503,8 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие5</Item>
-						<PortIndex>3</PortIndex>
-					</To>
-				</Connect>
-				<Line width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Line>
-				<DecorativeLine>false</DecorativeLine>
-				<TextLocation>FirstSegment</TextLocation>
-				<BeginArrow>None</BeginArrow>
-				<EndArrow>Filled</EndArrow>
-			</Properties>
-		</ConnectionLine>
-		<Activity id="26" uuid="b03d91f4-c77e-4f4f-8ea1-e89797e0c91c">
-			<Properties>
-				<Name>Действие5</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>График ликвидации задолженностей</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>22</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>12</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="880" left="660" bottom="980" right="1000"/>
-				<Border width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Border>
-				<Picture/>
-				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>График ликвидации задолженностей</TaskDescription>
-				<Explanation/>
-				<Group>false</Group>
-				<AddressingAttributes>
-					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.ЗаведующийКафедрой</Value>
-					</AddressingAttribute>
-				</AddressingAttributes>
-			</Properties>
-			<Events>
-				<Event name="InteractiveActivationProcessing"/>
-				<Event name="BeforeCreateTasks"/>
-				<Event name="OnCreateTask"/>
-				<Event name="OnExecute"/>
-				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
-				<Event name="BeforeExecuteInteractively"/>
-			</Events>
-		</Activity>
-		<ConnectionLine id="27">
-			<Properties>
-				<Name>Линия8</Name>
-				<Title/>
-				<ToolTip/>
-				<TabOrder>23</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>13</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<PivotPoints>
-					<Point x="830" y="980"/>
-					<Point x="830" y="1030"/>
-					<Point x="830" y="1030"/>
-					<Point x="830" y="1080"/>
-				</PivotPoints>
-				<Connect>
-					<From>
-						<Item>Действие5</Item>
-						<PortIndex>4</PortIndex>
-					</From>
-					<To>
 						<Item>Действие6</Item>
-						<PortIndex>5</PortIndex>
+						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
 				<Line width="1" gap="false">
@@ -619,7 +531,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>14</ZOrder>
+				<ZOrder>12</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -661,7 +573,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>15</ZOrder>
+				<ZOrder>13</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -698,7 +610,7 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Ведомость учета задолженностей ликвидации задолженностей</v8:content>
+						<v8:content>Ведомостm о системе академических задолженностей</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -707,7 +619,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>16</ZOrder>
+				<ZOrder>14</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -720,7 +632,7 @@
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Ведомость учета задолженностей ликвидации задолженностей</TaskDescription>
+				<TaskDescription>Ведомостm о системе академических задолженностей</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
@@ -749,7 +661,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>17</ZOrder>
+				<ZOrder>15</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -796,7 +708,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>18</ZOrder>
+				<ZOrder>16</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -831,7 +743,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>19</ZOrder>
+				<ZOrder>17</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -878,7 +790,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>20</ZOrder>
+				<ZOrder>18</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -924,7 +836,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>21</ZOrder>
+				<ZOrder>19</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -966,7 +878,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>22</ZOrder>
+				<ZOrder>20</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1013,7 +925,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>23</ZOrder>
+				<ZOrder>21</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1055,7 +967,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>24</ZOrder>
+				<ZOrder>22</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1101,7 +1013,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>25</ZOrder>
+				<ZOrder>23</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1143,7 +1055,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>26</ZOrder>
+				<ZOrder>24</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1189,7 +1101,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>27</ZOrder>
+				<ZOrder>25</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1231,7 +1143,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>28</ZOrder>
+				<ZOrder>26</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1279,7 +1191,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>29</ZOrder>
+				<ZOrder>27</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1321,7 +1233,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>30</ZOrder>
+				<ZOrder>28</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1330,102 +1242,13 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="1670" y="1880"/>
-					<Point x="1670" y="1910"/>
-					<Point x="1670" y="1910"/>
-					<Point x="1670" y="1940"/>
-				</PivotPoints>
-				<Connect>
-					<From>
-						<Item>Действие12</Item>
-						<PortIndex>4</PortIndex>
-					</From>
-					<To>
-						<Item>Действие13</Item>
-						<PortIndex>5</PortIndex>
-					</To>
-				</Connect>
-				<Line width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Line>
-				<DecorativeLine>false</DecorativeLine>
-				<TextLocation>FirstSegment</TextLocation>
-				<BeginArrow>None</BeginArrow>
-				<EndArrow>Filled</EndArrow>
-			</Properties>
-		</ConnectionLine>
-		<Activity id="45" uuid="d9dc6f72-4957-40da-bf71-6c56267dc35e">
-			<Properties>
-				<Name>Действие13</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Сводный отчет по задолженностям</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>41</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>31</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="1940" left="1500" bottom="2040" right="1840"/>
-				<Border width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Border>
-				<Picture/>
-				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Сводный отчет по задолженностям</TaskDescription>
-				<Explanation/>
-				<Group>false</Group>
-				<AddressingAttributes>
-					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Декан</Value>
-					</AddressingAttribute>
-				</AddressingAttributes>
-			</Properties>
-			<Events>
-				<Event name="InteractiveActivationProcessing"/>
-				<Event name="BeforeCreateTasks"/>
-				<Event name="OnCreateTask"/>
-				<Event name="OnExecute"/>
-				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
-				<Event name="BeforeExecuteInteractively"/>
-			</Events>
-		</Activity>
-		<ConnectionLine id="46">
-			<Properties>
-				<Name>Линия18</Name>
-				<Title/>
-				<ToolTip/>
-				<TabOrder>42</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>32</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<PivotPoints>
-					<Point x="1670" y="2040"/>
-					<Point x="1670" y="2090"/>
-					<Point x="1670" y="2090"/>
+					<Point x="1670" y="2010"/>
+					<Point x="1670" y="2010"/>
 					<Point x="1670" y="2140"/>
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие13</Item>
+						<Item>Действие12</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
@@ -1457,7 +1280,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>33</ZOrder>
+				<ZOrder>29</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1492,7 +1315,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>34</ZOrder>
+				<ZOrder>30</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1502,9 +1325,8 @@
 				<PivotPoints>
 					<Point x="1520" y="2210"/>
 					<Point x="830" y="2210"/>
-					<Point x="830" y="2600"/>
-					<Point x="70" y="2600"/>
-					<Point x="70" y="2580"/>
+					<Point x="830" y="2530"/>
+					<Point x="140" y="2530"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -1513,7 +1335,7 @@
 					</From>
 					<To>
 						<Item>Завершение</Item>
-						<PortIndex>4</PortIndex>
+						<PortIndex>3</PortIndex>
 					</To>
 				</Connect>
 				<Line width="1" gap="false">
@@ -1540,7 +1362,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>35</ZOrder>
+				<ZOrder>31</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1586,7 +1408,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>36</ZOrder>
+				<ZOrder>32</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1628,7 +1450,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>37</ZOrder>
+				<ZOrder>33</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1637,8 +1459,9 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="2130" y="2500"/>
-					<Point x="2130" y="2530"/>
-					<Point x="140" y="2530"/>
+					<Point x="2130" y="2600"/>
+					<Point x="70" y="2600"/>
+					<Point x="70" y="2580"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -1647,7 +1470,7 @@
 					</From>
 					<To>
 						<Item>Завершение</Item>
-						<PortIndex>5</PortIndex>
+						<PortIndex>4</PortIndex>
 					</To>
 				</Connect>
 				<Line width="1" gap="false">

@@ -26,7 +26,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Факультет</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Факультет</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -66,7 +66,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -95,7 +95,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -106,7 +106,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.НаправленияНаПересдачу</name>
+		<name>Document.НаправлениеНаПересдачу</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -117,14 +117,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Группа</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Группа</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -174,7 +174,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.TabularSection.Долги</name>
+		<name>Document.ПротоколЗаседанияКомиссии.TabularSection.Долги</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -203,7 +203,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Студент</name>
+		<name>Document.ПротоколЗаседанияКомиссии.Attribute.Студент</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -221,21 +221,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя.Attribute.Студент</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя.Attribute.Студент</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ПреподавательКомиссии</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ПреподавательКомиссии</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -286,7 +286,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.РольВКомиссии</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.РольВКомиссии</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -300,14 +300,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Группа</name>
+		<name>Document.ПротоколЗаседанияКомиссии.Attribute.Группа</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -325,7 +325,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОбОтчислении</name>
+		<name>Document.ПриказОбОтчислении</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -336,7 +336,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -347,49 +347,49 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Date</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Date</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Number</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardAttribute.Number</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Студент</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Студент</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ДокументОснование</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ДокументОснование</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -418,21 +418,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ЧасыРаботы</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ЧасыРаботы</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.ФормаКонтроля</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.ФормаКонтроля</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -472,7 +472,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -491,35 +491,35 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Date</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Date</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.StandardAttribute.Number</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Number</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -533,7 +533,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.Причина</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Причина</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -547,21 +547,21 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей.Attribute.ДатаПересдачи</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.ДатаПересдачи</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.Attribute.Семестр</name>
+		<name>Document.ПротоколЗаседанияКомиссии.Attribute.Семестр</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.TabularSection.Долги.Attribute.Дисциплина</name>
+		<name>Document.ПротоколЗаседанияКомиссии.TabularSection.Долги.Attribute.Дисциплина</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -579,7 +579,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.СистемаЛиквидацииАкадемическихЗадолженностейСтудентов</name>
+		<name>Configuration.БылковДА70180166</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>
@@ -626,7 +626,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии</name>
+		<name>Document.ПротоколЗаседанияКомиссии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -637,42 +637,42 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Posted</name>
+		<name>Document.ПротоколЗаседанияКомиссии.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Ref</name>
+		<name>Document.ПротоколЗаседанияКомиссии.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.DeletionMark</name>
+		<name>Document.ПротоколЗаседанияКомиссии.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Date</name>
+		<name>Document.ПротоколЗаседанияКомиссии.StandardAttribute.Date</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии.StandardAttribute.Number</name>
+		<name>Document.ПротоколЗаседанияКомиссии.StandardAttribute.Number</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндетификацияАкадемическихЗадолженностей</name>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -705,7 +705,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -723,7 +723,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Семестр</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Семестр</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

@@ -589,7 +589,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостиОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -700,7 +700,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.НаправленияНаПересдачу</name>
+		<name>Document.НаправлениеНаПересдачу</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1264,7 +1264,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1496,7 +1496,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОбОтчислении</name>
+		<name>Document.ПриказОбОтчислении</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1607,7 +1607,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказыОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2017,7 +2017,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныеПланыЛиквидацииЗадолженностей</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2238,7 +2238,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.СистемаЛиквидацииАкадемическихЗадолженностейСтудентов</name>
+		<name>Configuration.БылковДА70180166</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
@@ -2345,7 +2345,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколыЗаседанияКомиссии</name>
+		<name>Document.ПротоколЗаседанияКомиссии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2463,7 +2463,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндетификацияАкадемическихЗадолженностей</name>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.ПриказыОбОтчислении</content>
+  <content>Document.ПриказОбОтчислении</content>
   <parentSubsystem>Subsystem.Университет</parentSubsystem>
 </mdclass:Subsystem>

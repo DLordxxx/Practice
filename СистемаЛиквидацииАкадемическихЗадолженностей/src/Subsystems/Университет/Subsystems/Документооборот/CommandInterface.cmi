@@ -3,8 +3,8 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Document.ПротоколыЗаседанияКомиссии.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказыОбОтчислении.StandardCommand.OpenList</commands>
+      <commands>Document.ПротоколЗаседанияКомиссии.StandardCommand.OpenList</commands>
+      <commands>Document.ПриказОбОтчислении.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

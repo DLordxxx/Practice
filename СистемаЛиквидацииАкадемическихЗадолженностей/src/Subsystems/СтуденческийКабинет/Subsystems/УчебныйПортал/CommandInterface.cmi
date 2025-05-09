@@ -12,9 +12,9 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.ДатыПересдач.StandardCommand.OpenList</commands>
-      <commands>Document.ЗаявленияНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
+      <commands>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
       <commands>Document.РекомендацииПоСтудентам.StandardCommand.OpenList</commands>
-      <commands>Document.ПриказыОбОтчислении.StandardCommand.OpenList</commands>
+      <commands>Document.ПриказОбОтчислении.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -90,9 +90,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Parent</segments>
-    </dataPath>
     <extendedTooltip>
       <name>РодительРасширеннаяПодсказка</name>
       <id>9</id>
