@@ -26,6 +26,13 @@
       <value>Зачет</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="6b866995-300c-4a07-8825-1aaa7fcc19c9">
+    <name>ЗачетСОценкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет с оценкой</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="12b8868c-db85-47d3-85a8-c6f90fc57a98">
     <name>КурсоваяРабота</name>
     <synonym>
@@ -38,6 +45,13 @@
     <synonym>
       <key>ru</key>
       <value>Практика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6dad9e3a-d386-4054-9fc3-95c4cf1e6708">
+    <name>РейтинговаяРаботаБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинговая работа (БРС)</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

@@ -54,7 +54,7 @@
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
   <catalogs>Catalog.Кафедры</catalogs>
-  <catalogs>Catalog.Специальности</catalogs>
+  <catalogs>Catalog.НаправленияПодготовки</catalogs>
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.СтатуcыЗадолженностей</catalogs>
@@ -64,7 +64,6 @@
   <catalogs>Catalog.ФормыКонтроля</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СтуденческиеБилеты</catalogs>
-  <catalogs>Catalog.НаправленияПодготовки</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>

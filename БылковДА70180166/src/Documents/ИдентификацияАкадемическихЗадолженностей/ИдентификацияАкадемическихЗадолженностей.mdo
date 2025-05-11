@@ -100,9 +100,18 @@
         <precision>8</precision>
       </numberQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -128,7 +137,7 @@
       <value>Специальность</value>
     </synonym>
     <type>
-      <types>CatalogRef.Специальности</types>
+      <types>CatalogRef.НаправленияПодготовки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -181,7 +190,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="c386f7c5-9bbc-40c2-ac8a-3133a969743d">
+  <forms uuid="cc90b628-525f-4643-9071-d8b0ef2abec6">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

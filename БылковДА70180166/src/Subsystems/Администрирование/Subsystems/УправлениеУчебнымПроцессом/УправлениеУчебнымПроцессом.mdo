@@ -9,11 +9,9 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Факультеты</content>
   <content>Catalog.Кафедры</content>
-  <content>Catalog.Специальности</content>
   <content>Catalog.Дисциплины</content>
   <content>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</content>
   <content>Task.Задачи</content>
   <content>Catalog.Аудитории</content>
-  <content>Catalog.НаправленияПодготовки</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

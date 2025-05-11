@@ -114,24 +114,31 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Студенты.Form.ФормаЭлемента1</defaultObjectForm>
+  <defaultObjectForm>Catalog.Студенты.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="9027cfdf-b503-4bfc-866a-12289dfa7ede">
     <name>ЛичныйИндекс</name>
     <synonym>
       <key>ru</key>
-      <value>Индекс</value>
+      <value>Личный индекс</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>8</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -203,7 +210,7 @@
       <value>Специальность</value>
     </synonym>
     <type>
-      <types>CatalogRef.Специальности</types>
+      <types>CatalogRef.НаправленияПодготовки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -256,7 +263,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6c00d68f-a1f7-4207-82db-d367ebbf6586">
+  <forms uuid="c258a353-e906-41e7-80d2-b25cdc4ac5e2">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

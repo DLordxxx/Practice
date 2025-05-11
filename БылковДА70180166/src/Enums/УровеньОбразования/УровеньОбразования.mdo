@@ -33,4 +33,18 @@
       <value>Аспирантура</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="dd7cf076-de69-46ce-98bd-5b24d7291cf7">
+    <name>Специалитет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специалитет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c84c7efa-6452-4b71-8c1c-c10966b7da2e">
+    <name>СреднееПрофессиональноеОбразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>СПО</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

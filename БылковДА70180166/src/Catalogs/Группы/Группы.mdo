@@ -101,7 +101,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>13</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -117,7 +117,7 @@
       <value>Специальность</value>
     </synonym>
     <type>
-      <types>CatalogRef.Специальности</types>
+      <types>CatalogRef.НаправленияПодготовки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -140,7 +140,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="e224978d-72f3-4775-806c-f9e7fba70e97">
+  <forms uuid="876a3311-02f7-4dd5-93a6-b1e13d76823f">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

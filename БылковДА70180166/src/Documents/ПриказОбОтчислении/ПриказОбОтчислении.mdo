@@ -178,7 +178,7 @@
         <value>Специальность</value>
       </synonym>
       <type>
-        <types>CatalogRef.Специальности</types>
+        <types>CatalogRef.НаправленияПодготовки</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
