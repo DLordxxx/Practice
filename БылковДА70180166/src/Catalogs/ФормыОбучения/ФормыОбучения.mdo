@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c035ad43-f89d-4b69-9097-6b73ede39d52">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb333eac-54ae-4e8b-b052-3a0a607fabff">
   <producedTypes>
-    <objectType typeId="5fb179f9-d9dd-483e-b918-da8c00c0ea1e" valueTypeId="90b4cb63-8bf2-47c7-8475-1066a738100a"/>
-    <refType typeId="1e34942d-ddb9-4947-b173-c0051aa22aae" valueTypeId="f70d6bbe-5308-42f1-a50a-cad0c2b5e1d7"/>
-    <selectionType typeId="88e8537d-066f-4948-beab-f8679cffac0f" valueTypeId="8138230a-5adb-495f-9c92-a3812040a665"/>
-    <listType typeId="c0f3d008-2a59-4b0d-991f-ef0809b10a4b" valueTypeId="499e2488-631b-4259-a1d7-493251cf3aee"/>
-    <managerType typeId="dcd6e1d2-a8cf-4029-8f87-2aa0321d8e62" valueTypeId="7467d849-df4c-4861-a991-1d3f3fd47591"/>
+    <objectType typeId="69c26d66-1d56-4672-b43f-ff9dec591fbe" valueTypeId="58d398fe-1f8a-485a-b154-2aec952457bf"/>
+    <refType typeId="21e9b430-2707-4006-bd5a-dd83b22398c3" valueTypeId="86617390-c5fc-42df-b17f-731944cb9eca"/>
+    <selectionType typeId="814af41d-8939-4b4d-8736-2b88d0a086be" valueTypeId="3ea91e66-c61c-4cab-bbb3-261c723927c4"/>
+    <listType typeId="2b956692-935c-45eb-bb5d-fb28d5b7082e" valueTypeId="e4485f10-7397-4091-bf7a-ea815c2fa5ad"/>
+    <managerType typeId="85e5a117-99fd-45e5-8989-57ff84cf59d2" valueTypeId="224ade5c-a11b-4194-b808-27ac2f247fd5"/>
   </producedTypes>
-  <name>Сотрудники</name>
+  <name>ФормыОбучения</name>
   <synonym>
     <key>ru</key>
-    <value>Сотрудники</value>
+    <value>Формы обучения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФормыОбучения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФормыОбучения.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -78,10 +78,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>ФИО</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -90,10 +86,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -102,11 +94,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -114,15 +105,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="cc5f2cf6-6f22-4cd2-9e81-d2b67cc18f33">
-    <name>Кафедра</name>
+  <defaultObjectForm>Catalog.ФормыОбучения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ФормыОбучения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9a9bd8b8-e78b-4644-84fe-e70b18516675">
+    <name>Студент</name>
     <synonym>
       <key>ru</key>
-      <value>Кафедра</value>
+      <value>Студент</value>
     </synonym>
     <type>
-      <types>CatalogRef.Кафедры</types>
+      <types>CatalogRef.Студенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -130,14 +122,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="78123105-22d4-461e-a335-c3a739382519">
-    <name>УченоеЗвание</name>
+  <attributes uuid="8e1148e7-2a61-4877-8bb5-322c54616ed1">
+    <name>ФормыОбучения</name>
     <synonym>
       <key>ru</key>
-      <value>Ученое звание</value>
+      <value>Формы обучения</value>
     </synonym>
     <type>
-      <types>EnumRef.УченоеЗвание</types>
+      <types>EnumRef.ФормаОбучения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -145,41 +137,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="84175adb-8688-48d6-99b9-c6899472cfc2">
-    <name>ЕстьДопополнительнаяКафедра</name>
-    <synonym>
-      <key>ru</key>
-      <value>Присутствует доп кафедра</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5f066ac8-d1cb-46c4-8ed8-c1fc349f9fff">
-    <name>ДополнительнаяКафедра</name>
-    <synonym>
-      <key>ru</key>
-      <value>Доп. кафедра</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Кафедры</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="bfdd38a0-4804-44fe-9f9e-069b5ad8e8e5">
+  <forms uuid="e31ad0b8-6a4f-4506-930e-8956f39a7379">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd33e57e-d2b9-4f1c-8384-8f630a56b665">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

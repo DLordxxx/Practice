@@ -48,7 +48,7 @@
       <id>5</id>
       <title>
         <key>ru</key>
-        <value>Какие конкретные темы или разделы в данной дисциплине вызывают у вас наибольшие трудности? </value>
+        <value>1. Какие конкретные темы или разделы в данной дисциплине вызывают у вас наибольшие трудности? </value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1486,7 +1486,7 @@
         </contextMenu>
         <width>35</width>
         <autoMaxWidth>true</autoMaxWidth>
-        <height>4</height>
+        <height>10</height>
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="form:FormPicture"/>

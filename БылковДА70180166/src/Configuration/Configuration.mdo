@@ -65,6 +65,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СтуденческиеБилеты</catalogs>
   <catalogs>Catalog.НаправленияПодготовки</catalogs>
+  <catalogs>Catalog.ФормыОбучения</catalogs>
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
@@ -87,8 +88,8 @@
   <enums>Enum.РольВКомиссии</enums>
   <enums>Enum.РешениеКомиссии</enums>
   <enums>Enum.СтатусРассмотрения</enums>
-  <enums>Enum.КоличествоПропусков</enums>
   <enums>Enum.ВидыФинансирования</enums>
+  <enums>Enum.Семестры</enums>
   <reports>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</reports>
   <reports>Report.АнализЗадолженностей</reports>
   <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>

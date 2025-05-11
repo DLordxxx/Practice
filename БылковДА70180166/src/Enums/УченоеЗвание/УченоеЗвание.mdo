@@ -12,13 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="d7c30951-5fb9-4f6f-8536-062f1f0446a1">
-    <name>Ассистент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ассистент</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="e36f9bc0-e1bf-4b25-b173-878fb782e162">
     <name>Доцент</name>
     <synonym>
@@ -31,6 +24,34 @@
     <synonym>
       <key>ru</key>
       <value>Профессор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a8a6208-b038-466b-bc55-ce1f1a5f5126">
+    <name>ДоцентВАК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доцент (ВАК)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3499487-bfb6-4e8c-9c19-e98ce85a9c7d">
+    <name>АссоциированныйПрофессорДоцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ассоциированный профессор (доцент)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05d837f2-a6ed-466a-9a72-86fc2433c0f4">
+    <name>Юрист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юрист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ba128e3-8a13-4f0a-bcd0-a87af48bff43">
+    <name>ПрофессорПоКафедреТеорииИИсторииГосударстваИПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессор по кафедре теории и истории государства и права</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

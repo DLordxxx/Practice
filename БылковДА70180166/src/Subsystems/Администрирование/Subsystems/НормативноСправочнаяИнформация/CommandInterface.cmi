@@ -7,6 +7,7 @@
       <commands>Catalog.Семестры.StandardCommand.OpenList</commands>
       <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
       <commands>Catalog.СтуденческиеБилеты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФормыОбучения.StandardCommand.OpenList</commands>
       <commands>Catalog.ФормыКонтроля.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>

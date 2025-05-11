@@ -158,7 +158,7 @@
       <value>Семестр</value>
     </synonym>
     <type>
-      <types>CatalogRef.Семестры</types>
+      <types>EnumRef.Семестры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

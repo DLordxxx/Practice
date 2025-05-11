@@ -78,10 +78,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер семестра</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <mask>99</mask>
@@ -99,7 +95,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -112,6 +107,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Семестры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Семестры.Form.ФормаСписка</defaultListForm>
   <attributes uuid="86a687bc-f8f1-4168-98b7-5deb334a089a">
     <name>Студент</name>
     <synonym>
@@ -127,11 +123,35 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="cf0d5ac5-61c0-4595-96fb-98e2e81c5d11">
+  <attributes uuid="a3cce0c3-82af-4c78-a6fe-48fb72d4cceb">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b18ccc4b-e46e-4bb4-8cd1-59cb169b921a">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9935d7f4-a157-413e-9e93-2b49b1a95516">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

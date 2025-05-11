@@ -83,7 +83,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Семестр</name>
+    <name>ФормыОбучения</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -91,10 +91,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Семестр</segments>
+      <segments>Объект.ФормыОбучения</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СеместрРасширеннаяПодсказка</name>
+      <name>ФормыОбученияРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -104,7 +104,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СеместрКонтекстноеМеню</name>
+      <name>ФормыОбученияКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -143,7 +143,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Семестры</types>
+      <types>CatalogObject.ФормыОбучения</types>
     </valueType>
     <view>
       <common>true</common>

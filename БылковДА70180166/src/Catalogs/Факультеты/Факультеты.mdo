@@ -78,10 +78,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наименование факультета</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -107,6 +103,50 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1597bbb0-c75b-4ff4-865f-ae9fe031ca4f">
+      <name>ИнформационныхТехнологий</name>
+      <description>Информационных технологий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="29aa85a9-d931-42e7-99f5-1e6cd8f9d30e">
+      <name>КолледжФакультетСПО</name>
+      <description>Колледж (факультет СПО)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="335bac03-c47b-4708-a7c0-ca493631c907">
+      <name>ПсихологоПедагогическогоОбразования</name>
+      <description>Психолого-педагогического образования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="08becac3-8b14-44f5-9b16-567c011df4ed">
+      <name>Управления</name>
+      <description>Управления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="8c50a4c8-1a16-4b9e-9e9c-4df259a96c96">
+      <name>ЭкономикиИФинансов</name>
+      <description>Экономики и финансов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="09e5be4d-791f-487e-899f-7ede87255d1b">
+      <name>Юридический</name>
+      <description>Юридический</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Факультеты.Form.ФормаЭлемента</defaultObjectForm>
@@ -117,20 +157,40 @@
       <value>Декан</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="145b25e2-2100-4584-bf58-8d4abfad31a2">
+  <tabularSections uuid="fd9c06c7-fa06-46e1-b26e-0e595f4def97">
+    <producedTypes>
+      <objectType typeId="13f3d2db-817b-4c75-a483-d8ff599a6fab" valueTypeId="aebb67c4-9ffe-46e0-b046-a8fad44414ce"/>
+      <rowType typeId="7ed77229-507f-43ea-9cac-22ce50e69dee" valueTypeId="07b1b88b-52f7-47bd-8fa1-72630e04ac1a"/>
+    </producedTypes>
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <attributes uuid="a2653116-1f71-4665-a2e3-d88105e17060">
+      <name>Кафедра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кафедра</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Кафедры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0378c09e-ad2f-4974-bfd0-48e3bbf4775b">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
