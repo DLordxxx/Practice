@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Страница — 1" id="zoMS4LqTG-4JD5C473s8">
-    <mxGraphModel dx="2373" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2339" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,7 +224,7 @@
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-79" value="Код направления подготовки" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="-200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-81" value="Кафедры" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-81" value="Декан" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="870" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.082;entryY=0.226;entryDx=0;entryDy=0;exitX=0.998;exitY=0.901;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=14;exitPerimeter=0;entryPerimeter=0;" parent="1" source="IAvjB-8o-SGQpHQ1kvBk-38" target="IAvjB-8o-SGQpHQ1kvBk-81" edge="1">
@@ -347,7 +347,7 @@
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-119" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="-290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-120" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-120" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="650" y="-245" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-121" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
@@ -365,7 +365,7 @@
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-125" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="130" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-129" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-129" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="250" y="60" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-83" value="Содержит" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -398,13 +398,13 @@
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-138" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="210" y="-95" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-139" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-139" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="450" y="-95" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-140" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="700" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-143" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="IAvjB-8o-SGQpHQ1kvBk-143" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="720" y="20" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAvjB-8o-SGQpHQ1kvBk-144" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">

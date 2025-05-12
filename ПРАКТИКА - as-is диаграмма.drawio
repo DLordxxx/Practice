@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="Страница — 1" id="hGediK6cKtecDrNxz5kt">
-    <mxGraphModel dx="1546" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1819" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
         <mxCell id="lXRl14nX80XDygqNHP0N-22" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Завершение текущей сессии&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="-45" y="785" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXRl14nX80XDygqNHP0N-23" value="&lt;font face=&quot;Times New Roman&quot;&gt;Устанавливается факультет, связанный с возникшей академической задолженностью&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
-          <mxGeometry x="512" y="85" width="160" height="30" as="geometry" />
+        <mxCell id="lXRl14nX80XDygqNHP0N-23" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Устанавливается факт наличия академических задолженностей&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+          <mxGeometry x="512" y="85" width="148" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lXRl14nX80XDygqNHP0N-24" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#000000;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="482" y="70" width="40" height="60" as="geometry" />
@@ -89,7 +89,7 @@
         <mxCell id="e6zghv2WPrh_UR_4I4vP-4" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#000000;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="220" y="70" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e6zghv2WPrh_UR_4I4vP-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;Устанавливается факт наличия академических задолженностей&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+        <mxCell id="e6zghv2WPrh_UR_4I4vP-5" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Устанавливается личность студента по его индивидуальному номеру&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="260" y="87.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e6zghv2WPrh_UR_4I4vP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lXRl14nX80XDygqNHP0N-2" source="e6zghv2WPrh_UR_4I4vP-8" target="e6zghv2WPrh_UR_4I4vP-13" edge="1">
@@ -101,7 +101,7 @@
         <mxCell id="e6zghv2WPrh_UR_4I4vP-9" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#000000;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="787" y="70" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e6zghv2WPrh_UR_4I4vP-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;Устанавливается дисциплина, связанная с возникшей академической задолженностью&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+        <mxCell id="e6zghv2WPrh_UR_4I4vP-10" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Устанавливается факультет, связанный с возникшей академической задолженностью&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="820" y="85" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e6zghv2WPrh_UR_4I4vP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="lXRl14nX80XDygqNHP0N-2" source="e6zghv2WPrh_UR_4I4vP-13" target="e6zghv2WPrh_UR_4I4vP-18" edge="1">
@@ -113,8 +113,8 @@
         <mxCell id="e6zghv2WPrh_UR_4I4vP-14" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#000000;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="1030" y="70" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e6zghv2WPrh_UR_4I4vP-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;Устанавливается личность студента по его индивидуальному номеру&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
-          <mxGeometry x="1070" y="82" width="150" height="30" as="geometry" />
+        <mxCell id="e6zghv2WPrh_UR_4I4vP-15" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Устанавливается дисциплина, связанная с возникшей академической задолженностью&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+          <mxGeometry x="1070" y="87.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e6zghv2WPrh_UR_4I4vP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lXRl14nX80XDygqNHP0N-2" source="e6zghv2WPrh_UR_4I4vP-18" target="e6zghv2WPrh_UR_4I4vP-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
