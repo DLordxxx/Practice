@@ -109,21 +109,6 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ФормыКонтроля.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ФормыКонтроля.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="41aaeb4e-235c-4f02-be9d-4169e47a1ea1">
-    <name>Студент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Студент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Студенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f4e86a31-6193-4a99-9858-9c8841fdbf8c">
     <name>Дисциплина</name>
     <synonym>
@@ -135,6 +120,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -150,11 +136,12 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="9dc00f6f-8d05-455c-bfde-b1cf792daf7e">
+  <forms uuid="4b894223-c69c-4e4f-8ea8-640d5950ac44">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -163,7 +150,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="608f14b1-ab3d-4a59-ad8c-b5a5992e9177">
+  <forms uuid="c643a7e1-63b3-4b74-81ad-9d7fa643eaf7">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

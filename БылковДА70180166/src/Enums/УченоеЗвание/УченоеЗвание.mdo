@@ -12,6 +12,13 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfc439a7-d092-4f86-9cc7-abcc2d7a1843">
+    <name>БезЗвания</name>
+    <synonym>
+      <key>ru</key>
+      <value>-</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="e36f9bc0-e1bf-4b25-b173-878fb782e162">
     <name>Доцент</name>
     <synonym>

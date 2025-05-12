@@ -80,7 +80,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование специальности</value>
+      <value>Наименование направления подготовки</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -110,11 +110,12 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.НаправленияПодготовки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НаправленияПодготовки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="bceced7b-f55d-43f6-bdba-598bcc9a4ec6">
-    <name>КодСпециальности</name>
+    <name>КодНаправленияПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Код специальности</value>
+      <value>Код направления подготовки</value>
     </synonym>
     <type>
       <types>String</types>
@@ -125,6 +126,7 @@
     <mask>99.99.99</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -142,15 +144,25 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="a4f5d207-a535-4552-88c2-23d2898339eb">
+  <forms uuid="5f3681c3-66d5-48e3-a3c7-c5c1fea21607">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49ce1983-618d-4d40-85cf-229327fa644c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

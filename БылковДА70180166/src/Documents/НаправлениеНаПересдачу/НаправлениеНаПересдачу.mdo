@@ -78,10 +78,10 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0aa435da-0eb6-49d9-9eaf-14ae105ca909">
-    <name>Специальность</name>
+    <name>НаправленияПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Специальность</value>
+      <value>Направления подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>

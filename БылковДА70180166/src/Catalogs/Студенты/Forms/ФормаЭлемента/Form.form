@@ -330,7 +330,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Специальность</name>
+    <name>НаправленияПодготовки</name>
     <id>25</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -338,10 +338,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Специальность</segments>
+      <segments>Объект.НаправленияПодготовки</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СпециальностьРасширеннаяПодсказка</name>
+      <name>НаправленияПодготовкиРасширеннаяПодсказка</name>
       <id>27</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -351,7 +351,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СпециальностьКонтекстноеМеню</name>
+      <name>НаправленияПодготовкиКонтекстноеМеню</name>
       <id>26</id>
       <autoFill>true</autoFill>
     </contextMenu>

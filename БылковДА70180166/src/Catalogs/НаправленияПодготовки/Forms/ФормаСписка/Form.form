@@ -48,7 +48,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Код</name>
+      <name>Наименование</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -56,11 +56,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Code</segments>
+        <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>КодРасширеннаяПодсказка</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -70,7 +70,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КодКонтекстноеМеню</name>
+        <name>НаименованиеКонтекстноеМеню</name>
         <id>17</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -85,7 +85,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Дисциплина</name>
+      <name>КодНаправленияПодготовки</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -93,10 +93,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Дисциплина</segments>
+        <segments>Список.КодНаправленияПодготовки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДисциплинаРасширеннаяПодсказка</name>
+        <name>КодНаправленияПодготовкиРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -106,7 +106,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДисциплинаКонтекстноеМеню</name>
+        <name>КодНаправленияПодготовкиКонтекстноеМеню</name>
         <id>20</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -121,7 +121,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>НаименованиеКонтроля</name>
+      <name>УровеньОбразования</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,10 +129,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.НаименованиеКонтроля</segments>
+        <segments>Список.УровеньОбразования</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеКонтроляРасширеннаяПодсказка</name>
+        <name>УровеньОбразованияРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -142,7 +142,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НаименованиеКонтроляКонтекстноеМеню</name>
+        <name>УровеньОбразованияКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -313,7 +313,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.ФормыКонтроля</mainTable>
+      <mainTable>Catalog.НаправленияПодготовки</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

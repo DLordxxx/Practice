@@ -9,6 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Факультеты</content>
   <content>Catalog.Кафедры</content>
+  <content>Catalog.НаправленияПодготовки</content>
   <content>Catalog.Дисциплины</content>
   <content>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</content>
   <content>Task.Задачи</content>

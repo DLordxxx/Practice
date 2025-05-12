@@ -90,10 +90,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -115,6 +111,35 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1507d5af-4a1f-4686-ae0f-73696e1f07d6">
+    <name>IDСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDСотрудника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="cc5f2cf6-6f22-4cd2-9e81-d2b67cc18f33">
     <name>Кафедра</name>
     <synonym>
@@ -141,15 +166,16 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="84175adb-8688-48d6-99b9-c6899472cfc2">
-    <name>ЕстьДопополнительнаяКафедра</name>
+    <name>ЕстьДополнительнаяИнформация</name>
     <synonym>
       <key>ru</key>
-      <value>Присутствует доп кафедра</value>
+      <value>Присутствует доп. информация</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -161,10 +187,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5f066ac8-d1cb-46c4-8ed8-c1fc349f9fff">
-    <name>ДополнительнаяКафедра</name>
+    <name>ДополнительнаяИнформация</name>
     <synonym>
       <key>ru</key>
-      <value>Доп. кафедра</value>
+      <value>Доп. информация</value>
     </synonym>
     <type>
       <types>CatalogRef.Кафедры</types>

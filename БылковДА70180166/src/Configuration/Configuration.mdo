@@ -75,6 +75,7 @@
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
   <documents>Document.ПриказОбОтчислении</documents>
+  <documents>Document.РезультатыПредыдущихСессий</documents>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
   <enums>Enum.Курсы</enums>

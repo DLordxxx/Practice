@@ -344,7 +344,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОтчисляемыеСтуденты.Специальность</segments>
+        <segments>Объект.ОтчисляемыеСтуденты.НаправленияПодготовки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтчисляемыеСтудентыСпециальностьРасширеннаяПодсказка</name>

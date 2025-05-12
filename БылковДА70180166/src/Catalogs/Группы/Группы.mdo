@@ -110,17 +110,19 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Группы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Группы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="1e90ebd9-6130-4c88-9aef-113476ceac3e">
-    <name>Специальность</name>
+    <name>НаправленияПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Специальность</value>
+      <value>Направления подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -136,15 +138,25 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="876a3311-02f7-4dd5-93a6-b1e13d76823f">
+  <forms uuid="1f4e9260-d524-4e27-8535-be7ebc4e0ca0">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a84d5207-e7a3-4d1a-a088-a96eafc0f057">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

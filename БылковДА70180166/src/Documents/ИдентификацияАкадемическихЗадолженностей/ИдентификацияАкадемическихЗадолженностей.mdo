@@ -131,10 +131,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="56d87ece-1746-46bd-8e56-fe237f070368">
-    <name>Специальность</name>
+    <name>НаправленияПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Специальность</value>
+      <value>Направления подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>

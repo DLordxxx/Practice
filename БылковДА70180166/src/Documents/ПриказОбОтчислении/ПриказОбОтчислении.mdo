@@ -172,10 +172,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="24fa1d8a-37a5-4614-91a0-9ef666a49d3c">
-      <name>Специальность</name>
+      <name>НаправленияПодготовки</name>
       <synonym>
         <key>ru</key>
-        <value>Специальность</value>
+        <value>Направления подготовки</value>
       </synonym>
       <type>
         <types>CatalogRef.НаправленияПодготовки</types>
