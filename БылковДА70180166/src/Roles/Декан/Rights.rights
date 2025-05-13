@@ -2725,6 +2725,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.Академ_задолженность</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.СтуденческийКабинет.Subsystem.НормативноСправочнаяИнформация</name>
 		<right>
 			<name>View</name>
@@ -3388,17 +3399,6 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.Академ_задолженность</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

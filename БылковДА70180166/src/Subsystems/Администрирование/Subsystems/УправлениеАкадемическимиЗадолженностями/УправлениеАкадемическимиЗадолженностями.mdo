@@ -13,5 +13,6 @@
   <content>Catalog.СтатуcыЗадолженностей</content>
   <content>Document.ПриказОбОтчислении</content>
   <content>Document.РезультатыПредыдущихСессий</content>
+  <content>DataProcessor.Академ_задолженность</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

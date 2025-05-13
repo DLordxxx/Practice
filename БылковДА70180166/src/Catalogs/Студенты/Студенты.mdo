@@ -176,6 +176,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="75d8787c-9429-4f07-ae77-f61e7e5d2fe6">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6240e50d-831d-4734-8013-3ab4f2c2b9a9">
     <name>НаправленияПодготовки</name>
     <synonym>

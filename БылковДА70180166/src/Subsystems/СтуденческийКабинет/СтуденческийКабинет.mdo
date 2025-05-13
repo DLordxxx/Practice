@@ -7,7 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DataProcessor.Академ_задолженность</content>
   <subsystems>УчебныйПортал</subsystems>
   <subsystems>НормативноСправочнаяИнформация</subsystems>
 </mdclass:Subsystem>

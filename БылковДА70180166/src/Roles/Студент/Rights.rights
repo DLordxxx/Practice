@@ -683,17 +683,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.Академ_задолженность</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Группы</name>
 		<right>
 			<name>Read</name>

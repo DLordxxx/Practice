@@ -9,7 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonForm.КарточкаУниверситета</content>
   <content>Report.АнализЗадолженностей</content>
-  <content>DataProcessor.Академ_задолженность</content>
   <content>Enum.ВидыФинансирования</content>
   <content>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</content>
   <subsystems>Документооборот</subsystems>

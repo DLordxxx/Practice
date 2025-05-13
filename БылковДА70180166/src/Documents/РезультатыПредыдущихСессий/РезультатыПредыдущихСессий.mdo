@@ -37,6 +37,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -52,6 +53,22 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="683c67b3-7b26-4725-8f11-a351d7c2a4bb">
+    <name>Факультет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

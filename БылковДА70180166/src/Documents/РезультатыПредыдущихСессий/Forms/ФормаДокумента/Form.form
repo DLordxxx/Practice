@@ -93,6 +93,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Студент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СтудентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>СтудентРасширеннаяПодсказка</name>
       <id>9</id>
@@ -124,19 +128,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Семестр</name>
-    <id>10</id>
+    <name>Факультет</name>
+    <id>37</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Семестр</segments>
+      <segments>Объект.Факультет</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СеместрРасширеннаяПодсказка</name>
-      <id>12</id>
+      <name>ФакультетРасширеннаяПодсказка</name>
+      <id>39</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -145,12 +149,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СеместрКонтекстноеМеню</name>
-      <id>11</id>
+      <name>ФакультетКонтекстноеМеню</name>
+      <id>38</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>

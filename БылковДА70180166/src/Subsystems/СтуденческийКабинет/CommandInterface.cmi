@@ -18,7 +18,6 @@
     <orderFragments>
       <group>ActionsPanelTools</group>
       <commands>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей.StandardCommand.Open</commands>
-      <commands>DataProcessor.Академ_задолженность.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
   <subsystemsOrder>

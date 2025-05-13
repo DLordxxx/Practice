@@ -1565,6 +1565,454 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>Показ_ответов_2</name>
+      <id>153</id>
+      <items xsi:type="form:Decoration">
+        <name>Картинка_под_1_вариант2</name>
+        <id>155</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка под 2 вариант</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Картинка_под_1_вариант2РасширеннаяПодсказка</name>
+          <id>157</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Картинка_под_1_вариант2КонтекстноеМеню</name>
+          <id>156</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <width>35</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="form:FormPicture"/>
+          <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>Текст_описание_1_вариант2</name>
+        <id>158</id>
+        <title>
+          <key>ru</key>
+          <value>Рекомендуется сконцентрироваться на практическом применении навыков, поскольку изучение кейс-методов и выполнение практических заданий могут способствовать повышению уверенности в собственных способностях и компетенциях</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Текст_описание_1_вариант2РасширеннаяПодсказка</name>
+          <id>160</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Текст_описание_1_вариант2КонтекстноеМеню</name>
+          <id>159</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <faceName>Times New Roman</faceName>
+          <height>12.0</height>
+          <scale>100</scale>
+        </font>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Показ ответов 2</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Показ ответов 2</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>Показ_ответов_2РасширеннаяПодсказка</name>
+        <id>154</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>Показ_ответов_3</name>
+      <id>161</id>
+      <items xsi:type="form:Decoration">
+        <name>Картинка_под_1_вариант3</name>
+        <id>163</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка под 3 вариант</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Картинка_под_1_вариант3РасширеннаяПодсказка</name>
+          <id>165</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Картинка_под_1_вариант3КонтекстноеМеню</name>
+          <id>164</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <width>35</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="form:FormPicture"/>
+          <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>Текст_описание_1_вариант3</name>
+        <id>166</id>
+        <title>
+          <key>ru</key>
+          <value>Следует акцентировать внимание на планировании процесса подготовки и искать возможности для организации индивидуализированного обучения.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Текст_описание_1_вариант3РасширеннаяПодсказка</name>
+          <id>168</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Текст_описание_1_вариант3КонтекстноеМеню</name>
+          <id>167</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <faceName>Times New Roman</faceName>
+          <height>12.0</height>
+          <scale>100</scale>
+        </font>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Показ ответов 3</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Показ ответов 2</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>Показ_ответов_3РасширеннаяПодсказка</name>
+        <id>162</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>Показ_ответов_4</name>
+      <id>169</id>
+      <items xsi:type="form:Decoration">
+        <name>Картинка_под_1_вариант4</name>
+        <id>171</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка под 4 вариант</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Картинка_под_1_вариант4РасширеннаяПодсказка</name>
+          <id>173</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Картинка_под_1_вариант4КонтекстноеМеню</name>
+          <id>172</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <width>35</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="form:FormPicture"/>
+          <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>Текст_описание_1_вариант4</name>
+        <id>174</id>
+        <title>
+          <key>ru</key>
+          <value>Необходимо сконцентрироваться на более детальном изучении «проблемных зон» в образовательном процессе, возможно, через внедрение дополнительных практических заданий.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Текст_описание_1_вариант4РасширеннаяПодсказка</name>
+          <id>176</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Текст_описание_1_вариант4КонтекстноеМеню</name>
+          <id>175</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <faceName>Times New Roman</faceName>
+          <height>12.0</height>
+          <scale>100</scale>
+        </font>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Показ ответов 4</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Показ ответов 2</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>Показ_ответов_4РасширеннаяПодсказка</name>
+        <id>170</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>Показ_ответов_5</name>
+      <id>177</id>
+      <items xsi:type="form:Decoration">
+        <name>Картинка_под_1_вариант5</name>
+        <id>179</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка под 5 вариант</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Картинка_под_1_вариант5РасширеннаяПодсказка</name>
+          <id>181</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Картинка_под_1_вариант5КонтекстноеМеню</name>
+          <id>180</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <width>35</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="form:FormPicture"/>
+          <pictureSize>Proportionally</pictureSize>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>Текст_описание_1_вариант5</name>
+        <id>182</id>
+        <title>
+          <key>ru</key>
+          <value>Отсутствие «пробелов» в учебном процессе способствует достижениям студента в академической сфере, развитию его компетенций и уверенности в себе. Студент не только успешно осваивает учебный материал, но и формирует навыки, которые будут полезны в его будущей профессиональной деятельности.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Текст_описание_1_вариант5РасширеннаяПодсказка</name>
+          <id>184</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>Текст_описание_1_вариант5КонтекстноеМеню</name>
+          <id>183</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <faceName>Times New Roman</faceName>
+          <height>12.0</height>
+          <scale>100</scale>
+        </font>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Показ ответов 5</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Показ ответов 2</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>Показ_ответов_5РасширеннаяПодсказка</name>
+        <id>178</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>Сохранение_результатов</name>
       <id>24</id>
       <items xsi:type="form:Decoration">
