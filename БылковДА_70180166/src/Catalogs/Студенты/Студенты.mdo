@@ -215,7 +215,10 @@
       <value>Курс</value>
     </synonym>
     <type>
-      <types>EnumRef.Курсы</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

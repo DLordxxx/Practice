@@ -111,7 +111,7 @@
     <name>НаименованиеКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование контроля</value>
+      <value>Форма контроля</value>
     </synonym>
     <type>
       <types>EnumRef.НаименованиеКонтроля</types>

@@ -138,6 +138,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Факультет</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ФакультетПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ФакультетРасширеннаяПодсказка</name>
       <id>39</id>

@@ -36,7 +36,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="40" left="280" bottom="200" right="580"/>
+				<Location top="0" left="280" bottom="160" right="580"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -65,10 +65,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
+					<Point x="430" y="160"/>
+					<Point x="430" y="180"/>
+					<Point x="430" y="180"/>
 					<Point x="430" y="200"/>
-					<Point x="430" y="290"/>
-					<Point x="430" y="290"/>
-					<Point x="430" y="380"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -76,7 +76,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Условие1</Item>
+						<Item>Действие1</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -111,7 +111,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="2480" left="0" bottom="2580" right="140"/>
+				<Location top="2440" left="0" bottom="2540" right="140"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -182,7 +182,7 @@
 				<PivotPoints>
 					<Point x="280" y="450"/>
 					<Point x="70" y="450"/>
-					<Point x="70" y="2480"/>
+					<Point x="70" y="2440"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -237,7 +237,7 @@
 						<PortIndex>3</PortIndex>
 					</From>
 					<To>
-						<Item>Действие1</Item>
+						<Item>Действие2</Item>
 						<PortIndex>1</PortIndex>
 					</To>
 				</Connect>
@@ -252,7 +252,7 @@
 		</ConnectionLine>
 		<Activity id="18" uuid="86fd6ea7-c8d2-46e2-abf3-1fb5de622da3">
 			<Properties>
-				<Name>Действие1</Name>
+				<Name>Действие2</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -283,7 +283,7 @@
 				<Group>false</Group>
 				<AddressingAttributes>
 					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Студент</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Декан</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -322,7 +322,7 @@
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие1</Item>
+						<Item>Действие2</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
@@ -503,7 +503,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие6</Item>
+						<Item>Действие5</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -518,7 +518,7 @@
 		</ConnectionLine>
 		<Activity id="28" uuid="97b278ce-155b-42f9-943d-d155410582a4">
 			<Properties>
-				<Name>Действие6</Name>
+				<Name>Действие5</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -587,11 +587,11 @@
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие6</Item>
+						<Item>Действие5</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие7</Item>
+						<Item>Действие6</Item>
 						<PortIndex>1</PortIndex>
 					</To>
 				</Connect>
@@ -606,11 +606,11 @@
 		</ConnectionLine>
 		<Activity id="30" uuid="dc73ade1-54c5-4d08-b219-09eeef386d48">
 			<Properties>
-				<Name>Действие7</Name>
+				<Name>Действие6</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Ведомостm о системе академических задолженностей</v8:content>
+						<v8:content>Ведомость о системе академических задолженностей</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -632,7 +632,7 @@
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Ведомостm о системе академических задолженностей</TaskDescription>
+				<TaskDescription>Ведомость о системе академических задолженностей</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
@@ -676,7 +676,7 @@
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие7</Item>
+						<Item>Действие6</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
@@ -762,7 +762,7 @@
 						<PortIndex>1</PortIndex>
 					</From>
 					<To>
-						<Item>Действие8</Item>
+						<Item>Действие7</Item>
 						<PortIndex>5</PortIndex>
 					</To>
 				</Connect>
@@ -808,7 +808,7 @@
 						<PortIndex>3</PortIndex>
 					</From>
 					<To>
-						<Item>Действие12</Item>
+						<Item>Действие10</Item>
 						<PortIndex>5</PortIndex>
 					</To>
 				</Connect>
@@ -823,7 +823,7 @@
 		</ConnectionLine>
 		<Activity id="35" uuid="3b61f9f6-dcca-4a9a-802b-4456c511e198">
 			<Properties>
-				<Name>Действие8</Name>
+				<Name>Действие7</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -854,7 +854,7 @@
 				<Group>false</Group>
 				<AddressingAttributes>
 					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Ректор</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Студент</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -893,11 +893,11 @@
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие8</Item>
+						<Item>Действие7</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие9</Item>
+						<Item>Действие8</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -912,11 +912,11 @@
 		</ConnectionLine>
 		<Activity id="37" uuid="b8e696df-bcdf-4745-98cf-1e7a86e4cf1f">
 			<Properties>
-				<Name>Действие9</Name>
+				<Name>Действие8</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Создается индивидуальный план ликвидации задолженностей</v8:content>
+						<v8:content>Индивидуальный план ликвидации задолженностей</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -938,7 +938,7 @@
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Создается индивидуальный план ликвидации задолженностей</TaskDescription>
+				<TaskDescription>Индивидуальный план ликвидации задолженностей</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
@@ -976,105 +976,17 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="650" y="1840"/>
-					<Point x="650" y="1930"/>
-					<Point x="460" y="1930"/>
-				</PivotPoints>
-				<Connect>
-					<From>
-						<Item>Действие9</Item>
-						<PortIndex>4</PortIndex>
-					</From>
-					<To>
-						<Item>Действие10</Item>
-						<PortIndex>3</PortIndex>
-					</To>
-				</Connect>
-				<Line width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Line>
-				<DecorativeLine>false</DecorativeLine>
-				<TextLocation>FirstSegment</TextLocation>
-				<BeginArrow>None</BeginArrow>
-				<EndArrow>Filled</EndArrow>
-			</Properties>
-		</ConnectionLine>
-		<Activity id="39" uuid="996b132e-5137-430c-b210-bbc69e621ac6">
-			<Properties>
-				<Name>Действие10</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>График ликвидации задолженностей для студента с ИОМ</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>35</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>23</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="1880" left="120" bottom="1980" right="460"/>
-				<Border width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Border>
-				<Picture/>
-				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>График ликвидации задолженностей для студента с ИОМ</TaskDescription>
-				<Explanation/>
-				<Group>false</Group>
-				<AddressingAttributes>
-					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.ЗаведующийКафедрой</Value>
-					</AddressingAttribute>
-				</AddressingAttributes>
-			</Properties>
-			<Events>
-				<Event name="InteractiveActivationProcessing"/>
-				<Event name="BeforeCreateTasks"/>
-				<Event name="OnCreateTask"/>
-				<Event name="OnExecute"/>
-				<Event name="CheckExecutionProcessing"/>
-				<Event name="BeforeExecute"/>
-				<Event name="BeforeExecuteInteractively"/>
-			</Events>
-		</Activity>
-		<ConnectionLine id="40">
-			<Properties>
-				<Name>Линия15</Name>
-				<Title/>
-				<ToolTip/>
-				<TabOrder>36</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>24</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<PivotPoints>
-					<Point x="290" y="1980"/>
-					<Point x="290" y="2030"/>
+					<Point x="650" y="2030"/>
 					<Point x="960" y="2030"/>
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие10</Item>
+						<Item>Действие8</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие11</Item>
-						<PortIndex>5</PortIndex>
+						<Item>Действие9</Item>
+						<PortIndex>1</PortIndex>
 					</To>
 				</Connect>
 				<Line width="1" gap="false">
@@ -1088,7 +1000,7 @@
 		</ConnectionLine>
 		<Activity id="41" uuid="aec33dad-85a4-4cf4-927a-def70fcfdf99">
 			<Properties>
-				<Name>Действие11</Name>
+				<Name>Действие9</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1101,7 +1013,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>25</ZOrder>
+				<ZOrder>23</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1143,7 +1055,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>26</ZOrder>
+				<ZOrder>24</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1159,11 +1071,11 @@
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие11</Item>
+						<Item>Действие9</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Действие12</Item>
+						<Item>Действие10</Item>
 						<PortIndex>1</PortIndex>
 					</To>
 				</Connect>
@@ -1178,7 +1090,7 @@
 		</ConnectionLine>
 		<Activity id="43" uuid="753be6d1-a1b2-468c-bbad-311b8427de59">
 			<Properties>
-				<Name>Действие12</Name>
+				<Name>Действие10</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1191,7 +1103,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>27</ZOrder>
+				<ZOrder>25</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1233,7 +1145,7 @@
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>28</ZOrder>
+				<ZOrder>26</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1242,96 +1154,13 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="1670" y="1880"/>
-					<Point x="1670" y="2010"/>
-					<Point x="1670" y="2010"/>
-					<Point x="1670" y="2140"/>
+					<Point x="1670" y="2490"/>
+					<Point x="140" y="2490"/>
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие12</Item>
+						<Item>Действие10</Item>
 						<PortIndex>4</PortIndex>
-					</From>
-					<To>
-						<Item>Условие3</Item>
-						<PortIndex>2</PortIndex>
-					</To>
-				</Connect>
-				<Line width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Line>
-				<DecorativeLine>false</DecorativeLine>
-				<TextLocation>FirstSegment</TextLocation>
-				<BeginArrow>None</BeginArrow>
-				<EndArrow>Filled</EndArrow>
-			</Properties>
-		</ConnectionLine>
-		<Condition id="47" uuid="2f9bccbb-4336-4309-83c0-dd1229b85fc2">
-			<Properties>
-				<Name>Условие3</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Проверка процентности студента по дисциплинам</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>43</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>29</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="2140" left="1520" bottom="2280" right="1820"/>
-				<Border width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Border>
-				<Picture/>
-				<PictureSize>AutoSize</PictureSize>
-				<TruePortIndex>3</TruePortIndex>
-				<FalsePortIndex>1</FalsePortIndex>
-			</Properties>
-			<Events>
-				<Event name="ConditionCheck">Условие3ПроверкаУсловия</Event>
-			</Events>
-		</Condition>
-		<ConnectionLine id="48">
-			<Properties>
-				<Name>Линия19</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Процент академических задолженностей студента &lt;80%</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>44</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>30</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<PivotPoints>
-					<Point x="1520" y="2210"/>
-					<Point x="830" y="2210"/>
-					<Point x="830" y="2530"/>
-					<Point x="140" y="2530"/>
-				</PivotPoints>
-				<Connect>
-					<From>
-						<Item>Условие3</Item>
-						<PortIndex>1</PortIndex>
 					</From>
 					<To>
 						<Item>Завершение</Item>
@@ -1347,86 +1176,40 @@
 				<EndArrow>Filled</EndArrow>
 			</Properties>
 		</ConnectionLine>
-		<ConnectionLine id="49">
+		<Activity id="56" uuid="1c51d12b-d32c-4793-ba46-c73655b8fbbb">
 			<Properties>
-				<Name>Линия20</Name>
+				<Name>Действие1</Name>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Процент академических задолженностей студента &gt;=80%</v8:content>
+						<v8:content>Результаты предыдущих сессий</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
-				<TabOrder>45</TabOrder>
+				<TabOrder>41</TabOrder>
 				<BackColor>auto</BackColor>
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>31</ZOrder>
+				<ZOrder>27</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
+				<Font bold="false" kind="AutoFont"/>
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<PivotPoints>
-					<Point x="1820" y="2210"/>
-					<Point x="2130" y="2210"/>
-					<Point x="2130" y="2400"/>
-				</PivotPoints>
-				<Connect>
-					<From>
-						<Item>Условие3</Item>
-						<PortIndex>3</PortIndex>
-					</From>
-					<To>
-						<Item>Действие14</Item>
-						<PortIndex>5</PortIndex>
-					</To>
-				</Connect>
-				<Line width="1" gap="false">
-					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
-				</Line>
-				<DecorativeLine>false</DecorativeLine>
-				<TextLocation>FirstSegment</TextLocation>
-				<BeginArrow>None</BeginArrow>
-				<EndArrow>Filled</EndArrow>
-			</Properties>
-		</ConnectionLine>
-		<Activity id="51" uuid="07f80a14-ed04-4f01-90c3-08f803aa6787">
-			<Properties>
-				<Name>Действие14</Name>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Приказ об отчислении</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip/>
-				<TabOrder>47</TabOrder>
-				<BackColor>auto</BackColor>
-				<TextColor>style:FormTextColor</TextColor>
-				<LineColor>style:BorderColor</LineColor>
-				<GroupNumber>0</GroupNumber>
-				<ZOrder>32</ZOrder>
-				<Hyperlink>false</Hyperlink>
-				<Transparent>false</Transparent>
-				<Font kind="AutoFont"/>
-				<HorizontalAlign>Center</HorizontalAlign>
-				<VerticalAlign>Center</VerticalAlign>
-				<PictureLocation>Left</PictureLocation>
-				<Location top="2400" left="1960" bottom="2500" right="2300"/>
+				<Location top="200" left="260" bottom="300" right="600"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Приказ об отчислении</TaskDescription>
+				<TaskDescription>Результаты предыдущих сессий</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
 					<AddressingAttribute ref="Task.Задачи.AddressingAttribute.Пользователь">
-						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Декан</Value>
+						<Value xmlns:d7p1="http://v8.1c.ru/8.3/xcf/readable" xsi:type="d7p1:DesignTimeRef">Catalog.Пользователи.Студент</Value>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
@@ -1440,17 +1223,17 @@
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
-		<ConnectionLine id="52">
+		<ConnectionLine id="57">
 			<Properties>
-				<Name>Линия21</Name>
+				<Name>Линия5</Name>
 				<Title/>
 				<ToolTip/>
-				<TabOrder>48</TabOrder>
+				<TabOrder>42</TabOrder>
 				<BackColor>auto</BackColor>
 				<TextColor>style:FormTextColor</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
-				<ZOrder>33</ZOrder>
+				<ZOrder>28</ZOrder>
 				<Hyperlink>false</Hyperlink>
 				<Transparent>false</Transparent>
 				<Font kind="AutoFont"/>
@@ -1458,19 +1241,19 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="2130" y="2500"/>
-					<Point x="2130" y="2600"/>
-					<Point x="70" y="2600"/>
-					<Point x="70" y="2580"/>
+					<Point x="430" y="300"/>
+					<Point x="430" y="340"/>
+					<Point x="430" y="340"/>
+					<Point x="430" y="380"/>
 				</PivotPoints>
 				<Connect>
 					<From>
-						<Item>Действие14</Item>
+						<Item>Действие1</Item>
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Завершение</Item>
-						<PortIndex>4</PortIndex>
+						<Item>Условие1</Item>
+						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
 				<Line width="1" gap="false">

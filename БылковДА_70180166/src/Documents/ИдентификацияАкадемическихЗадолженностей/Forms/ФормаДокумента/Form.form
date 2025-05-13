@@ -93,6 +93,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Студент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СтудентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>СтудентРасширеннаяПодсказка</name>
       <id>9</id>
@@ -615,7 +619,7 @@
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
-    <name>FormCommandBar</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>

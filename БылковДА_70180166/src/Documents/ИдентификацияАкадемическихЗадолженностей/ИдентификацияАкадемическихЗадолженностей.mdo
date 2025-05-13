@@ -60,6 +60,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.РезультатыПредыдущихСессий</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -213,7 +214,7 @@
       <name>Дисциплины</name>
       <synonym>
         <key>ru</key>
-        <value>Дисциплины</value>
+        <value>Дисциплина</value>
       </synonym>
       <type>
         <types>CatalogRef.Дисциплины</types>

@@ -66,6 +66,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СтуденческиеБилеты</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
+  <documents>Document.РезультатыПредыдущихСессий</documents>
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
@@ -76,10 +77,8 @@
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
   <documents>Document.ПриказОбОтчислении</documents>
-  <documents>Document.РезультатыПредыдущихСессий</documents>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
-  <enums>Enum.Курсы</enums>
   <enums>Enum.УченоеЗвание</enums>
   <enums>Enum.НаименованиеСтатуса</enums>
   <enums>Enum.ОписаниеПричины</enums>
