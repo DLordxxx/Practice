@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24dc079-4395-48db-8f95-303c316df892">
+  <name>БылковДА70180166</name>
+  <synonym>
+    <key>ru</key>
+    <value>Былков Д.А. 70180166</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a154f719-cb2e-47a0-b460-b0f495f715c9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="aa725fc8-2bcd-405b-8e96-f748768318ab"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="fd9f7d61-31e3-4fa3-8700-c9d3c492a3a4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6130e191-ad97-4a8f-a067-1367f5f122ee"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4ea5a66f-36a2-4f7a-b430-ccf63fdaea0d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="98a0b8e5-161c-4b3a-8e4f-d0d9207b38ea"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e24c413c-dff7-4db3-81b5-f6cdb349938e"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="83805b3f-d09b-4ebb-8afe-474457a7b1c8">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.КабинетСотрудника</subsystems>
+  <subsystems>Subsystem.СтуденческийКабинет</subsystems>
+  <subsystems>Subsystem.МониторингКлючевыхПоказателейЭффективности</subsystems>
+  <subsystems>Subsystem.Университет</subsystems>
+  <roles>Role.Декан</roles>
+  <roles>Role.Ректор</roles>
+  <roles>Role.ЗаведующийКафедрой</roles>
+  <roles>Role.Преподаватель</roles>
+  <roles>Role.Студент</roles>
+  <commonModules>CommonModule.ОбщиеПроцедурыДляСправочников</commonModules>
+  <constants>Constant.НаименованиеУниверситета</constants>
+  <constants>Constant.ЮридическийАдрес</constants>
+  <commonForms>CommonForm.КарточкаУниверситета</commonForms>
+  <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.Группы</catalogs>
+  <catalogs>Catalog.Факультеты</catalogs>
+  <catalogs>Catalog.Кафедры</catalogs>
+  <catalogs>Catalog.НаправленияПодготовки</catalogs>
+  <catalogs>Catalog.Дисциплины</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатуcыЗадолженностей</catalogs>
+  <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
+  <catalogs>Catalog.Семестры</catalogs>
+  <catalogs>Catalog.Аудитории</catalogs>
+  <catalogs>Catalog.ФормыКонтроля</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтуденческиеБилеты</catalogs>
+  <catalogs>Catalog.ФормыОбучения</catalogs>
+  <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
+  <documents>Document.НаправлениеНаПересдачу</documents>
+  <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
+  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностей</documents>
+  <documents>Document.РекомендацииПоСтудентам</documents>
+  <documents>Document.ПротоколЗаседанияКомиссии</documents>
+  <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
+  <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
+  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
+  <documents>Document.ПриказОбОтчислении</documents>
+  <documents>Document.РезультатыПредыдущихСессий</documents>
+  <enums>Enum.ФормаОбучения</enums>
+  <enums>Enum.УровеньОбразования</enums>
+  <enums>Enum.Курсы</enums>
+  <enums>Enum.УченоеЗвание</enums>
+  <enums>Enum.НаименованиеСтатуса</enums>
+  <enums>Enum.ОписаниеПричины</enums>
+  <enums>Enum.ТипАудитории</enums>
+  <enums>Enum.НаименованиеКонтроля</enums>
+  <enums>Enum.Оценка</enums>
+  <enums>Enum.РольВКомиссии</enums>
+  <enums>Enum.РешениеКомиссии</enums>
+  <enums>Enum.СтатусРассмотрения</enums>
+  <enums>Enum.ВидыФинансирования</enums>
+  <enums>Enum.Семестры</enums>
+  <enums>Enum.ВыделенныеМеста</enums>
+  <reports>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</reports>
+  <reports>Report.АнализЗадолженностей</reports>
+  <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
+  <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>
+  <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НеудачныеПересдачи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
+  <businessProcesses>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</businessProcesses>
+  <tasks>Task.Задачи</tasks>
+</mdclass:Configuration>
