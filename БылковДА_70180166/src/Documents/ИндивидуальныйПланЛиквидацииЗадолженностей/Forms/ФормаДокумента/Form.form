@@ -214,7 +214,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ФормаКонтроля</segments>
+      <segments>Объект.НаименованиеКонтроля</segments>
     </dataPath>
     <extendedTooltip>
       <name>ФормаКонтроляРасширеннаяПодсказка</name>

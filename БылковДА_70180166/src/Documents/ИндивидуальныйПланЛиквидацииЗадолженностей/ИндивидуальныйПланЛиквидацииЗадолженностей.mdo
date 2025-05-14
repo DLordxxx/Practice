@@ -122,10 +122,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="bd526e6d-7881-4773-adc7-1b56a25df901">
-    <name>ФормаКонтроля</name>
+    <name>НаименованиеКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Форма контроля</value>
+      <value>Наименование контроля</value>
     </synonym>
     <type>
       <types>EnumRef.НаименованиеКонтроля</types>

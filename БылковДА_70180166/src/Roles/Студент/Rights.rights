@@ -432,7 +432,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.ФормаКонтроля</name>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.НаименованиеКонтроля</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

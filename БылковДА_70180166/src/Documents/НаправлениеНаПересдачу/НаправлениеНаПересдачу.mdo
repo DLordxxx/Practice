@@ -259,13 +259,28 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4ea15269-977a-40fe-bf74-8676241ca9a1">
-    <name>ФормаКонтроля</name>
+    <name>НаименованиеКонтроля</name>
     <synonym>
       <key>ru</key>
       <value>Наименование контроля</value>
     </synonym>
     <type>
       <types>EnumRef.НаименованиеКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2413cc91-72d0-47d3-8e26-7a82b6eb5c0a">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИдентификацияАкадемическихЗадолженностей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

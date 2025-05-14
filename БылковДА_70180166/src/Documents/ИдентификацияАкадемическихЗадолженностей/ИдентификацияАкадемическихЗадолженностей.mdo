@@ -225,10 +225,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="76f03fb9-0742-4e0f-a9eb-44a592c6be22">
-      <name>ФормаКонтроля</name>
+      <name>НаименованиеКонтроля</name>
       <synonym>
         <key>ru</key>
-        <value>Форма контроля</value>
+        <value>Наименование контроля</value>
       </synonym>
       <type>
         <types>EnumRef.НаименованиеКонтроля</types>
