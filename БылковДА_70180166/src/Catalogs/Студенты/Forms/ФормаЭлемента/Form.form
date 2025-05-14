@@ -502,9 +502,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СтатусРасмотрения</segments>
-    </dataPath>
     <extendedTooltip>
       <name>СтатусРасмотренияРасширеннаяПодсказка</name>
       <id>36</id>
