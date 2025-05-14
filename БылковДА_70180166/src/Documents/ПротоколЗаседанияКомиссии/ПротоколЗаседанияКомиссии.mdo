@@ -120,21 +120,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9bbcbb79-97ca-415b-96c1-fab9a0bbe906">
-    <name>Преподаватель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Преподаватель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="8c048070-07ab-4e92-85bc-ae87097efadc">
     <name>КоличествоВозникшихЗадолженностей</name>
     <synonym>
@@ -171,7 +156,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="0d35f167-4447-402b-8767-e9b2dc1a93c9">
+  <forms uuid="95f6773f-5be5-42ff-819f-a33d36024893">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -180,46 +165,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="5e34ddc7-d60a-49e1-8f3a-3719e3593b65">
-    <producedTypes>
-      <objectType typeId="db87fa77-2a49-493d-a1ef-eeada27e95e0" valueTypeId="1daec1ff-7863-4ef2-b36c-32de2263d48f"/>
-      <rowType typeId="a64b4979-071d-44f0-80d6-a96162874e74" valueTypeId="279979cb-32b9-45af-8808-03ded464ea4e"/>
-    </producedTypes>
-    <name>Долги</name>
-    <synonym>
-      <key>ru</key>
-      <value>Долги</value>
-    </synonym>
-    <attributes uuid="dbe65e53-b970-4868-a01d-bb513931b57a">
-      <name>Дисциплина</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дисциплина</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Дисциплины</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="045ebb7e-4fcd-4a7a-8223-dac49b50f282">
-      <name>СтатусЗадолженности</name>
-      <synonym>
-        <key>ru</key>
-        <value>Статус задолженности</value>
-      </synonym>
-      <type>
-        <types>EnumRef.НаименованиеСтатуса</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <templates uuid="f765d33e-c163-4e62-891f-ccffbcf12b72">
+  <templates uuid="7c8d4e2d-ee0c-4063-a494-90ca79051038">
     <name>Печать</name>
   </templates>
   <commands uuid="f82b5419-b688-40da-9b73-29fbcfc6b024">

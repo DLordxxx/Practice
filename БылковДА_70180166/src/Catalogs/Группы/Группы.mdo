@@ -115,7 +115,7 @@
     <name>НаправленияПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Направления подготовки</value>
+      <value>Направление подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>

@@ -117,13 +117,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Группа</name>
 		<right>
 			<name>Edit</name>
@@ -174,13 +167,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколЗаседанияКомиссии.TabularSection.Долги</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.РекомендацииПоСтудентам</name>
 		<right>
 			<name>Read</name>
@@ -192,7 +178,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ФормыКонтроля</name>
+		<name>Catalog.НаименованияКонтроляСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -218,13 +204,6 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.TabularSection.НазначениеСтудентаДляПреподавателя.Attribute.Студент</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -418,13 +397,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.ЧасыРаботы</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
 		<right>
 			<name>Edit</name>
@@ -555,13 +527,6 @@
 	</object>
 	<object>
 		<name>Document.ПротоколЗаседанияКомиссии.Attribute.Семестр</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПротоколЗаседанияКомиссии.TabularSection.Долги.Attribute.Дисциплина</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

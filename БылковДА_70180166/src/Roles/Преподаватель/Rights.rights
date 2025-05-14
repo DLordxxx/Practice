@@ -234,7 +234,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ФормыКонтроля</name>
+		<name>Catalog.НаименованияКонтроляСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
