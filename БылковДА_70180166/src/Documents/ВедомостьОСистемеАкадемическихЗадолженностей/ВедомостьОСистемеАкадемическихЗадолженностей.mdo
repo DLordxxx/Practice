@@ -42,10 +42,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата проведения</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -54,10 +50,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер протокола</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -76,7 +68,22 @@
   <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="bbc4cdb8-eb28-41c7-b76a-55e55eec1e19">
+  <attributes uuid="e09f21b4-d669-4b59-af95-605a8c7765d8">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2677e30-3585-4522-b8de-6d09a4eb7654">
     <name>Преподаватель</name>
     <synonym>
       <key>ru</key>
@@ -91,7 +98,67 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="dd5bbc21-b77c-47de-a724-85c0756c7aa4">
+  <attributes uuid="4a68ed1b-3dcf-4f80-bba7-6a089a870891">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дисциплины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30d90e14-2d01-48d2-99b5-5ce9eb80457b">
+    <name>НаименованиеКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование контроля</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаименованиеКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1571814-6f88-4c69-83ab-ac9804863567">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Оценка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8f891db-5163-4efc-9f19-bb37b97f4375">
+    <name>СтатусАкадемическойЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задолженности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаименованиеСтатуса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="73a29980-3fea-46db-8aa2-3ed6eae06459">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -100,101 +167,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="b9e6ff07-0b6c-4ee5-8f30-eab49bcfe34f">
-    <producedTypes>
-      <objectType typeId="54603cf7-0c2c-4a63-a470-8d9d5fcfdc9d" valueTypeId="cc4293cb-d601-4fdd-b012-9749b5410afc"/>
-      <rowType typeId="12f2a8c7-279d-41e8-bb03-e6da0cb01a54" valueTypeId="fec0836a-b947-48a2-ac8f-b43a8252358d"/>
-    </producedTypes>
-    <name>РезультатЗаседанияКомиссии</name>
-    <synonym>
-      <key>ru</key>
-      <value>Результат заседания комиссии</value>
-    </synonym>
-    <attributes uuid="7a5e6d7e-ce5f-4b5e-900b-190e88c5f5fa">
-      <name>Группа</name>
-      <synonym>
-        <key>ru</key>
-        <value>Группа</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Группы</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="34b30157-b184-4c75-91b5-c162f9d81401">
-      <name>Студент</name>
-      <synonym>
-        <key>ru</key>
-        <value>Студент</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Студенты</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3ce6fcd5-30d0-44f4-9d32-3744638e23df">
-      <name>ВидКонтроля</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид контроля</value>
-      </synonym>
-      <type>
-        <types>EnumRef.НаименованиеКонтроля</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="f813a79b-e909-47d3-a8a6-00cce97caa51">
-      <name>Дисциплина</name>
-      <synonym>
-        <key>ru</key>
-        <value>Дисциплина</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Дисциплины</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3ef24957-ec1b-4996-9820-342fdca9d03d">
-      <name>Оценка</name>
-      <synonym>
-        <key>ru</key>
-        <value>Оценка</value>
-      </synonym>
-      <type>
-        <types>EnumRef.Оценка</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="9f3a30d8-e92f-4480-974a-52a248cd6690">
-      <name>СтатусАкадемическойЗадолженности</name>
-      <synonym>
-        <key>ru</key>
-        <value>Статус задолженности</value>
-      </synonym>
-      <type>
-        <types>EnumRef.НаименованиеСтатуса</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <templates uuid="52a6d17d-c19a-4b7e-9bc4-695ff8b08f56">
     <name>Печать</name>
   </templates>

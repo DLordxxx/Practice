@@ -62,7 +62,7 @@
   <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
-  <catalogs>Catalog.ФормыКонтроля</catalogs>
+  <catalogs>Catalog.НаименованияКонтроляСтудентов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СтуденческиеБилеты</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
