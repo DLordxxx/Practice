@@ -1,156 +1,177 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.5">
   <diagram name="Страница — 1" id="RM1HQVQ-ACgRqFmenf65">
-    <mxGraphModel dx="2339" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2646" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-8" value="Группы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="720" y="-329" width="140" height="180" as="geometry" />
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-8" value="Группы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="-840" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-9" value="(PK) Код группы" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-9" value="(PK) Код группы" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-10" value="(SK)&amp;nbsp;Специальность" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-10" value="(SK)&amp;nbsp;Направление подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-71" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-71" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-8" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="2jsNtga7JRwTBQeUCgVW-2">
+        <mxCell id="PxU2nwO3hG_xFeWPuz_U-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=12;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="07Oq3XS_FDAB7F_KS3l3-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="07Oq3XS_FDAB7F_KS3l3-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="345" y="-350" />
-              <mxPoint x="345" y="-249" />
+              <mxPoint x="345" y="-400" />
+              <mxPoint x="345" y="-505" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="07Oq3XS_FDAB7F_KS3l3-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-11" value="Студенты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-550" width="140" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-11" value="Студенты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-550" width="140" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-22" value="(PK) Личный индекс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-22" value="(PK) Личный индекс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-13" value="(SK)&amp;nbsp;Студенческий билет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-67" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-67" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-13" value="(SK)&amp;nbsp;Студенческий билет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-65" value="(SK) Группа" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-1" value="(SK) Факультет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-11">
           <mxGeometry y="180" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-69" value="(SK) Специальность&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-69" value="(SK) Направления подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="220" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eSvQvdiThqrzmIeAnb6p-1" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-65" value="(SK) Группа" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="260" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-68" value="Семестр" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="eSvQvdiThqrzmIeAnb6p-1" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="300" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eSvQvdiThqrzmIeAnb6p-2" value="Курс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-68" value="Семестр" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
           <mxGeometry y="340" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-14" value="Сотрудники" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="730" y="-1120" width="140" height="340" as="geometry" />
+        <mxCell id="SxP6dikXMvDFx1eo2wrM-1" value="Курс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+          <mxGeometry y="380" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-1" value="(PK) ID Сотрудника" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-14">
+        <mxCell id="SxP6dikXMvDFx1eo2wrM-2" value="Вид финансирования" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-11" vertex="1">
+          <mxGeometry y="420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-14" target="c0ZHjnEcF9yiEcdgdPqq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-14" value="Сотрудники" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="730" y="-1140" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PxU2nwO3hG_xFeWPuz_U-1" value="(PK) ID Сотрудника" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-15" value="(SK) ФИО Сотрудника" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-15" value="(SK) ФИО Сотрудника" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w6pJ38PBlBgNkQdBBUx--1" value="(SK) Факультет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
+        <mxCell id="w6pJ38PBlBgNkQdBBUx--1" value="(SK) Факультет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-16" value="(SK) Кафедра" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-16" value="(SK) Кафедра" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="180" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-4" value="Ученое звание" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-4" value="Ученое звание" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="220" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-8" value="Есть дополнительная информация" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-14">
+        <mxCell id="PxU2nwO3hG_xFeWPuz_U-8" value="Есть дополнительная информация" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="260" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-9" value="Дополнительная информация" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-14">
+        <mxCell id="PxU2nwO3hG_xFeWPuz_U-9" value="Дополнительная информация" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-14" vertex="1">
           <mxGeometry y="300" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-17" value="Дисциплины" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-550" width="140" height="140" as="geometry" />
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-17" value="Дисциплины" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-550" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-18" value="(PK) Наименование дисциплины" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-17" vertex="1">
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-6" value="(PK) Код дисциплины" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-17">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-19" value="Наименование контроля" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-17" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-18" value="(SK) Наименование дисциплины" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-17" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-20" value="Факультеты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-1120" width="140" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-21" value="(PK)&amp;nbsp;Наименование факультета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
-          <mxGeometry y="60" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eSvQvdiThqrzmIeAnb6p-5" value="(SK) Кафедра" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
-          <mxGeometry y="100" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-72" value="Декан факультета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-19" value="Наименование контроля" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-17" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-23" value="Направления подготовки" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="-840" width="140" height="190" as="geometry" />
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-20" target="c0aiVYKnJsTtHmroPYw6-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-24" value="(PK) Наименование направления подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-23" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-20" value="Факультеты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-1140" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-16" value="(PK) Код факультета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-20">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-21" value="(SK)&amp;nbsp;Наименование факультета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
+          <mxGeometry y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eSvQvdiThqrzmIeAnb6p-5" value="(SK) Кафедра" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
+          <mxGeometry y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-72" value="Декан факультета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-20" vertex="1">
+          <mxGeometry y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-23" target="2jsNtga7JRwTBQeUCgVW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-23" value="Направления подготовки" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-840" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-11" value="(PK) Код наименования направления подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-23">
           <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-75" value="Код направления подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-23" vertex="1">
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-24" value="(SK) Наименование направления подготовки" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-23" vertex="1">
+          <mxGeometry y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PxU2nwO3hG_xFeWPuz_U-5" value="Уровень образования" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-23" vertex="1">
+          <mxGeometry y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-29" value="Личные индексы студентов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="-320" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-30" value="(PK) Личный индекс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-29" vertex="1">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-31" value="(SK)&amp;nbsp;ФИО Студента&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-29" vertex="1">
+          <mxGeometry y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-35" value="Наименования контроля" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="730" y="-551" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-8" value="(PK) Код наименования контроля" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-35">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="07Oq3XS_FDAB7F_KS3l3-36" value="(SK) Наименование контроля" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-35" vertex="1">
           <mxGeometry y="110" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-5" value="Уровень образования" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-23">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-23" value="(SK) Дисциплина" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="07Oq3XS_FDAB7F_KS3l3-35" vertex="1">
           <mxGeometry y="150" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-29" value="Статуcы задолженностей" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="-320" width="140" height="180" as="geometry" />
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-5" value="Кафедры" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="414" y="-1140" width="140" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-30" value="(PK) Код статуса" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-29" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-6" value="(PK) Код кафедры" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-31" value="(SK)&amp;nbsp;ФИО Студента&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-29" vertex="1">
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-20" value="(SK)&amp;nbsp;Наименование кафедры" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="c0aiVYKnJsTtHmroPYw6-5">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-2" value="Статус академической задолженности" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="07Oq3XS_FDAB7F_KS3l3-29">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-9" value="(SK) Факультет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-35" value="Формы контроля" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="730" y="-551" width="140" height="180" as="geometry" />
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-20" value="Заведующий кафедры" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
+          <mxGeometry y="180" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="07Oq3XS_FDAB7F_KS3l3-36" value="(PK) Наименование контроля" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-35" vertex="1">
-          <mxGeometry y="60" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-23" value="(SK) Дисциплина" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-35" vertex="1">
-          <mxGeometry y="100" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-24" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="07Oq3XS_FDAB7F_KS3l3-35" vertex="1">
-          <mxGeometry y="140" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-5" value="Кафедры" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="414" y="-1120" width="140" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-6" value="(PK) Наименование кафедры" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
-          <mxGeometry y="60" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-9" value="(SK) Факультет" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
-          <mxGeometry y="100" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-20" value="Заведующий кафедры" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="c0aiVYKnJsTtHmroPYw6-5" vertex="1">
-          <mxGeometry y="140" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-10" value="Студенческие билеты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-10" value="Студенческие билеты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-140" y="-550" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" parent="c0aiVYKnJsTtHmroPYw6-10" source="07Oq3XS_FDAB7F_KS3l3-11" edge="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-10" source="07Oq3XS_FDAB7F_KS3l3-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="31" as="targetPoint" />
             <Array as="points">
@@ -159,52 +180,48 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-11" value="(PK) Номер билета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="c0aiVYKnJsTtHmroPYw6-10" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-11" value="(PK) Номер билета" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-10" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-12" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="c0aiVYKnJsTtHmroPYw6-10" vertex="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-12" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="c0aiVYKnJsTtHmroPYw6-10" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-17" edge="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="-513" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-72" target="c0aiVYKnJsTtHmroPYw6-5" edge="1">
+        <mxCell id="c0aiVYKnJsTtHmroPYw6-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" source="c0aiVYKnJsTtHmroPYw6-6" target="07Oq3XS_FDAB7F_KS3l3-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c0aiVYKnJsTtHmroPYw6-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.177;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" parent="1" source="c0aiVYKnJsTtHmroPYw6-6" target="07Oq3XS_FDAB7F_KS3l3-14" edge="1">
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="2jsNtga7JRwTBQeUCgVW-1" target="07Oq3XS_FDAB7F_KS3l3-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ItPyFJTBaBHkmaP25j5d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="07Oq3XS_FDAB7F_KS3l3-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="345" y="-430" />
-              <mxPoint x="345" y="-507" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="2jsNtga7JRwTBQeUCgVW-1" value="Формы обучения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="-840" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ItPyFJTBaBHkmaP25j5d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="07Oq3XS_FDAB7F_KS3l3-23" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="-940" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2jsNtga7JRwTBQeUCgVW-1" target="07Oq3XS_FDAB7F_KS3l3-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2jsNtga7JRwTBQeUCgVW-1" value="Формы обучения" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-329" width="140" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="2jsNtga7JRwTBQeUCgVW-2" value="(PK) Код формы обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
+        <mxCell id="2jsNtga7JRwTBQeUCgVW-2" value="(PK) Код формы обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2jsNtga7JRwTBQeUCgVW-3" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
+        <mxCell id="2jsNtga7JRwTBQeUCgVW-3" value="(SK) ФИО Студента" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
           <mxGeometry y="100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2jsNtga7JRwTBQeUCgVW-4" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
+        <mxCell id="2jsNtga7JRwTBQeUCgVW-4" value="(SK)&amp;nbsp;Форма обучения" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" parent="2jsNtga7JRwTBQeUCgVW-1" vertex="1">
           <mxGeometry y="140" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxU2nwO3hG_xFeWPuz_U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="PxU2nwO3hG_xFeWPuz_U-5">
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-2" value="Личные индексы сотрудников" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-1140" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-3" value="(PK) Личный индекс" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="c0ZHjnEcF9yiEcdgdPqq-2">
+          <mxGeometry y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-4" value="(SK)&amp;nbsp;ФИО Сотрудника" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=12;" vertex="1" parent="c0ZHjnEcF9yiEcdgdPqq-2">
+          <mxGeometry y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-11" target="PxU2nwO3hG_xFeWPuz_U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c0ZHjnEcF9yiEcdgdPqq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;fontSize=12;" edge="1" parent="1" source="07Oq3XS_FDAB7F_KS3l3-23" target="07Oq3XS_FDAB7F_KS3l3-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

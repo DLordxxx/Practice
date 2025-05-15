@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.5">
   <diagram name="Страница — 1" id="SVvfLqO8gyrv7P0b9_VM">
-    <mxGraphModel dx="2373" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,16 +28,10 @@
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LT_Eu8FXYaYg0h98LdMc-8" target="LT_Eu8FXYaYg0h98LdMc-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LT_Eu8FXYaYg0h98LdMc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LT_Eu8FXYaYg0h98LdMc-8" target="LT_Eu8FXYaYg0h98LdMc-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-8" value="Мониторинг ключевых показателей эффективностей" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="680" y="280" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontFamily=Times New Roman;" parent="1" source="LT_Eu8FXYaYg0h98LdMc-9" target="LT_Eu8FXYaYg0h98LdMc-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LT_Eu8FXYaYg0h98LdMc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontFamily=Times New Roman;" parent="1" source="LT_Eu8FXYaYg0h98LdMc-9" target="LT_Eu8FXYaYg0h98LdMc-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LT_Eu8FXYaYg0h98LdMc-9" target="LT_Eu8FXYaYg0h98LdMc-21" edge="1">
@@ -58,20 +52,14 @@
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-17" value="&lt;font&gt;&lt;span&gt;Круговая диаграмма по предиктивным и реальным данным академических задолженностей студентов&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="80" y="520" width="280" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="LT_Eu8FXYaYg0h98LdMc-18" value="Корреляционный график по предиктивным и реальным данным оценивания студентов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="LT_Eu8FXYaYg0h98LdMc-21" value="График &quot;Спидометр&quot; по предиктивным и реальным данным оценивания студентов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="80" y="720" width="280" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="LT_Eu8FXYaYg0h98LdMc-21" value="График &quot;Спидометр&quot; по предиктивным и реальным данным оценивания студентов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="80" y="920" width="280" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-26" value="Формирование отчетной документации по анализу количества академических задолженностей среди студентов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1120" width="280" height="130" as="geometry" />
+          <mxGeometry x="80" y="920" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="LT_Eu8FXYaYg0h98LdMc-32" value="Круговая диаграмма, показывающая распределение задолженностей среди всех студентов" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="880" y="520" width="280" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="LT_Eu8FXYaYg0h98LdMc-34" value="Гистограмма, иллюстрирующая распределение задолженностей по студентам" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="880" y="720" width="280" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
