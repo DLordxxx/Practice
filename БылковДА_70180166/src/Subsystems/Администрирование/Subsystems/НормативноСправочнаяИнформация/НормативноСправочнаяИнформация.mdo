@@ -15,5 +15,7 @@
   <content>Catalog.Пользователи</content>
   <content>Catalog.СтуденческиеБилеты</content>
   <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.ЛичныеИндексыСтудентов</content>
+  <content>Catalog.ЛичныеИндексыСотрудников</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

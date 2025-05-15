@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>Код</name>
+    <name>Наименование</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -9,10 +9,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Code</segments>
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодРасширеннаяПодсказка</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>3</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -22,7 +22,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КодКонтекстноеМеню</name>
+      <name>НаименованиеКонтекстноеМеню</name>
       <id>2</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -42,7 +42,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Студент</name>
+    <name>ФИОСтудента</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -50,10 +50,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Студент</segments>
+      <segments>Объект.ФИОСтудента</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СтудентРасширеннаяПодсказка</name>
+      <name>ФИОСтудентаРасширеннаяПодсказка</name>
       <id>6</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -63,49 +63,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СтудентКонтекстноеМеню</name>
+      <name>ФИОСтудентаКонтекстноеМеню</name>
       <id>5</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>НаименованиеСтатуса</name>
-    <id>7</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СтатусАкадемическойЗадолженности</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>НаименованиеСтатусаРасширеннаяПодсказка</name>
-      <id>9</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>НаименованиеСтатусаКонтекстноеМеню</name>
-      <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -143,7 +102,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.СтатуcыЗадолженностей</types>
+      <types>CatalogObject.СтуденческиеБилеты</types>
     </valueType>
     <view>
       <common>true</common>

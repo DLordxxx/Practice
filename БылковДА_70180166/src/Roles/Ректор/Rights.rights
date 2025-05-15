@@ -427,7 +427,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СтатуcыЗадолженностей</name>
+		<name>Catalog.ЛичныеИндексыСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

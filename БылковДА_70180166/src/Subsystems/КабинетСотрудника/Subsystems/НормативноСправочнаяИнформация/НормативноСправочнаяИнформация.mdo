@@ -9,6 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Группы</content>
   <content>Catalog.Студенты</content>
-  <content>Catalog.СтатуcыЗадолженностей</content>
+  <content>Catalog.ЛичныеИндексыСтудентов</content>
   <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>
 </mdclass:Subsystem>

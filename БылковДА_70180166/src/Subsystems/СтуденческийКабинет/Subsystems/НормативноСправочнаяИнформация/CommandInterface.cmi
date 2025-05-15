@@ -4,7 +4,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
-      <commands>Catalog.СтатуcыЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЛичныеИндексыСтудентов.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

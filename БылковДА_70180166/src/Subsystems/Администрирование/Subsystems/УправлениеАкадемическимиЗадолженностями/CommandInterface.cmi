@@ -3,7 +3,7 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.СтатуcыЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЛичныеИндексыСтудентов.StandardCommand.OpenList</commands>
       <commands>Document.РезультатыПредыдущихСессий.StandardCommand.OpenList</commands>
       <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Catalog.ПричинаВозникновенияЗадолженостей.StandardCommand.OpenList</commands>

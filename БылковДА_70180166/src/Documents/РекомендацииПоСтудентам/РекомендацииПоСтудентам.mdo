@@ -57,7 +57,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностей</basedOn>
-  <basedOn>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

@@ -6,10 +6,12 @@
       <commands>Catalog.Группы.StandardCommand.OpenList</commands>
       <commands>Catalog.Семестры.StandardCommand.OpenList</commands>
       <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЛичныеИндексыСтудентов.StandardCommand.OpenList</commands>
       <commands>Catalog.СтуденческиеБилеты.StandardCommand.OpenList</commands>
       <commands>Catalog.ФормыОбучения.StandardCommand.OpenList</commands>
       <commands>Catalog.НаименованияКонтроляСтудентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЛичныеИндексыСотрудников.StandardCommand.OpenList</commands>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

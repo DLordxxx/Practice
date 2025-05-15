@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2afb5c80-2741-497f-9bdc-5f31bb861c6d">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfa392eb-c583-4c25-a281-555c301b020c">
   <producedTypes>
-    <objectType typeId="97e1a213-e5eb-4e4a-b30e-fcddb67ae464" valueTypeId="f1385f93-7f7b-4440-8e53-97d88f5d1cdc"/>
-    <refType typeId="990597b1-26e2-42d5-8e2c-60cbfa24905c" valueTypeId="bad8ed04-294d-4c5a-ac53-e1b750e356bf"/>
-    <selectionType typeId="fe30ae90-4e7d-4f81-b44c-59f1f953351e" valueTypeId="273c9130-d152-47ad-b4d2-350d210d9c86"/>
-    <listType typeId="1c140873-f328-4ad5-bbc3-c76ea10da440" valueTypeId="37057ba1-a3fe-4339-b20c-621784944b1c"/>
-    <managerType typeId="87b4d0c5-e2cc-4338-9315-3158ae4247ff" valueTypeId="448360a6-8093-40cc-8a01-8b5904ed6e7f"/>
+    <objectType typeId="f9a1ecc8-ed05-41aa-a6cd-c18167a1d8d8" valueTypeId="8e3fe5bb-0947-43af-9588-244bdfee1843"/>
+    <refType typeId="11fca7be-16f7-4906-a283-924e3ad22674" valueTypeId="570cb7ff-e251-4ca5-9664-2e896a41d8bc"/>
+    <selectionType typeId="295e66f5-4e25-4546-8e28-ff276f79044b" valueTypeId="163171b5-d6de-45cd-8cb2-5ca2a719f834"/>
+    <listType typeId="48fcad8e-64a7-47a5-8545-075e259c61f5" valueTypeId="f4cbc50b-5b1b-47a7-92b1-894404b88aea"/>
+    <managerType typeId="af506701-f1a6-4582-89b7-bee0bfeaab7d" valueTypeId="e1428a2d-f5c2-4419-8e33-3afc5abc82a0"/>
   </producedTypes>
-  <name>СтатуcыЗадолженностей</name>
+  <name>ЛичныеИндексыСотрудников</name>
   <synonym>
     <key>ru</key>
-    <value>Статуcы задолженностей</value>
+    <value>Личные индексы сотрудников</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.СтатуcыЗадолженностей.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.СтатуcыЗадолженностей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛичныеИндексыСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛичныеИндексыСотрудников.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -86,10 +86,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код статуса</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -109,16 +105,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.СтатуcыЗадолженностей.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.СтатуcыЗадолженностей.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="27b0c755-0f23-45ec-9689-6be577a6e152">
-    <name>Студент</name>
+  <defaultObjectForm>Catalog.ЛичныеИндексыСотрудников.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛичныеИндексыСотрудников.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="20c1ffac-b828-4731-8862-fce029dae83f">
+    <name>ЛичныйИндексСотрудника</name>
     <synonym>
       <key>ru</key>
-      <value>Студент</value>
+      <value>Личный индекс</value>
     </synonym>
     <type>
-      <types>CatalogRef.Студенты</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -127,14 +126,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="831ec52a-a4de-446b-8fe9-52a08c12e46b">
-    <name>СтатусАкадемическойЗадолженности</name>
+  <attributes uuid="8e60b041-f147-430c-a7d6-4492502896d3">
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Статус академической задолженности</value>
+      <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеСтатуса</types>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -143,7 +142,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="fab587c2-d0b3-40c9-a72f-9614d6e21a55">
+  <forms uuid="75993efc-4420-4729-851e-5678650c37e0">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -152,7 +151,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="982da8ec-e2d5-4beb-a115-d12fc700d296">
+  <forms uuid="36767209-bbe3-46a9-b990-669a5fba47b7">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

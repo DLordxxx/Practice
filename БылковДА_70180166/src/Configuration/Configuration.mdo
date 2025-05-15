@@ -52,19 +52,20 @@
   <constants>Constant.ЮридическийАдрес</constants>
   <commonForms>CommonForm.КарточкаУниверситета</commonForms>
   <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.ЛичныеИндексыСтудентов</catalogs>
+  <catalogs>Catalog.СтуденческиеБилеты</catalogs>
   <catalogs>Catalog.Группы</catalogs>
   <catalogs>Catalog.Факультеты</catalogs>
   <catalogs>Catalog.Кафедры</catalogs>
   <catalogs>Catalog.НаправленияПодготовки</catalogs>
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.СтатуcыЗадолженностей</catalogs>
+  <catalogs>Catalog.ЛичныеИндексыСотрудников</catalogs>
   <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.НаименованияКонтроляСтудентов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.СтуденческиеБилеты</catalogs>
   <catalogs>Catalog.ФормыОбучения</catalogs>
   <documents>Document.РезультатыПредыдущихСессий</documents>
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
