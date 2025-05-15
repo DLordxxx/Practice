@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>7d3f913d-097f-4835-8aae-c5d28000536e</id>
+		<id>c3f1c835-6590-4a3a-ab34-1ace210a3c97</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>fddffe62-2927-43e7-be45-51e7364819b2</id>
+		<id>46585841-bb73-4852-b8cc-083f48dcbb56</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>7d3f913d-097f-4835-8aae-c5d28000536e</columnsID>
+			<columnsID>c3f1c835-6590-4a3a-ab34-1ace210a3c97</columnsID>
 			<formatIndex>6</formatIndex>
 			<c>
 				<i>1</i>
@@ -97,7 +97,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -121,7 +121,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -145,7 +145,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -169,7 +169,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -193,7 +193,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -217,7 +217,7 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -232,7 +232,7 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>9</f>
 					<parameter>КоличествоВозникшихЗадолженностей</parameter>
 				</c>
 			</c>
@@ -241,7 +241,7 @@
 	<rowsItem>
 		<index>10</index>
 		<row>
-			<columnsID>fddffe62-2927-43e7-be45-51e7364819b2</columnsID>
+			<columnsID>46585841-bb73-4852-b8cc-083f48dcbb56</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -256,14 +256,14 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>9</f>
 					<parameter>КоличествоЛиквидированныхЗадолженностей</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>11</defaultFormatIndex>
+	<defaultFormatIndex>10</defaultFormatIndex>
 	<height>11</height>
 	<vgRows>11</vgRows>
 	<merge>
@@ -291,6 +291,16 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<merge>
+		<r>9</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>10</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -299,7 +309,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>7d3f913d-097f-4835-8aae-c5d28000536e</columnsID>
+			<columnsID>c3f1c835-6590-4a3a-ab34-1ace210a3c97</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -323,10 +333,10 @@
 		<width>393</width>
 	</format>
 	<format>
-		<width>96</width>
+		<width>0</width>
 	</format>
 	<format>
-		<width>150</width>
+		<width>246</width>
 	</format>
 	<format>
 		<font>0</font>
@@ -343,19 +353,6 @@
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<markNegatives>false</markNegatives>
-	</format>
-	<format>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
-		<markNegatives>false</markNegatives>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧЦ=10;ЧДЦ=0</v8:content>
-			</v8:item>
-		</format>
 	</format>
 	<format>
 		<width>72</width>

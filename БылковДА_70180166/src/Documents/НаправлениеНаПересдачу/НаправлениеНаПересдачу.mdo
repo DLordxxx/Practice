@@ -297,7 +297,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="09909bb1-af5f-4bbb-b278-69e897d30caa">
+  <templates uuid="08ee9408-36df-4cf6-a2e9-d305b39b6a7b">
     <name>Печать</name>
   </templates>
   <commands uuid="98b937c1-588c-4a28-9bc6-81b3a96c6193">

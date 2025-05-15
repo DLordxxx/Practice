@@ -74,6 +74,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ДатыПересдач</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9d268d34-ff84-4b7d-830e-381bdfa3412f">
@@ -129,6 +130,21 @@
     </synonym>
     <type>
       <types>EnumRef.НаименованиеКонтроля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cef01089-aca1-4000-be62-c3de7117f3d8">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аудитории</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

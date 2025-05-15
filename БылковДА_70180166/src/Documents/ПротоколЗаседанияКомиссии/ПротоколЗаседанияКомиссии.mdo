@@ -70,7 +70,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПротоколЗаседанияКомиссии.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
   <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -165,7 +164,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="7c8d4e2d-ee0c-4063-a494-90ca79051038">
+  <templates uuid="e402d311-dce0-403e-b417-d3bfd2676542">
     <name>Печать</name>
   </templates>
   <commands uuid="f82b5419-b688-40da-9b73-29fbcfc6b024">

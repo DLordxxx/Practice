@@ -30,14 +30,6 @@
         <precision>10</precision>
       </numberQualifiers>
     </type>
-    <format>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ЧН=-</value>
-    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -64,20 +56,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Группы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="98611a6e-7ce5-47ed-908f-e883a98b6e7c">
-    <name>Дисциплина</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дисциплина</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Дисциплины</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

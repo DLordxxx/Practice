@@ -53,26 +53,21 @@
   <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="d3409ae1-3b47-4eb8-bfd3-0ed9d237c264">
+  <attributes uuid="d922e0fd-5fc0-4b34-869e-58a7b47395ce">
     <name>Оценка</name>
     <synonym>
       <key>ru</key>
       <value>Оценка</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>EnumRef.Оценка</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
+  </attributes>
   <dimensions uuid="9b18e5c4-315c-4b01-be01-df97a71f2adf">
     <name>Студент</name>
     <synonym>
@@ -89,22 +84,6 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="b92d1f74-cce1-400d-90e0-140526ea7642">
-    <name>Группа</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Группы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="01088cd6-1bb5-438b-a3cb-10b604c19857">

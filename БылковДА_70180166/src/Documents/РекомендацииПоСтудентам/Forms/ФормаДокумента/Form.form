@@ -206,8 +206,49 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Рекомендация</name>
+    <name>Дисциплина</name>
     <id>16</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Дисциплина</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ДисциплинаРасширеннаяПодсказка</name>
+      <id>18</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДисциплинаКонтекстноеМеню</name>
+      <id>17</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Рекомендация</name>
+    <id>19</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -218,7 +259,7 @@
     </dataPath>
     <extendedTooltip>
       <name>РекомендацияРасширеннаяПодсказка</name>
-      <id>18</id>
+      <id>21</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -228,7 +269,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>РекомендацияКонтекстноеМеню</name>
-      <id>17</id>
+      <id>20</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>

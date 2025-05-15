@@ -51,10 +51,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер уведомления</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -118,6 +114,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4e09efd0-3f88-496e-b3f3-14513f85c8fe">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дисциплины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="d0ffed24-ce53-4f2e-8889-a47a3f0a0f11">
     <name>Рекомендация</name>
     <synonym>
@@ -133,7 +144,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="0ae62242-c8a6-4ba6-9c08-9d4f5d65cbd9">
+  <forms uuid="174f10c1-4d00-49b3-b552-3c4efd02ec40">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -142,7 +153,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="e7a3c30a-bf0d-41fa-91fd-edd06c231314">
+  <templates uuid="39d0f83d-8f1c-479e-b752-dbe5c51606c2">
     <name>Печать</name>
   </templates>
   <commands uuid="df97d3dd-0807-4805-9a09-d210f4bbdf2a">

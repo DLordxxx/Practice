@@ -52,7 +52,7 @@
 	</calculatedField>
 	<totalField>
 		<dataPath>КоличествоЗадолженностей</dataPath>
-		<expression>Сумма(КоличествоЗадолженностей)</expression>
+		<expression>Сумма(Стату)</expression>
 	</totalField>
 	<parameter>
 		<name>Группа</name>

@@ -186,7 +186,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="d073f3d1-7bb4-42a0-b3a9-5c4480aa6fdf">
+  <templates uuid="d8817601-a7dc-4224-a8b6-e44f352d3552">
     <name>Печать</name>
   </templates>
   <commands uuid="c8e7b5ed-3c3d-49d4-99eb-11b54eea0f10">

@@ -18,17 +18,14 @@
   <editType>InDialog</editType>
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="6a028d9f-36e2-46b8-8d78-3654eab04a9c">
-    <name>КоличествоЗадолженностей</name>
+  <attributes uuid="297db9cd-4bc8-432f-b0b7-cc583771cb36">
+    <name>СтатусЗадолженности</name>
     <synonym>
       <key>ru</key>
-      <value>Количество задолженностей</value>
+      <value>Статус задолженности</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
+      <types>EnumRef.НаименованиеСтатуса</types>
     </type>
     <format>
       <key>ru</key>
@@ -38,21 +35,6 @@
       <key>ru</key>
       <value>ЧН=-</value>
     </editFormat>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <attributes uuid="9b28b3ab-7796-4f16-8547-a65a6044cceb">
-    <name>СтатусЗадолженности</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус задолженности</value>
-    </synonym>
-    <type>
-      <types>EnumRef.НаименованиеСтатуса</types>
-    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -75,7 +57,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="7dc5b5f2-b4b9-48f9-a7af-391e991808ca">
+  <dimensions uuid="03cd1242-d5eb-427b-8420-40624adc665a">
     <name>Дисциплина</name>
     <synonym>
       <key>ru</key>
@@ -83,22 +65,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Дисциплины</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="b68c3bc1-700c-41d0-9ba6-6636875fd9c0">
-    <name>Семестр</name>
-    <synonym>
-      <key>ru</key>
-      <value>Семестр</value>
-    </synonym>
-    <type>
-      <types>EnumRef.Семестры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
