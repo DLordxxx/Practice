@@ -7,11 +7,18 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ТекущийСтатусЗадолженностей.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.ДатыПересдач.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ТекущийСтатусЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
       <commands>Document.РекомендацииПоСтудентам.StandardCommand.OpenList</commands>
       <commands>Document.ПриказОбОтчислении.StandardCommand.OpenList</commands>

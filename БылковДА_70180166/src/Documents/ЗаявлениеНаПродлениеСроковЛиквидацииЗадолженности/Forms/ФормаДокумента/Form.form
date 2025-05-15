@@ -93,6 +93,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Студент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СтудентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>СтудентРасширеннаяПодсказка</name>
       <id>9</id>
@@ -216,6 +220,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Дисциплина</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ДисциплинаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ДисциплинаРасширеннаяПодсказка</name>
       <id>18</id>
@@ -490,6 +498,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

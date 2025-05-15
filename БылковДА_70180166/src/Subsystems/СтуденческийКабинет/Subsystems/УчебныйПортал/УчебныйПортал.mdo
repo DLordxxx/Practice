@@ -11,5 +11,6 @@
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ПриказОбОтчислении</content>
   <content>InformationRegister.ДатыПересдач</content>
+  <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
   <parentSubsystem>Subsystem.СтуденческийКабинет</parentSubsystem>
 </mdclass:Subsystem>
