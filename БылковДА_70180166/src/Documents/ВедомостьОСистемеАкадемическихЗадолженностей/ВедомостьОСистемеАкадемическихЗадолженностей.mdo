@@ -65,6 +65,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВедомостьОСистемеАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
   <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -167,7 +168,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="52a6d17d-c19a-4b7e-9bc4-695ff8b08f56">
+  <templates uuid="d52534a5-7601-4d6e-890d-e6bef2d92511">
     <name>Печать</name>
   </templates>
   <commands uuid="470cca72-50e6-435b-a0ba-2572e7534bec">

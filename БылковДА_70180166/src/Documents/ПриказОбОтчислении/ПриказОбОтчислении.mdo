@@ -55,10 +55,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер приказа</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -77,6 +73,102 @@
   <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="19af752d-a289-484e-8251-17efc5ec5c8a">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66ffd051-c4db-4917-8154-7a626358197e">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="450c0c26-53bc-47db-a31e-bfb47c051d74">
+    <name>НаправленияПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направления подготовки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияПодготовки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd7f6e1e-457f-4cc3-b58b-1643e5faa57c">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Группы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="714162a1-ecbe-44a0-9b37-b7a441ed56c8">
+    <name>КоличествоПросроченныхЗадолженностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество просроченных задолженностей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cbfbbd5-b256-43cc-bd52-be0f6cee0734">
+    <name>СуммарноеВремяПросрочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммарное время просрочки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="233c78b1-41aa-4567-9c13-8219f038b1c0">
     <name>Основание</name>
     <synonym>
@@ -92,25 +184,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4bd7a1a8-95c1-41c8-8716-eebd9bf62608">
-    <name>ДатаОтчисления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата отчисления</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="ab7cbbe0-f5ea-4464-9f55-44b28abf8ff9">
+  <forms uuid="9b1286c3-73da-486f-8163-70123d53edbb">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -119,142 +193,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="2088fba9-2633-49a0-aa2c-2b7e887b0810">
-    <producedTypes>
-      <objectType typeId="040a0510-6c4a-4150-8d0a-10bda811a014" valueTypeId="b2224016-6f3d-479a-8be4-73eddb0bf735"/>
-      <rowType typeId="faccd38a-da28-4eba-a636-495ef1064a31" valueTypeId="c8e27d22-8dc5-4fc6-b74a-938b29c5db94"/>
-    </producedTypes>
-    <name>ОтчисляемыеСтуденты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отчисляемые студенты</value>
-    </synonym>
-    <attributes uuid="731fc8d2-eddb-468d-ae01-c9206d621751">
-      <name>Студент</name>
-      <synonym>
-        <key>ru</key>
-        <value>Студент</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Студенты</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="821e377d-c954-4039-b42b-37d99f763dcc">
-      <name>Группа</name>
-      <synonym>
-        <key>ru</key>
-        <value>Группа</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Группы</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8a64a724-abfc-48b8-8c6e-9dfeb81d23d8">
-      <name>Семестр</name>
-      <synonym>
-        <key>ru</key>
-        <value>Семестр</value>
-      </synonym>
-      <type>
-        <types>EnumRef.Семестры</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="24fa1d8a-37a5-4614-91a0-9ef666a49d3c">
-      <name>НаправленияПодготовки</name>
-      <synonym>
-        <key>ru</key>
-        <value>Направления подготовки</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.НаправленияПодготовки</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="ea179808-db24-49b5-8cc5-4582d89b5c1a">
-      <name>КоличествоПросроченныхЗадолженностей</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество просроченных задолженностей</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="236571e7-35e0-422e-98d1-b77598fdf77d">
-      <name>СуммарноеВремяПросрочки</name>
-      <synonym>
-        <key>ru</key>
-        <value>Суммарное время просрочки</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3365c099-f08e-4db8-a51a-8c05e1df8f03">
-      <name>ПериодЗадолженностейС</name>
-      <synonym>
-        <key>ru</key>
-        <value>Период задолженностей С</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6c4ba3af-a412-4f8b-a2c7-b5a8ea08630f">
-      <name>ПериодЗадолженностейПо</name>
-      <synonym>
-        <key>ru</key>
-        <value>Период задолженностей ПО</value>
-      </synonym>
-      <type>
-        <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <templates uuid="fb6390e5-4756-4015-aa9e-b056199ade93">
+  <templates uuid="ab498297-069d-42df-9509-fe915f9d67d0">
     <name>Печать</name>
   </templates>
   <commands uuid="95d2a173-91ef-4322-b2e1-3148f485bfae">
