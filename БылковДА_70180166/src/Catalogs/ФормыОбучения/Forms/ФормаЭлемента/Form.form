@@ -52,6 +52,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Студент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СтудентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>СтудентРасширеннаяПодсказка</name>
       <id>6</id>
@@ -91,7 +95,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ФормыОбучения</segments>
+      <segments>Объект.ФормаОбучения</segments>
     </dataPath>
     <extendedTooltip>
       <name>ФормыОбученияРасширеннаяПодсказка</name>
@@ -124,7 +128,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>FormCommandBar</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>

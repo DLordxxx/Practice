@@ -107,6 +107,22 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ЛичныеИндексыСтудентов.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ЛичныеИндексыСтудентов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ce2a145f-195b-492e-936b-bd7bae2ec135">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="0cc2cee7-bb47-4a13-b72d-349d2c7c49d6">
     <name>ЛичныйИндексСтудента</name>
     <synonym>
@@ -118,22 +134,6 @@
       <numberQualifiers>
         <precision>8</precision>
       </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ce2a145f-195b-492e-936b-bd7bae2ec135">
-    <name>Студент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Студент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Студенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

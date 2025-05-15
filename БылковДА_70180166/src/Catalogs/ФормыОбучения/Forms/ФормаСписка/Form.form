@@ -126,19 +126,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ФормыОбучения</name>
-      <id>22</id>
+      <name>ФормаОбучения</name>
+      <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ФормыОбучения</segments>
+        <segments>Список.ФормаОбучения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ФормыОбученияРасширеннаяПодсказка</name>
-        <id>24</id>
+        <name>ФормаОбученияРасширеннаяПодсказка</name>
+        <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -147,8 +147,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ФормыОбученияКонтекстноеМеню</name>
-        <id>23</id>
+        <name>ФормаОбученияКонтекстноеМеню</name>
+        <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

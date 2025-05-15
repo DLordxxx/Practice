@@ -124,10 +124,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8e1148e7-2a61-4877-8bb5-322c54616ed1">
-    <name>ФормыОбучения</name>
+    <name>ФормаОбучения</name>
     <synonym>
       <key>ru</key>
-      <value>Формы обучения</value>
+      <value>Форма обучения</value>
     </synonym>
     <type>
       <types>EnumRef.ФормаОбучения</types>
