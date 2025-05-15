@@ -92,7 +92,7 @@
   <enums>Enum.ВидыФинансирования</enums>
   <enums>Enum.Семестры</enums>
   <enums>Enum.ВыделенныеМеста</enums>
-  <reports>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</reports>
+  <reports>Report.Отчет1</reports>
   <reports>Report.АнализЗадолженностей</reports>
   <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>

@@ -709,17 +709,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.ДатыПересдачПоЛиквидацииАкадемическихЗадолженностей</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Администрирование.Subsystem.НормативноСправочнаяИнформация</name>
 		<right>
 			<name>View</name>
@@ -2016,6 +2005,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.Отчет1</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3753,17 +3753,6 @@
 	</object>
 	<object>
 		<name>Document.ПротоколЗаседанияКомиссии.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.АнализЗадолженностей</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>

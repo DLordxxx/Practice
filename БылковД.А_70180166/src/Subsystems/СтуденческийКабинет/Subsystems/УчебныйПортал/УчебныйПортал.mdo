@@ -9,8 +9,10 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.РекомендацииПоСтудентам</content>
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
-  <content>Document.ПриказОбОтчислении</content>
-  <content>InformationRegister.ДатыПересдач</content>
   <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
+  <content>Document.ИдентификацияАкадемическихЗадолженностей</content>
+  <content>Document.НаправлениеНаПересдачу</content>
+  <content>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</content>
+  <content>InformationRegister.ОценкиСтудентов</content>
   <parentSubsystem>Subsystem.СтуденческийКабинет</parentSubsystem>
 </mdclass:Subsystem>

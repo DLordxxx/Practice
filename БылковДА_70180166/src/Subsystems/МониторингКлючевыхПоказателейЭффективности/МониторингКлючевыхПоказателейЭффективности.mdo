@@ -7,5 +7,4 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Report.АнализЗадолженностей</content>
 </mdclass:Subsystem>

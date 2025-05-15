@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>842141de-b7d3-4a5b-8cc6-16240c33d54a</id>
+		<id>f6ea6f50-f0aa-45d7-80a7-28b4364eb110</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</id>
+		<id>82387d0e-cd0c-408d-98fd-98e2de430a57</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>842141de-b7d3-4a5b-8cc6-16240c33d54a</columnsID>
+			<columnsID>f6ea6f50-f0aa-45d7-80a7-28b4364eb110</columnsID>
 			<formatIndex>6</formatIndex>
 			<c>
 				<i>1</i>
@@ -97,7 +97,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -121,7 +121,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -145,7 +145,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -169,7 +169,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -193,7 +193,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -217,7 +217,7 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -241,7 +241,7 @@
 	<rowsItem>
 		<index>10</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -265,31 +265,7 @@
 	<rowsItem>
 		<index>11</index>
 		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Суммарное время просрочки</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>10</f>
-					<parameter>СуммарноеВремяПросрочки</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>12</index>
-		<row>
-			<columnsID>d3bdd0c4-d3cc-4cd8-a248-e67a4607bb0a</columnsID>
+			<columnsID>82387d0e-cd0c-408d-98fd-98e2de430a57</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -312,8 +288,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>11</defaultFormatIndex>
-	<height>13</height>
-	<vgRows>13</vgRows>
+	<height>12</height>
+	<vgRows>12</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -345,7 +321,7 @@
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>12</r>
+		<r>11</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
@@ -357,7 +333,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>842141de-b7d3-4a5b-8cc6-16240c33d54a</columnsID>
+			<columnsID>f6ea6f50-f0aa-45d7-80a7-28b4364eb110</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -365,7 +341,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>12</endRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

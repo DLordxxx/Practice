@@ -193,7 +193,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="ab498297-069d-42df-9509-fe915f9d67d0">
+  <templates uuid="974df57e-ffcc-41fa-a9d2-92180d31c4c1">
     <name>Печать</name>
   </templates>
   <commands uuid="95d2a173-91ef-4322-b2e1-3148f485bfae">
