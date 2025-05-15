@@ -1788,7 +1788,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.Отчет1</name>
+		<name>Report.КоличественныйАнализЗадолженностей</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -3792,7 +3792,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.МониторингКоличестваЗадолженностей</name>
+		<name>Report.МониторингВозникшихЗадолженностей</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

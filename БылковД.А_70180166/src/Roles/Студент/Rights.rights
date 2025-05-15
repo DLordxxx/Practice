@@ -259,6 +259,17 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.КарточкаУниверситета</name>
 		<right>
 			<name>View</name>
@@ -336,6 +347,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.НеудачныеПересдачи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -454,6 +476,17 @@
 		<name>Document.ПриказОбОтчислении</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.АнализЗадолженностей</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -607,6 +640,28 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.РезультатыСессии</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ПросроченныеЗадолженности</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ.Command.Печать</name>
 		<right>
 			<name>View</name>
@@ -659,6 +714,17 @@
 	</object>
 	<object>
 		<name>Task.Задачи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.УспешныеПересдачи</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -781,6 +847,10 @@
 		<name>Document.РезультатыПредыдущихСессий</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

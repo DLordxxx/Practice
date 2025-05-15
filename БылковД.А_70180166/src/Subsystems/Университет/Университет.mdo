@@ -9,10 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonForm.КарточкаУниверситета</content>
   <content>Enum.ВидыФинансирования</content>
-  <content>Report.АнализЗадолженностей</content>
-  <content>Report.РаспределениеРолейПоЗадачам</content>
-  <content>Report.РезультатыСессии</content>
-  <content>Report.МониторингКоличестваЗадолженностей</content>
-  <content>Report.Отчет1</content>
   <subsystems>Документооборот</subsystems>
 </mdclass:Subsystem>

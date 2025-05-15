@@ -8,4 +8,9 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.Академ_задолженность</content>
+  <content>Report.АнализЗадолженностей</content>
+  <content>Report.РаспределениеРолейПоЗадачам</content>
+  <content>Report.РезультатыСессии</content>
+  <content>Report.КоличественныйАнализЗадолженностей</content>
+  <content>Report.МониторингВозникшихЗадолженностей</content>
 </mdclass:Subsystem>

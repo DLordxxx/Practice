@@ -20,38 +20,32 @@
 			<dataPath>СтатусЗадолженности</dataPath>
 			<field>СтатусЗадолженности</field>
 		</field>
-		<field xsi:type="DataSetFieldNestedDataSet">
-			<dataPath>Характеристика</dataPath>
-			<field>Характеристика</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Характеристика.Дисциплина</dataPath>
-			<field>Характеристика.Дисциплина</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Характеристика.Дисциплина</v8:content>
-				</v8:item>
-			</title>
-		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Семестр</dataPath>
 			<field>Семестр</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дисциплина</dataPath>
+			<field>Дисциплина</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дисциплина</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Студенты.Наименование КАК Студент,
-	ИдентификацияАкадемическихЗадолженностей.Характеристика.(
-		Дисциплины КАК Дисциплина
-	) КАК Характеристика,
 	ТекущийСтатусЗадолженностей.СтатусЗадолженности КАК СтатусЗадолженности,
-	Студенты.Семестр КАК Семестр
+	Студенты.Семестр КАК Семестр,
+	Дисциплины.Наименование КАК Дисциплина
 ИЗ
-	Документ.ИдентификацияАкадемическихЗадолженностей КАК ИдентификацияАкадемическихЗадолженностей
-		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Студенты КАК Студенты
-			ПРАВОЕ СОЕДИНЕНИЕ РегистрСведений.ТекущийСтатусЗадолженностей КАК ТекущийСтатусЗадолженностей
-			ПО (ТекущийСтатусЗадолженностей.Студент = Студенты.Ссылка)
-		ПО ИдентификацияАкадемическихЗадолженностей.Студент = Студенты.Ссылка</query>
+	Справочник.Студенты КАК Студенты
+		ПРАВОЕ СОЕДИНЕНИЕ РегистрСведений.ТекущийСтатусЗадолженностей КАК ТекущийСтатусЗадолженностей
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Дисциплины КАК Дисциплины
+			ПО ТекущийСтатусЗадолженностей.Дисциплина = Дисциплины.Ссылка
+		ПО (ТекущийСтатусЗадолженностей.Студент = Студенты.Ссылка)</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -62,7 +56,7 @@
 					<dcsset:field>Студент</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Характеристика.Дисциплина</dcsset:field>
+					<dcsset:field>Дисциплина</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СтатусЗадолженности</dcsset:field>
@@ -84,7 +78,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Студент</dcsset:field>
+						<dcsset:field>Дисциплина</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>

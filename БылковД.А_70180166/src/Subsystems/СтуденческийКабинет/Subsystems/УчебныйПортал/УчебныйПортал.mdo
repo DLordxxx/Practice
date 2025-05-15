@@ -14,5 +14,6 @@
   <content>Document.НаправлениеНаПересдачу</content>
   <content>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</content>
   <content>InformationRegister.ОценкиСтудентов</content>
+  <content>Document.РезультатыПредыдущихСессий</content>
   <parentSubsystem>Subsystem.СтуденческийКабинет</parentSubsystem>
 </mdclass:Subsystem>

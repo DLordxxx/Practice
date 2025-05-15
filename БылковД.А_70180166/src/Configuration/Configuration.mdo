@@ -95,8 +95,8 @@
   <reports>Report.АнализЗадолженностей</reports>
   <reports>Report.РаспределениеРолейПоЗадачам</reports>
   <reports>Report.РезультатыСессии</reports>
-  <reports>Report.МониторингКоличестваЗадолженностей</reports>
-  <reports>Report.Отчет1</reports>
+  <reports>Report.МониторингВозникшихЗадолженностей</reports>
+  <reports>Report.КоличественныйАнализЗадолженностей</reports>
   <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
   <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>

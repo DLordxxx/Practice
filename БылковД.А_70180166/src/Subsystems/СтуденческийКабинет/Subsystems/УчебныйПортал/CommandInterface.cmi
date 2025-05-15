@@ -18,6 +18,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.ТекущийСтатусЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.РезультатыПредыдущихСессий.StandardCommand.OpenList</commands>
       <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
       <commands>Document.НаправлениеНаПересдачу.StandardCommand.OpenList</commands>

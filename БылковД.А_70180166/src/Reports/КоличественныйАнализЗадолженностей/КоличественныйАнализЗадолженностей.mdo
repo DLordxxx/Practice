@@ -4,9 +4,13 @@
     <objectType typeId="ce4c2033-9676-4bb9-9336-a478fb4ce861" valueTypeId="763eb0c1-0e42-450d-ae49-7161fb351298"/>
     <managerType typeId="938e6b7e-8a5e-490f-91a5-1ef0a46b2728" valueTypeId="16180627-4fa4-433c-92f3-fde73cdfdc6b"/>
   </producedTypes>
-  <name>Отчет1</name>
+  <name>КоличественныйАнализЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количественный анализ задолженностей</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.Отчет1.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.КоличественныйАнализЗадолженностей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="230ed066-68be-48ae-9126-974b97a6d9e7">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
