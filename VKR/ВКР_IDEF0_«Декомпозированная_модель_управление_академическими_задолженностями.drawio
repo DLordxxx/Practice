@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.8">
   <diagram name="Страница — 1" id="OdD4HG6TCLOufBFb-vtZ">
-    <mxGraphModel dx="3405" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3036" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-1" target="icH0nL4AUDxP8CXkfYBV-12">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="44kAvlYFRHypITi_IRr9-1" target="icH0nL4AUDxP8CXkfYBV-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="317" />
@@ -41,7 +41,7 @@
         <mxCell id="44kAvlYFRHypITi_IRr9-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Заведующий кафедры&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="210" y="1320" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.29;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-25" target="44kAvlYFRHypITi_IRr9-29">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.29;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="44kAvlYFRHypITi_IRr9-25" target="44kAvlYFRHypITi_IRr9-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="355" y="1170" />
@@ -151,18 +151,18 @@
         <mxCell id="lYB-k_tcPMr39Pa2z6qp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.646;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" source="44kAvlYFRHypITi_IRr9-64" target="44kAvlYFRHypITi_IRr9-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.057;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-15" target="44kAvlYFRHypITi_IRr9-1">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.057;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="44kAvlYFRHypITi_IRr9-15" target="44kAvlYFRHypITi_IRr9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.824;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-25" target="44kAvlYFRHypITi_IRr9-1">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.824;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="44kAvlYFRHypITi_IRr9-25" target="44kAvlYFRHypITi_IRr9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-88" target="44kAvlYFRHypITi_IRr9-29">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="44kAvlYFRHypITi_IRr9-88" target="44kAvlYFRHypITi_IRr9-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.222;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-88" target="44kAvlYFRHypITi_IRr9-30">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.222;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="44kAvlYFRHypITi_IRr9-88" target="44kAvlYFRHypITi_IRr9-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="782" y="1270" />
@@ -170,13 +170,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-12" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font&gt;Идентификация студентов&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-12" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font&gt;Идентификация студентов&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1615" y="297" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="icH0nL4AUDxP8CXkfYBV-15" target="44kAvlYFRHypITi_IRr9-1">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="icH0nL4AUDxP8CXkfYBV-15" target="44kAvlYFRHypITi_IRr9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="icH0nL4AUDxP8CXkfYBV-15" value="&lt;span style=&quot;font-size:14.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:RU;mso-fareast-language:&lt;br/&gt;RU;mso-bidi-language:AR-SA&quot;&gt;Список студентов&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-15" value="&lt;span style=&quot;font-size:14.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:RU;mso-fareast-language:&lt;br/&gt;RU;mso-bidi-language:AR-SA&quot;&gt;Список студентов&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-170" y="297" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
