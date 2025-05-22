@@ -1,9 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
   <diagram name="Страница — 1" id="OdD4HG6TCLOufBFb-vtZ">
-    <mxGraphModel dx="2646" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3405" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44kAvlYFRHypITi_IRr9-1" target="icH0nL4AUDxP8CXkfYBV-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="317" />
+              <mxPoint x="720" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="44kAvlYFRHypITi_IRr9-1" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Направление на пересдачу&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="100" y="240" width="310" height="270" as="geometry" />
         </mxCell>
@@ -93,10 +101,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lYB-k_tcPMr39Pa2z6qp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="44kAvlYFRHypITi_IRr9-62" target="44kAvlYFRHypITi_IRr9-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="430" />
+              <mxPoint x="70" y="430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="44kAvlYFRHypITi_IRr9-62" value="&lt;span style=&quot;font-size:14.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:RU;mso-fareast-language:&lt;br/&gt;RU;mso-bidi-language:AR-SA&quot;&gt;Идентификация академических задолженностей&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-170" y="365" width="170" height="20" as="geometry" />
+          <mxGeometry x="-170" y="420" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="44kAvlYFRHypITi_IRr9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" source="44kAvlYFRHypITi_IRr9-29" target="44kAvlYFRHypITi_IRr9-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -156,6 +169,15 @@
               <mxPoint x="1160" y="1270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-12" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&lt;font&gt;Идентификация студентов&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="297" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="icH0nL4AUDxP8CXkfYBV-15" target="44kAvlYFRHypITi_IRr9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icH0nL4AUDxP8CXkfYBV-15" value="&lt;span style=&quot;font-size:14.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ansi-language:RU;mso-fareast-language:&lt;br/&gt;RU;mso-bidi-language:AR-SA&quot;&gt;Список студентов&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="297" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
