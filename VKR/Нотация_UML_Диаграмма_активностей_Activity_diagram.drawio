@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram name="Страница — 1" id="P2p-b0sBUqjZ3yru2kJo">
-    <mxGraphModel dx="3036" dy="1237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3638" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
             <mxPoint x="1700.0000000000005" y="1210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ETPDML7_86tAhwMe63c7-62" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Процент академических задолженностей студента &amp;gt;=80%&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ETPDML7_86tAhwMe63c7-62" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Процент академических задолженностей студента &amp;gt;=80% или неудачная вторая пересдача для студентов с ИОМ&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1720" y="1180" width="290" as="geometry" />
         </mxCell>
         <mxCell id="9TcquHKwZH3qFOto0e30-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ETPDML7_86tAhwMe63c7-64" target="ETPDML7_86tAhwMe63c7-19" edge="1">
@@ -162,7 +162,7 @@
             <mxPoint x="2040" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rkroncl628zhhl8IZpsh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ETPDML7_86tAhwMe63c7-77" target="V8kgegQyyj0nk5e00VWf-16">
+        <mxCell id="Rkroncl628zhhl8IZpsh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ETPDML7_86tAhwMe63c7-77" target="V8kgegQyyj0nk5e00VWf-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1263" y="1050" />
@@ -192,7 +192,7 @@
         <mxCell id="CQQL6MCBhlxcf6O-OlFK-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Идентификация академических задолженностей&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1647.5" y="150" width="145" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Rkroncl628zhhl8IZpsh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9TcquHKwZH3qFOto0e30-31" target="ETPDML7_86tAhwMe63c7-77">
+        <mxCell id="Rkroncl628zhhl8IZpsh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9TcquHKwZH3qFOto0e30-31" target="ETPDML7_86tAhwMe63c7-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="225" y="945" />
@@ -229,7 +229,7 @@
         <mxCell id="V8kgegQyyj0nk5e00VWf-6" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Рекомендации по студентам&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="1270" width="145" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Rkroncl628zhhl8IZpsh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8kgegQyyj0nk5e00VWf-16" target="9TcquHKwZH3qFOto0e30-60">
+        <mxCell id="Rkroncl628zhhl8IZpsh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V8kgegQyyj0nk5e00VWf-16" target="9TcquHKwZH3qFOto0e30-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V8kgegQyyj0nk5e00VWf-16" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Ликвидация академических задолженностей&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
