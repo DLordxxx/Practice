@@ -256,7 +256,7 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Индетификация академических задолженностей</v8:content>
+						<v8:content>Идентификация академических задолженностей</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip/>
@@ -278,7 +278,7 @@
 				</Border>
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
-				<TaskDescription>Индетификация академических задолженностей</TaskDescription>
+				<TaskDescription>Идентификация академических задолженностей</TaskDescription>
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>

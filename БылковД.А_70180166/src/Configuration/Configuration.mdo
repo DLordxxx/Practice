@@ -3,7 +3,7 @@
   <name>БылковДА70180166</name>
   <synonym>
     <key>ru</key>
-    <value>Былков Д.А. 70180166</value>
+    <value>АСУ «Bylkovka»</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a154f719-cb2e-47a0-b460-b0f495f715c9"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="aa725fc8-2bcd-405b-8e96-f748768318ab"/>
@@ -71,12 +71,12 @@
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
-  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностей</documents>
+  <documents>Document.ВедомостьУчетаАкадемическихЗадолженностей</documents>
   <documents>Document.РекомендацииПоСтудентам</documents>
   <documents>Document.ПротоколЗаседанияКомиссии</documents>
   <documents>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</documents>
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
-  <documents>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
+  <documents>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
   <documents>Document.ПриказОбОтчислении</documents>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>

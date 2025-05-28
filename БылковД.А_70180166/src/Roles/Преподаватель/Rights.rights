@@ -307,7 +307,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -413,6 +413,13 @@
 		<name>Document.НаправлениеНаПересдачу</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Администрирование.Subsystem.УправлениеАкадемическимиЗадолженностями</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -575,7 +582,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1232,6 +1239,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Администрирование</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

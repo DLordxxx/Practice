@@ -3,11 +3,9 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.НаправленияПодготовки.StandardCommand.OpenList</commands>
-      <commands>Catalog.Аудитории.StandardCommand.OpenList</commands>
       <commands>Catalog.Факультеты.StandardCommand.OpenList</commands>
       <commands>Catalog.Кафедры.StandardCommand.OpenList</commands>
-      <commands>Catalog.Дисциплины.StandardCommand.OpenList</commands>
+      <commands>Catalog.НаправленияПодготовки.StandardCommand.OpenList</commands>
       <commands>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов.StandardCommand.OpenList</commands>
       <commands>Task.Задачи.StandardCommand.OpenList</commands>
     </orderFragments>

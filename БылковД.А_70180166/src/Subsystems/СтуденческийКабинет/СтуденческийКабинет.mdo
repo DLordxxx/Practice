@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <subsystems>УчебныйПортал</subsystems>
   <subsystems>НормативноСправочнаяИнформация</subsystems>
+  <subsystems>ИндивидуальныйОбразовательныйМаршрут</subsystems>
 </mdclass:Subsystem>

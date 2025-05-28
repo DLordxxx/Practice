@@ -9,7 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</content>
   <content>Document.НаправлениеНаПересдачу</content>
-  <content>Document.ВедомостьОСистемеАкадемическихЗадолженностей</content>
+  <content>Document.ВедомостьУчетаАкадемическихЗадолженностей</content>
   <content>Document.РекомендацииПоСтудентам</content>
   <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>
 </mdclass:Subsystem>

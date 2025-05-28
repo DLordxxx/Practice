@@ -4,7 +4,6 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardCommand.OpenList</commands>
-      <commands>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

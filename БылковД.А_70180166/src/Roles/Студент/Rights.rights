@@ -183,7 +183,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -216,13 +216,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.СтуденческийКабинет.Subsystem.УчебныйПортал</name>
 		<right>
 			<name>View</name>
@@ -230,7 +223,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностей.Command.Печать</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -317,7 +310,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -662,13 +655,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьОСистемеАкадемическихЗадолженностейДляСтудентовсИОМ.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
 		<right>
 			<name>View</name>
@@ -688,6 +674,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.СтуденческийКабинет.Subsystem.ИндивидуальныйОбразовательныйМаршрут</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

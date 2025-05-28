@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
   <diagram id="amOyzQCgivoDgmdNsPv0" name="Страница — 1">
-    <mxGraphModel dx="2771" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1961" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,13 +99,23 @@
             <mxPoint x="252.5" y="1344.8700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wwZUkl3fck0XOhVOVqQi-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.006;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wwZUkl3fck0XOhVOVqQi-7">
+        <mxCell id="wwZUkl3fck0XOhVOVqQi-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.006;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.491;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wwZUkl3fck0XOhVOVqQi-37" target="wwZUkl3fck0XOhVOVqQi-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="1410" as="sourcePoint" />
             <mxPoint x="340" y="1640" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="-80" y="1516" />
               <mxPoint x="160" y="1516" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwZUkl3fck0XOhVOVqQi-37" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Приказ об отчислении&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1280" width="182.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wwZUkl3fck0XOhVOVqQi-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wwZUkl3fck0XOhVOVqQi-34" target="wwZUkl3fck0XOhVOVqQi-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83.25000000000023" y="1344.89" as="sourcePoint" />
+            <mxPoint x="12.5" y="1344.76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -6,7 +6,7 @@
       <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.НаправлениеНаПересдачу.StandardCommand.OpenList</commands>
       <commands>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Document.ВедомостьОСистемеАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.ВедомостьУчетаАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.РекомендацииПоСтудентам.StandardCommand.OpenList</commands>
       <commands>Document.ПротоколЗаседанияКомиссии.StandardCommand.OpenList</commands>
     </orderFragments>

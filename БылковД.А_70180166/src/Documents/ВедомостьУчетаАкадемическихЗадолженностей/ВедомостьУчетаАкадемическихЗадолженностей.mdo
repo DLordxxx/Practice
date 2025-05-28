@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f13bed2-5e0e-409c-b122-904d1ecb46b7">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1458a4-a028-41fb-b7f6-6537be50540d">
   <producedTypes>
-    <objectType typeId="fb18ac20-d905-4c7d-8dc0-32395fca7a38" valueTypeId="45e6fb8d-ad37-4436-8d1d-98d8ee91ae1b"/>
-    <refType typeId="ac0f42e6-7a94-4672-a1ac-874ae12598a3" valueTypeId="0952079d-1117-403b-9779-16ab69ec9b94"/>
-    <selectionType typeId="415317ed-74ee-4d7c-90fa-4986fa07fce4" valueTypeId="dbc0a2cf-d9c2-4cb1-8c76-85f4b42214b4"/>
-    <listType typeId="72dcf97f-060d-4e55-aa1a-e499df3e2f92" valueTypeId="7b7bc279-3ce1-4070-831c-65bb678d58cd"/>
-    <managerType typeId="2a055de8-8c40-46b1-8de3-62a89e89af59" valueTypeId="fbde43a9-d1bf-47db-bc6d-fb109aed4f9b"/>
+    <objectType typeId="93cba890-dd7e-4cc3-b0c2-d23c9f793120" valueTypeId="72e2a810-d42b-4327-ab45-a1268097d077"/>
+    <refType typeId="38d679d5-5ee4-4c03-882c-5e5be263dc92" valueTypeId="3e2674d0-c18b-4c02-aa91-201e675de7c0"/>
+    <selectionType typeId="f126da16-3285-4785-a32f-3434884f4787" valueTypeId="2a9f8253-1e47-40c5-8610-d28fdc58c660"/>
+    <listType typeId="16a83ef8-5f76-43f8-9b84-3ffee0df5ff1" valueTypeId="4b2e5358-5160-4c95-acae-d8220a8b5dd6"/>
+    <managerType typeId="421440b0-595c-46d9-b575-e9f2c3a6e740" valueTypeId="cf3b71fd-97cc-4da1-a77c-919a21603a59"/>
   </producedTypes>
-  <name>ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
+  <name>ВедомостьУчетаАкадемическихЗадолженностей</name>
   <synonym>
     <key>ru</key>
-    <value>Заявление на продление сроков ликвидации задолженности</value>
+    <value>Ведомость учета академических задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВедомостьУчетаАкадемическихЗадолженностей.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -42,12 +42,7 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата подачи</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -55,15 +50,12 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер заявления</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -72,10 +64,12 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.ВедомостьУчетаАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
+  <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="d234c4b7-8cd1-4b5e-be53-bddaf2986c85">
+  <attributes uuid="e09f21b4-d669-4b59-af95-605a8c7765d8">
     <name>Студент</name>
     <synonym>
       <key>ru</key>
@@ -86,19 +80,18 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6e8b58d3-3af3-4328-92d4-4875e6708553">
-    <name>Группа</name>
+  <attributes uuid="f2677e30-3585-4522-b8de-6d09a4eb7654">
+    <name>Преподаватель</name>
     <synonym>
       <key>ru</key>
-      <value>Группа</value>
+      <value>Преподаватель</value>
     </synonym>
     <type>
-      <types>CatalogRef.Группы</types>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -106,26 +99,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="091fdb06-2571-4e03-ad8a-edcdda677519">
-    <name>ПричинаПродления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Причина продления</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9eb667f7-e5f2-45bc-9db2-098de8a1eb36">
+  <attributes uuid="4a68ed1b-3dcf-4f80-bba7-6a089a870891">
     <name>Дисциплина</name>
     <synonym>
       <key>ru</key>
@@ -136,12 +110,11 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b68eaabc-a543-4f0e-bdfe-c0838d82b7f7">
+  <attributes uuid="30d90e14-2d01-48d2-99b5-5ce9eb80457b">
     <name>НаименованиеКонтроля</name>
     <synonym>
       <key>ru</key>
@@ -156,33 +129,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8ff04065-0f99-4796-9dd6-139156516c8e">
-    <name>ЗапрашиваемыйСрок</name>
+  <attributes uuid="a1571814-6f88-4c69-83ab-ac9804863567">
+    <name>Оценка</name>
     <synonym>
       <key>ru</key>
-      <value>Запрашиваемый срок</value>
+      <value>Оценка</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="128d8222-2e18-4345-a219-63e9a4a89c17">
-    <name>ПриложенныеДокументы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Приложенные документы</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
+      <types>EnumRef.Оценка</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -190,32 +144,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3ae28f9f-f94e-4646-a8d2-d9d829cd2866">
-    <name>Подтверждение</name>
+  <attributes uuid="c8f891db-5163-4efc-9f19-bb37b97f4375">
+    <name>СтатусАкадемическойЗадолженности</name>
     <synonym>
       <key>ru</key>
-      <value>Подтверждение</value>
+      <value>Статус задолженности</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f0b3e2fc-6460-4f89-8bd8-d27e600c440b">
-    <name>СтатусРассмотрения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус рассмотрения</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусРассмотрения</types>
+      <types>EnumRef.НаименованиеСтатуса</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -223,7 +159,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="cb3fe3b0-9733-4d9f-bc0e-a7b91743d8b2">
+  <forms uuid="73a29980-3fea-46db-8aa2-3ed6eae06459">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -232,14 +168,14 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="43ccda8e-e5f9-4949-9d57-1107480e8823">
+  <templates uuid="d52534a5-7601-4d6e-890d-e6bef2d92511">
     <name>Печать</name>
   </templates>
-  <commands uuid="06c3e823-543c-4e68-8198-99bcd11081e3">
+  <commands uuid="470cca72-50e6-435b-a0ba-2572e7534bec">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
-      <types>DocumentRef.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</types>
+      <types>DocumentRef.ВедомостьУчетаАкадемическихЗадолженностей</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>

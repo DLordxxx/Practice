@@ -11,5 +11,6 @@
   <content>Task.Задачи</content>
   <content>Catalog.Факультеты</content>
   <content>Catalog.Кафедры</content>
+  <content>Catalog.НаправленияПодготовки</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

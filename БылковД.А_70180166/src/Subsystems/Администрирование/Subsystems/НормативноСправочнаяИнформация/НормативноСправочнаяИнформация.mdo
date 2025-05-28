@@ -17,9 +17,7 @@
   <content>Catalog.ФормыОбучения</content>
   <content>Catalog.ЛичныеИндексыСтудентов</content>
   <content>Catalog.ЛичныеИндексыСотрудников</content>
-  <content>Catalog.НаправленияПодготовки</content>
   <content>Catalog.Дисциплины</content>
-  <content>Catalog.ПричинаВозникновенияЗадолженостей</content>
   <content>Catalog.Аудитории</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>
