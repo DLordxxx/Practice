@@ -55,7 +55,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</basedOn>
+  <basedOn>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>

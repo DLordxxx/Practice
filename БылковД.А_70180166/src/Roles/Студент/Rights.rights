@@ -17,10 +17,6 @@
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.Dimension.Дисциплина</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -112,10 +108,6 @@
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.Attribute.СтатусЗадолженности</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -137,13 +129,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.StandardAttribute.Active</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -152,10 +144,6 @@
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.StandardAttribute.LineNumber</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -163,20 +151,12 @@
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.StandardAttribute.Recorder</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.StandardAttribute.Period</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -802,10 +782,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ТекущийСтатусЗадолженностей.Dimension.Студент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

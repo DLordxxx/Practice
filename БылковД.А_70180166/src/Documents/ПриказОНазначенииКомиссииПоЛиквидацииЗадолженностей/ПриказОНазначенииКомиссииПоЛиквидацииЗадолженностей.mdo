@@ -61,6 +61,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <basedOn>Document.НаправлениеНаПересдачу</basedOn>
+  <basedOn>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -169,7 +170,9 @@
       <value>Документ основание</value>
     </synonym>
     <type>
+      <types>DocumentRef.ИндивидуальныйПланЛиквидацииЗадолженностей</types>
       <types>DocumentRef.НаправлениеНаПересдачу</types>
+      <types>DocumentRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
