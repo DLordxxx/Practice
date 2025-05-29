@@ -51,6 +51,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="79a2127e-3893-4b8d-b2d3-0eee36fb910b">
+    <name>ВремяПересдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время пересдачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Время</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="0d6c64f6-dfbf-4f54-919b-9be12d30711a">
     <name>Преподаватель</name>
     <synonym>

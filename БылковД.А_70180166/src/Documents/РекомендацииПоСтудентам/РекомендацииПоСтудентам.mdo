@@ -144,6 +144,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6916e2bd-6df7-4878-89e4-c00349aa1f78">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВедомостьУчетаАкадемическихЗадолженностей</types>
+      <types>DocumentRef.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</types>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="174f10c1-4d00-49b3-b552-3c4efd02ec40">
     <name>ФормаДокумента</name>
     <synonym>

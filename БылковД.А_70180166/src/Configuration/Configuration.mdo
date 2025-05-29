@@ -92,6 +92,7 @@
   <enums>Enum.ВидыФинансирования</enums>
   <enums>Enum.Семестры</enums>
   <enums>Enum.ВыделенныеМеста</enums>
+  <enums>Enum.Время</enums>
   <reports>Report.АнализЗадолженностей</reports>
   <reports>Report.РаспределениеРолейПоЗадачам</reports>
   <reports>Report.РезультатыСессии</reports>
