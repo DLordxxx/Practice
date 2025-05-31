@@ -2,7 +2,7 @@
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
-	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
 	<object>
 		<name>Catalog.Пользователи</name>
 		<right>
@@ -352,17 +352,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Студент</name>
 		<right>
 			<name>View</name>
@@ -506,17 +495,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Студенты.Attribute.СтуденческийБилет</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -694,17 +683,6 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Группа</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -890,13 +868,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РекомендацииПоСтудентам</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.РекомендацииПоСтудентам.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
@@ -992,13 +963,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
@@ -1087,6 +1051,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.РекомендацииПоСтудентам.Attribute.ДокументОснование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.НеудачныеПересдачи</name>
 		<right>
 			<name>Read</name>
@@ -1129,13 +1104,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1491,13 +1459,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПриказОбОтчислении.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
@@ -1649,17 +1610,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Студент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Дисциплина</name>
 		<right>
 			<name>View</name>
@@ -1672,6 +1622,24 @@
 	</object>
 	<object>
 		<name>Document.РезультатыПредыдущихСессий.TabularSection.ХарактеристикаСтудента.Attribute.Оценка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколЗаседанияКомиссии.Attribute.ДокументОснование</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1895,28 +1863,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.НаименованиеКонтроля</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Сотрудники</name>
 		<right>
 			<name>Read</name>
@@ -2051,60 +1997,120 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
+		<name>DataProcessor.Академ_задолженность</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -2131,17 +2137,6 @@
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.Attribute.СтатусАкадемическойЗадолженности</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Причина</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2232,17 +2227,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Аудитория</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.РекомендацииПоСтудентам.Attribute.Рекомендация</name>
 		<right>
 			<name>View</name>
@@ -2269,17 +2253,6 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.ДатаПересдачи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -2550,13 +2523,6 @@
 		</right>
 		<right>
 			<name>Output</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПротоколЗаседанияКомиссии</name>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -97,10 +97,6 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Дисциплина</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -186,10 +182,6 @@
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Группа</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -457,17 +449,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.АнализЗадолженностей</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Attribute.Студент</name>
 		<right>
 			<name>View</name>
@@ -557,10 +538,6 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Студент</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -613,17 +590,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.РезультатыСессии</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>AccumulationRegister.ПросроченныеЗадолженности</name>
 		<right>
 			<name>Read</name>
@@ -637,20 +603,12 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Преподаватель</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.НаименованиеКонтроля</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -713,13 +671,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Posted</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -728,20 +686,12 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Ref</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -750,20 +700,12 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Date</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -804,10 +746,6 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Причина</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -826,10 +764,6 @@
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.Аудитория</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -843,10 +777,6 @@
 	</object>
 	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Attribute.ДатаПересдачи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

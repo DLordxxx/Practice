@@ -293,6 +293,47 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>ФормаКонтроля</name>
+    <id>40</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.НаименованиеКонтроля</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ФормаКонтроляРасширеннаяПодсказка</name>
+      <id>42</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ФормаКонтроляКонтекстноеМеню</name>
+      <id>41</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>Преподаватель</name>
     <id>22</id>
     <visible>true</visible>
@@ -471,10 +512,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ДатаПроведения</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ДатаПроведенияПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ДатаПроведенияРасширеннаяПодсказка</name>
         <id>36</id>
@@ -516,10 +553,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Время</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВремяПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВремяРасширеннаяПодсказка</name>
         <id>50</id>
@@ -608,47 +641,6 @@
     <contextMenu>
       <name>АудиторияКонтекстноеМеню</name>
       <id>38</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ФормаКонтроля</name>
-    <id>40</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.НаименованиеКонтроля</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ФормаКонтроляРасширеннаяПодсказка</name>
-      <id>42</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ФормаКонтроляКонтекстноеМеню</name>
-      <id>41</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>

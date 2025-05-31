@@ -25,6 +25,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -42,6 +43,11 @@
   <subsystems>Subsystem.СтуденческийКабинет</subsystems>
   <subsystems>Subsystem.МониторингКлючевыхПоказателейЭффективности</subsystems>
   <subsystems>Subsystem.Университет</subsystems>
+  <commonPictures>CommonPicture.Сотрудники</commonPictures>
+  <commonPictures>CommonPicture.Студенты</commonPictures>
+  <commonPictures>CommonPicture.Статистика</commonPictures>
+  <commonPictures>CommonPicture.Глобус</commonPictures>
+  <commonPictures>CommonPicture.МУИВ</commonPictures>
   <roles>Role.Декан</roles>
   <roles>Role.Ректор</roles>
   <roles>Role.ЗаведующийКафедрой</roles>

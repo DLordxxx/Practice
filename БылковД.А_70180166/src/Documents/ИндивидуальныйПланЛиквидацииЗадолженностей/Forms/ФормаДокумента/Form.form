@@ -301,10 +301,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ДатаПересдачи</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ДатаПересдачиПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ДатаПересдачиРасширеннаяПодсказка</name>
         <id>21</id>
@@ -346,10 +342,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Время</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВремяПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВремяРасширеннаяПодсказка</name>
         <id>33</id>
