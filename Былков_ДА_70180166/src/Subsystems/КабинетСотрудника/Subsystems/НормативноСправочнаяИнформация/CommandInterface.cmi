@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ФормыОбучения.StandardCommand.OpenList</commands>
+      <commands>Catalog.Факультеты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Кафедры.StandardCommand.OpenList</commands>
+      <commands>Catalog.НаправленияПодготовки.StandardCommand.OpenList</commands>
+      <commands>Catalog.Семестры.StandardCommand.OpenList</commands>
+      <commands>Catalog.Группы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Дисциплины.StandardCommand.OpenList</commands>
+      <commands>Catalog.НаименованияКонтроляСтудентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричинаВозникновенияЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Catalog.Аудитории.StandardCommand.OpenList</commands>
+      <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.СтуденческиеБилеты.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

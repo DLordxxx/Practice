@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="655f8294-4a8d-4c46-b174-d735bbf7997f">
+  <producedTypes>
+    <objectType typeId="590f8d95-21e6-4215-b0dd-fbe8cd18d66d" valueTypeId="77f963f6-83b6-48f6-839e-56f26ec2579f"/>
+    <refType typeId="1fd260c0-df19-4e6b-9d79-b3d9a18e2979" valueTypeId="69665eb4-5349-4a8d-a8d0-a426398c57b5"/>
+    <selectionType typeId="94b1b06e-137c-480b-8e1c-5d89d86d67bd" valueTypeId="21e6f600-0417-40c8-935d-d565b51d66e9"/>
+    <listType typeId="da5b67c8-5d24-4ffe-99e5-a2cc9e63d567" valueTypeId="bbf1aeda-f4a7-4caf-b65e-b7a3894a1fff"/>
+    <managerType typeId="bb0a79b0-04e6-42d0-afc7-2740ddd069d5" valueTypeId="9f348a42-34de-4293-b1c9-7ce4c6617e37"/>
+  </producedTypes>
+  <name>Факультеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факультеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Факультеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1597bbb0-c75b-4ff4-865f-ae9fe031ca4f">
+      <name>ИнформационныхТехнологий</name>
+      <description>Информационных технологий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="29aa85a9-d931-42e7-99f5-1e6cd8f9d30e">
+      <name>КолледжФакультетСПО</name>
+      <description>Колледж (факультет СПО)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="335bac03-c47b-4708-a7c0-ca493631c907">
+      <name>ПсихологоПедагогическогоОбразования</name>
+      <description>Психолого-педагогического образования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="08becac3-8b14-44f5-9b16-567c011df4ed">
+      <name>Управления</name>
+      <description>Управления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="8c50a4c8-1a16-4b9e-9e9c-4df259a96c96">
+      <name>ЭкономикиИФинансов</name>
+      <description>Экономики и финансов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="09e5be4d-791f-487e-899f-7ede87255d1b">
+      <name>Юридический</name>
+      <description>Юридический</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Факультеты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5853fb0f-9de1-4129-8878-79ccd8b87399">
+    <name>Декан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fd9c06c7-fa06-46e1-b26e-0e595f4def97">
+    <producedTypes>
+      <objectType typeId="13f3d2db-817b-4c75-a483-d8ff599a6fab" valueTypeId="aebb67c4-9ffe-46e0-b046-a8fad44414ce"/>
+      <rowType typeId="7ed77229-507f-43ea-9cac-22ce50e69dee" valueTypeId="07b1b88b-52f7-47bd-8fa1-72630e04ac1a"/>
+    </producedTypes>
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <attributes uuid="a2653116-1f71-4665-a2e3-d88105e17060">
+      <name>Кафедра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кафедра</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Кафедры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0378c09e-ad2f-4974-bfd0-48e3bbf4775b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

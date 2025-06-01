@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3d2f861-8e10-470b-8b06-9e81e52be331">
+  <producedTypes>
+    <refType typeId="ae35cb80-cae9-45b6-b854-9b2c23a3be08" valueTypeId="1175c428-d5e5-42e2-bf87-fd1da26931e6"/>
+    <listType typeId="39d4b90b-1bd1-4476-bc07-0f652f558f92" valueTypeId="1db50ab5-06fb-4aba-bbfc-c95b8321ebb4"/>
+    <managerType typeId="45718824-2f71-4ffe-a8a6-9a799343cb2d" valueTypeId="abdaec79-44f7-4002-b1f2-11c9fba1dad0"/>
+  </producedTypes>
+  <name>УченоеЗвание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученое звание</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfc439a7-d092-4f86-9cc7-abcc2d7a1843">
+    <name>БезЗвания</name>
+    <synonym>
+      <key>ru</key>
+      <value>-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e36f9bc0-e1bf-4b25-b173-878fb782e162">
+    <name>Доцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доцент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4ebc998-4575-4ca1-b273-5f755c59c052">
+    <name>Профессор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a8a6208-b038-466b-bc55-ce1f1a5f5126">
+    <name>ДоцентВАК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доцент (ВАК)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3499487-bfb6-4e8c-9c19-e98ce85a9c7d">
+    <name>АссоциированныйПрофессорДоцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ассоциированный профессор (доцент)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05d837f2-a6ed-466a-9a72-86fc2433c0f4">
+    <name>Юрист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юрист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ba128e3-8a13-4f0a-bcd0-a87af48bff43">
+    <name>ПрофессорПоКафедреТеорииИИсторииГосударстваИПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессор по кафедре теории и истории государства и права</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

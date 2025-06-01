@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d4f9ad-e8eb-44df-8e2f-3809606cb1df">
+  <producedTypes>
+    <refType typeId="647aec98-5f96-45c3-b253-ac87aaf4f94a" valueTypeId="9a120ebd-25ce-4ef2-a92f-ef4aa2841293"/>
+    <listType typeId="30edd859-445f-4b5a-a9a2-01d275f251ec" valueTypeId="571f4ceb-50bc-4e44-9f3c-c4573415c7ac"/>
+    <managerType typeId="a4e25aa5-fb16-4cf9-827d-c1fbe9a0be25" valueTypeId="27fa6460-a92d-41da-aa1d-58e4c2046fa6"/>
+  </producedTypes>
+  <name>ТипАудитории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип аудитории</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55e2b4c5-55d8-4783-b8e7-987461ccf06b">
+    <name>Лекционная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лекционная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cace211-e07f-4987-a724-a250ffbaf545">
+    <name>Лабораторная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лабораторная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bf2b370-3af9-47f2-a106-d0d0bfaf2aa2">
+    <name>КомпьютерныйКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютерный класс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

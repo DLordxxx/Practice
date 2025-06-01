@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c3d69bf-1946-44dc-ace2-7062a6950937">
+  <producedTypes>
+    <refType typeId="4b0f832e-d56e-4d55-88d9-0562232ba20c" valueTypeId="edae65f5-0e17-4e2f-b49f-0a2f4dd34710"/>
+    <listType typeId="1a09104a-b9a9-47e8-a135-e7b2103068bb" valueTypeId="0a816e5e-00c5-46ee-a5eb-8e62e46c8488"/>
+    <managerType typeId="043a76fd-b236-46c9-8920-373cf211c736" valueTypeId="c0ee78d7-6a78-4e70-b346-78790c8997d8"/>
+  </producedTypes>
+  <name>РешениеКомиссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Решение комиссии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="103a5aa5-d546-4913-8d2f-fe9be2b6a6b3">
+    <name>ЗадолженностьЛиквидирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность ликвидирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57cf6958-5148-49d4-bbb0-64b11bdaab00">
+    <name>РекомендоватьОтчисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендовать отчисление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

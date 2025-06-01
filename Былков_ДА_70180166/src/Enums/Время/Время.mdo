@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ad9ebe1-dcd5-4d49-8637-833d5d4760fb">
+  <producedTypes>
+    <refType typeId="95ee02d3-16b7-41f6-9e45-eb9e98ba866d" valueTypeId="0f433f19-4373-4677-b737-1d6143cbd9c4"/>
+    <listType typeId="af46bad8-1fc6-4af2-a2d9-32bc823b24a7" valueTypeId="65062ccb-4b4f-44f1-88a4-5f1b2c8a3f81"/>
+    <managerType typeId="3824421d-9a7e-424e-91da-16d6ab097ee2" valueTypeId="d070886a-b626-422d-9595-bdfa25520b94"/>
+  </producedTypes>
+  <name>Время</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82b5b99f-66fb-46d2-b496-40d683bec123">
+    <name>ВосемьЧасовДвадцатьМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>8:20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88fa4838-b705-4c7b-bde5-09431566e3e9">
+    <name>ДесятьЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>10:00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d49cd191-97e9-4595-917f-fc719ae8f24f">
+    <name>ОдиннадцатьЧасовСорокМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>11:40</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67a194ee-f185-44f9-8099-a00e07ab2176">
+    <name>ТринадцатьЧасовСороПятьМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>13:45</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fefde05-6809-4554-92f2-4407fedd9c67">
+    <name>ПятнадцатьЧасовПятнадцатьМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>15:15</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57864a3b-cec7-4805-9927-cad9dfa3a8a4">
+    <name>ПятьЧасовПятьМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>17:05</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

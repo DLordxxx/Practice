@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d480efac-94c4-41b1-9e78-d17e1c7d2f55">
+  <name>Университет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Университет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МУИВ</picture>
+  </picture>
+  <content>CommonForm.КарточкаУниверситета</content>
+  <content>Enum.ВидыФинансирования</content>
+  <content>CommonPicture.МУИВ</content>
+  <subsystems>Документооборот</subsystems>
+</mdclass:Subsystem>

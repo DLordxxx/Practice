@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18073fa6-b15a-4365-b007-8e9da8f234e2">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Группы</content>
+  <content>Catalog.Студенты</content>
+  <content>Catalog.СтуденческиеБилеты</content>
+  <content>Catalog.НаправленияПодготовки</content>
+  <content>Catalog.Дисциплины</content>
+  <content>Catalog.ПричинаВозникновенияЗадолженностей</content>
+  <content>Catalog.Семестры</content>
+  <content>Catalog.Аудитории</content>
+  <content>Catalog.НаименованияКонтроляСтудентов</content>
+  <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.Факультеты</content>
+  <content>Catalog.Кафедры</content>
+  <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>
+</mdclass:Subsystem>

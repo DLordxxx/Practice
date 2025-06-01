@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11be4bf-07b5-48cd-9eb3-765f9f305f6f">
+  <producedTypes>
+    <objectType typeId="ab2775d2-49bb-4257-8a7f-f13357f51f0f" valueTypeId="761f5aed-a900-4258-8013-9d817d4c04af"/>
+    <refType typeId="97af375e-7b8d-45c3-a574-457f85d651ab" valueTypeId="e777b6db-e475-4b20-993e-47bf71f724ee"/>
+    <selectionType typeId="375a71ba-5e36-4558-9ad0-f31ec71e0913" valueTypeId="4e936b53-88a6-43d3-88c6-6cd0ba938084"/>
+    <listType typeId="0c076fb2-0ea6-4109-9f9f-a6ec711e5e3c" valueTypeId="5c60491d-ac57-4d1d-9549-90e0d015572f"/>
+    <managerType typeId="a0501177-8fd1-430f-a678-44ed07817d15" valueTypeId="4c7da3de-f327-45f5-8987-2837a757fb24"/>
+    <routePointRef typeId="be031fc5-94c7-4ef7-b181-4c2ccc370eb3" valueTypeId="1bbd6422-a7ae-4265-850d-2ecebece0cab"/>
+  </producedTypes>
+  <name>КонтрольАкадемическойУспеваемости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль академической успеваемости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.КонтрольАкадемическойУспеваемости.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.КонтрольАкадемическойУспеваемости.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задачи</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <forms uuid="d522fc12-8031-4fe8-9f56-e5e0dc761271">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58488d89-99c0-48ad-9ec8-579c18a19077">
+  <producedTypes>
+    <selectionType typeId="c57a0f50-05fb-408b-88d6-57a0afdb2bee" valueTypeId="a08d4d94-5209-4183-95d2-fb8064164bae"/>
+    <listType typeId="8ab74568-be3f-48eb-a65d-d1cedf2f9883" valueTypeId="62ba5615-ef29-4eb0-9d36-140397a5f8bd"/>
+    <managerType typeId="9e0fec91-2b0e-4197-b697-fdaebbc93ee1" valueTypeId="37331db0-57e9-4603-bcbf-01f2d5ae9cba"/>
+    <recordSetType typeId="21b0a2df-e84f-46d5-a7b9-feb03a9a1b3d" valueTypeId="f889a7b7-bca8-4201-9b3f-21aa8b1751ca"/>
+    <recordKeyType typeId="74b4a053-09e2-4ea7-8cfa-1a571e7b7169" valueTypeId="13fcf5d8-982d-49d2-a672-dbdd2236a8ae"/>
+    <recordType typeId="ed639a24-2f82-4a8d-82a9-ea84a87a4865" valueTypeId="2d4f5e9e-9228-4c8b-839c-e69386a395d7"/>
+    <recordManagerType typeId="ac7a999d-d8c0-4e4b-8c48-ada61638fa82" valueTypeId="61dcae16-f25c-4243-90b4-d7e8c27af062"/>
+  </producedTypes>
+  <name>ДатыПересдач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты пересдач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ДатыПересдач.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37517be7-fca1-47c2-a660-ca8985ab79ef">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7838037-15bc-4f7a-9a43-2cb2f6a05d08">
+    <name>ДатаПересдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата пересдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79a2127e-3893-4b8d-b2d3-0eee36fb910b">
+    <name>ВремяПересдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время пересдачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Время</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d6c64f6-dfbf-4f54-919b-9be12d30711a">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6e6c951-65dc-4857-bc5d-5c599e819ab9">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аудитории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bfdf6c6a-7fe9-4bb8-9837-397dab2238e2">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дисциплины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c0562448-e97a-450e-96cd-06f958a3e783">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
