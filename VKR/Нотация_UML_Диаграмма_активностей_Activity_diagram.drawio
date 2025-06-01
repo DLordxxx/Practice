@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.1">
   <diagram name="Страница — 1" id="P2p-b0sBUqjZ3yru2kJo">
-    <mxGraphModel dx="3638" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
         <mxCell id="V8kgegQyyj0nk5e00VWf-6" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px; text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Рекомендации по студентам&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="1270" width="145" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Rkroncl628zhhl8IZpsh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V8kgegQyyj0nk5e00VWf-16" target="9TcquHKwZH3qFOto0e30-60" edge="1">
+        <mxCell id="SmNv9zSAtN3qxuYkPgFk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V8kgegQyyj0nk5e00VWf-16" target="SmNv9zSAtN3qxuYkPgFk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V8kgegQyyj0nk5e00VWf-16" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Ликвидация академических задолженностей&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -243,6 +243,16 @@
         </mxCell>
         <mxCell id="V8kgegQyyj0nk5e00VWf-22" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1680" y="1169" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SmNv9zSAtN3qxuYkPgFk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmNv9zSAtN3qxuYkPgFk-1" target="9TcquHKwZH3qFOto0e30-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmNv9zSAtN3qxuYkPgFk-1" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;Приказ о назначении комиссии по ликвидации задолженностей&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="561.25" y="1270" width="145" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
