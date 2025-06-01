@@ -11,7 +11,7 @@
       <commands>Catalog.Группы.StandardCommand.OpenList</commands>
       <commands>Catalog.Дисциплины.StandardCommand.OpenList</commands>
       <commands>Catalog.НаименованияКонтроляСтудентов.StandardCommand.OpenList</commands>
-      <commands>Catalog.ПричинаВозникновенияЗадолженостей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричинаВозникновенияЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Catalog.Аудитории.StandardCommand.OpenList</commands>
       <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
       <commands>Catalog.СтуденческиеБилеты.StandardCommand.OpenList</commands>

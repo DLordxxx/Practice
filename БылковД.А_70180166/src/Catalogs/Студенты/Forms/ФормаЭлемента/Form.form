@@ -428,9 +428,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВидФинансирования</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ВидФинансированияРасширеннаяПодсказка</name>
       <id>33</id>

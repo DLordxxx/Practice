@@ -121,6 +121,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Студенты</name>
 		<right>
 			<name>Read</name>
@@ -195,17 +202,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ПричинаПродления</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ЛичныеИндексыСтудентов.Attribute.ЛичныйИндексСтудента</name>
 		<right>
 			<name>View</name>
@@ -239,18 +235,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ПриложенныеДокументы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.Attribute.Студент</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.Attribute.Студент</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -554,17 +539,6 @@
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Подтверждение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1096,73 +1070,118 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Группа</name>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.Posted</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПриказОбОтчислении.Attribute.КоличествоПросроченныхЗадолженностей</name>
+		<name>Document.ПриказОбОтчислении.Attribute.КоличествоВозникшихЗадолженностей</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1532,17 +1551,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ЗапрашиваемыйСрок</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Студенты.Attribute.ЛичныйИндекс</name>
 		<right>
 			<name>Edit</name>
@@ -1607,17 +1615,6 @@
 		<right>
 			<name>Edit</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Дисциплина</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1741,13 +1738,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Студенты.Attribute.ВидФинансирования</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Кафедры</name>
 		<right>
 			<name>Read</name>
@@ -1849,17 +1839,6 @@
 		<right>
 			<name>TotalsControl</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.НаименованиеКонтроля</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -2238,17 +2217,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Студент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Университет</name>
 		<right>
 			<name>View</name>
@@ -2267,14 +2235,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2285,7 +2253,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Predefined</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2296,7 +2264,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Ref</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2307,7 +2275,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2318,7 +2286,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.IsFolder</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2329,7 +2297,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Owner</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2340,7 +2308,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Parent</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2351,7 +2319,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Description</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2362,7 +2330,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Code</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2582,7 +2550,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.Attribute.ОписаниеПричины</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.Attribute.ОписаниеПричины</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2769,17 +2737,6 @@
 	</object>
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

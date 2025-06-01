@@ -187,7 +187,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.Attribute.Студент</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.Attribute.Студент</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1078,7 +1078,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении.Attribute.КоличествоПросроченныхЗадолженностей</name>
+		<name>Document.ПриказОбОтчислении.Attribute.КоличествоВозникшихЗадолженностей</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1744,14 +1744,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1762,7 +1762,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Predefined</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1773,7 +1773,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Ref</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1784,7 +1784,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1795,7 +1795,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.IsFolder</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1806,7 +1806,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Owner</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1817,7 +1817,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Parent</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1828,7 +1828,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Description</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1839,7 +1839,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Code</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2002,7 +2002,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей.Attribute.ОписаниеПричины</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей.Attribute.ОписаниеПричины</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

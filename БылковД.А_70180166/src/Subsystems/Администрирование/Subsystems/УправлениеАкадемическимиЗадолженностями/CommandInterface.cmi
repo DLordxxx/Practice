@@ -5,7 +5,7 @@
       <group>NavigationPanelOrdinary</group>
       <commands>Document.РезультатыПредыдущихСессий.StandardCommand.OpenList</commands>
       <commands>Document.ИдентификацияАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Catalog.ПричинаВозникновенияЗадолженостей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПричинаВозникновенияЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.ПротоколЗаседанияКомиссии.StandardCommand.OpenList</commands>
       <commands>Document.ПриказОбОтчислении.StandardCommand.OpenList</commands>
     </orderFragments>

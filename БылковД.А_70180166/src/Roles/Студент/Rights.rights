@@ -633,7 +633,7 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</name>
+		<name>BusinessProcess.КонтрольАкадемическойУспеваемости</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -794,7 +794,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

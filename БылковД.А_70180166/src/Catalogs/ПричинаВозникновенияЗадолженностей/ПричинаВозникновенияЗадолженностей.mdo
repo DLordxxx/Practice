@@ -7,14 +7,14 @@
     <listType typeId="66de934f-8f63-4c4c-8496-c5695478df80" valueTypeId="940f36d0-9ea2-4415-80ad-19940a6b4ad0"/>
     <managerType typeId="523976fd-7456-4a7b-9dff-394bfefe0f25" valueTypeId="cdef93d8-11aa-4279-b8b2-358dd6464e48"/>
   </producedTypes>
-  <name>ПричинаВозникновенияЗадолженостей</name>
+  <name>ПричинаВозникновенияЗадолженностей</name>
   <synonym>
     <key>ru</key>
-    <value>Причина возникновения задолженостей</value>
+    <value>Причина возникновения задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.ПричинаВозникновенияЗадолженостей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричинаВозникновенияЗадолженностей.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -109,8 +109,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ПричинаВозникновенияЗадолженостей.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ПричинаВозникновенияЗадолженостей.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.ПричинаВозникновенияЗадолженностей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПричинаВозникновенияЗадолженностей.Form.ФормаСписка</defaultListForm>
   <attributes uuid="12a003fc-8c32-4c94-bf46-9e3271aa8428">
     <name>Студент</name>
     <synonym>

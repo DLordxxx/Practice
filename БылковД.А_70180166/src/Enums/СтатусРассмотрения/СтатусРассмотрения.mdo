@@ -12,13 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="4f23c82f-71ec-415f-a5b8-2ad065872081">
-    <name>НаРассмотрении</name>
-    <synonym>
-      <key>ru</key>
-      <value>На рассмотрении</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="01242957-d2bc-4177-aa6e-4b7471f644a3">
     <name>Одобрено</name>
     <synonym>

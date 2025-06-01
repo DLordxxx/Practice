@@ -143,7 +143,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.ПричинаВозникновенияЗадолженостей</types>
+      <types>CatalogObject.ПричинаВозникновенияЗадолженностей</types>
     </valueType>
     <view>
       <common>true</common>

@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</content>
+  <content>BusinessProcess.КонтрольАкадемическойУспеваемости</content>
   <content>Task.Задачи</content>
   <content>Catalog.Факультеты</content>
   <content>Catalog.Кафедры</content>

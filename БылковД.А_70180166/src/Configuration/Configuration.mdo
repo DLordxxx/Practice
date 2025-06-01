@@ -67,7 +67,7 @@
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ЛичныеИндексыСотрудников</catalogs>
-  <catalogs>Catalog.ПричинаВозникновенияЗадолженостей</catalogs>
+  <catalogs>Catalog.ПричинаВозникновенияЗадолженностей</catalogs>
   <catalogs>Catalog.Семестры</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
   <catalogs>Catalog.НаименованияКонтроляСтудентов</catalogs>
@@ -112,6 +112,6 @@
   <accumulationRegisters>AccumulationRegister.НеудачныеПересдачи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
-  <businessProcesses>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов</businessProcesses>
+  <businessProcesses>BusinessProcess.КонтрольАкадемическойУспеваемости</businessProcesses>
   <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>

@@ -8,19 +8,19 @@
     <managerType typeId="a0501177-8fd1-430f-a678-44ed07817d15" valueTypeId="4c7da3de-f327-45f5-8987-2837a757fb24"/>
     <routePointRef typeId="be031fc5-94c7-4ef7-b181-4c2ccc370eb3" valueTypeId="1bbd6422-a7ae-4265-850d-2ecebece0cab"/>
   </producedTypes>
-  <name>СистемаПоАкадемическойУспеваемостиСтудентов</name>
+  <name>КонтрольАкадемическойУспеваемости</name>
   <synonym>
     <key>ru</key>
-    <value>Система по академической успеваемости студентов</value>
+    <value>Контроль академической успеваемости</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов.StandardAttribute.Number</inputByString>
+  <inputByString>BusinessProcess.КонтрольАкадемическойУспеваемости.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <editType>InDialog</editType>
-  <defaultObjectForm>BusinessProcess.СистемаПоАкадемическойУспеваемостиСтудентов.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <defaultObjectForm>BusinessProcess.КонтрольАкадемическойУспеваемости.Form.ФормаБизнесПроцесса</defaultObjectForm>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

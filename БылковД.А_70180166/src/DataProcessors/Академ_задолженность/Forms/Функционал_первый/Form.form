@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Button">
-    <name>Диаграмма_спидометр</name>
-    <id>1</id>
-    <title>
-      <key>ru</key>
-      <value>Спидометр</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>Диаграмма_спидометрРасширеннаяПодсказка</name>
-      <id>2</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.Диаграмма_спидометр</commandName>
-    <representation>PictureAndText</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <backColor xsi:type="core:ColorDef">
-      <red>238</red>
-      <green>255</green>
-      <blue>98</blue>
-    </backColor>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <faceName>Times New Roman</faceName>
-      <height>14.0</height>
-      <scale>100</scale>
-    </font>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Dendrogram</picture>
-    </picture>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
-  <items xsi:type="form:Button">
     <name>Диаграмма_круговая</name>
     <id>5</id>
     <title>
@@ -204,27 +160,6 @@
     </edit>
     <main>true</main>
   </attributes>
-  <formCommands>
-    <name>Диаграмма_спидометр</name>
-    <title>
-      <key>ru</key>
-      <value>Диаграмма спидометр</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Диаграмма спидометр</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>Диаграмма_спидометр</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <formCommands>
     <name>Диаграмма_круговая</name>
     <title>

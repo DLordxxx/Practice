@@ -255,7 +255,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.КоличествоПросроченныхЗадолженностей</segments>
+      <segments>Объект.КоличествоВозникшихЗадолженностей</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -319,6 +319,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
+    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>

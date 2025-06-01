@@ -877,7 +877,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении.Attribute.КоличествоПросроченныхЗадолженностей</name>
+		<name>Document.ПриказОбОтчислении.Attribute.КоличествоВозникшихЗадолженностей</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1661,7 +1661,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженостей</name>
+		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

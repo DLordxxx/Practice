@@ -33,13 +33,16 @@
 					<v8:content>Дисциплина</v8:content>
 				</v8:item>
 			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Студенты.Наименование КАК Студент,
 	ТекущийСтатусЗадолженностей.СтатусЗадолженности КАК СтатусЗадолженности,
 	Студенты.Семестр КАК Семестр,
-	Дисциплины.Наименование КАК Дисциплина
+	ТекущийСтатусЗадолженностей.Дисциплина КАК Дисциплина
 ИЗ
 	Справочник.Студенты КАК Студенты
 		ПРАВОЕ СОЕДИНЕНИЕ РегистрСведений.ТекущийСтатусЗадолженностей КАК ТекущийСтатусЗадолженностей
@@ -53,10 +56,13 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дисциплина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Студент</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Дисциплина</dcsset:field>
+					<dcsset:field>Семестр</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СтатусЗадолженности</dcsset:field>

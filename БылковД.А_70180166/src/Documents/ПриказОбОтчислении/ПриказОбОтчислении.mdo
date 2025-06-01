@@ -134,7 +134,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="714162a1-ecbe-44a0-9b37-b7a441ed56c8">
-    <name>КоличествоПросроченныхЗадолженностей</name>
+    <name>КоличествоВозникшихЗадолженностей</name>
     <synonym>
       <key>ru</key>
       <value>Количество просроченных задолженностей</value>

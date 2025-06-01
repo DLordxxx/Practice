@@ -43,7 +43,6 @@
   <items xsi:type="form:Button">
     <name>Психологическое_тестирование</name>
     <id>3</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>

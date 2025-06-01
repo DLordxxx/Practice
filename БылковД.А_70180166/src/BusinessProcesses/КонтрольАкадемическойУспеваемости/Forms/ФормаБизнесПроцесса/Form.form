@@ -275,7 +275,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>BusinessProcessObject.СистемаПоАкадемическойУспеваемостиСтудентов</types>
+      <types>BusinessProcessObject.КонтрольАкадемическойУспеваемости</types>
     </valueType>
     <view>
       <common>true</common>
