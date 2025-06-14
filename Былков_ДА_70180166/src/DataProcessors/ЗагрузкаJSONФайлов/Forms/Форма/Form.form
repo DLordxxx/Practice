@@ -120,40 +120,6 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ЗагрузитьСеместрыСтудентов</name>
-        <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ЗагрузитьСеместрыСтудентовРасширеннаяПодсказка</name>
-          <id>19</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.ЗагрузитьСеместрыСтудентов</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <backColor xsi:type="core:ColorRef">
-          <color>Web.LavenderBlush</color>
-        </backColor>
-        <borderColor xsi:type="core:ColorDef">
-          <red>122</red>
-          <green>21</green>
-          <blue>209</blue>
-        </borderColor>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <items xsi:type="form:Button">
         <name>ЗагрузитьДисциплины</name>
         <id>24</id>
         <visible>true</visible>
@@ -173,6 +139,40 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ЗагрузитьДисциплины</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Web.LavenderBlush</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorDef">
+          <red>122</red>
+          <green>21</green>
+          <blue>209</blue>
+        </borderColor>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьГруппыСтудентов</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьГруппыСтудентовРасширеннаяПодсказка</name>
+          <id>13</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ЗагрузитьГруппыСтудентов</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -259,40 +259,6 @@
       <name>ДанныеПоСтудентам</name>
       <id>36</id>
       <items xsi:type="form:Button">
-        <name>ЗагрузитьГруппыСтудентов</name>
-        <id>12</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ЗагрузитьГруппыСтудентовРасширеннаяПодсказка</name>
-          <id>13</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.ЗагрузитьГруппыСтудентов</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <backColor xsi:type="core:ColorRef">
-          <color>Web.HoneyDew</color>
-        </backColor>
-        <borderColor xsi:type="core:ColorDef">
-          <red>48</red>
-          <green>139</green>
-          <blue>16</blue>
-        </borderColor>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <items xsi:type="form:Button">
         <name>ЗагрузитьСтудентов</name>
         <id>16</id>
         <visible>true</visible>
@@ -327,16 +293,16 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ЗагрузитьФормыОбученияСтудентов</name>
-        <id>14</id>
+        <name>ЗагрузитьЛичныеИндексыСтудентов</name>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗагрузитьФормыОбученияСтудентовРасширеннаяПодсказка</name>
-          <id>15</id>
+          <name>ЗагрузитьЛичныеИндексыСтудентовРасширеннаяПодсказка</name>
+          <id>23</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -345,7 +311,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ЗагрузитьФормыОбученияСтудентов</commandName>
+        <commandName>Form.Command.ЗагрузитьЛичныеИндексыСтудентов</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -395,16 +361,16 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ЗагрузитьЛичныеИндексыСтудентов</name>
-        <id>22</id>
+        <name>ЗагрузитьФормыОбученияСтудентов</name>
+        <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ЗагрузитьЛичныеИндексыСтудентовРасширеннаяПодсказка</name>
-          <id>23</id>
+          <name>ЗагрузитьФормыОбученияСтудентовРасширеннаяПодсказка</name>
+          <id>15</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -413,7 +379,41 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ЗагрузитьЛичныеИндексыСтудентов</commandName>
+        <commandName>Form.Command.ЗагрузитьФормыОбученияСтудентов</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <backColor xsi:type="core:ColorRef">
+          <color>Web.HoneyDew</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorDef">
+          <red>48</red>
+          <green>139</green>
+          <blue>16</blue>
+        </borderColor>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьСеместрыСтудентов</name>
+        <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьСеместрыСтудентовРасширеннаяПодсказка</name>
+          <id>19</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ЗагрузитьСеместрыСтудентов</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>

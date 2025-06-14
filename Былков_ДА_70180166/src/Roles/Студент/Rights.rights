@@ -207,10 +207,6 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.ФормаКонтроля</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -253,10 +249,6 @@
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Студент</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -535,10 +527,6 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Основание</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -730,13 +718,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.Posted</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -745,20 +733,12 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.Ref</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -767,20 +747,12 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.Date</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -821,10 +793,6 @@
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.СтатусАкадемическойЗадолженности</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1189,10 +1157,6 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Преподаватель</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1461,10 +1425,6 @@
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Оценка</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1637,10 +1597,6 @@
 	</object>
 	<object>
 		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Attribute.Дисциплина</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
