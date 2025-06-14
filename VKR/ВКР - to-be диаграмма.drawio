@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
   <diagram name="Страница — 1" id="hGediK6cKtecDrNxz5kt">
-    <mxGraphModel dx="2209" dy="1237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
             <mxPoint x="2710" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAPtGzIZYBixMH-nspv7-8" value="&lt;span&gt;Процент академических задолженностей студента &amp;lt;80%&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+        <mxCell id="PAPtGzIZYBixMH-nspv7-8" value="Студент ликвидировал все академические задолженности" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="2340" y="35" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PAPtGzIZYBixMH-nspv7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" source="PAPtGzIZYBixMH-nspv7-11" target="lXRl14nX80XDygqNHP0N-88" edge="1">
@@ -245,7 +245,7 @@
         <mxCell id="PAPtGzIZYBixMH-nspv7-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="2230" y="503" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PAPtGzIZYBixMH-nspv7-14" value="Процент академических задолженностей студента &amp;gt;=80% или неудачная вторая пересдача для студентов с ИОМ&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
+        <mxCell id="PAPtGzIZYBixMH-nspv7-14" value="Неудачная вторая пересдача для студентов с ИОМ&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
           <mxGeometry x="2180" y="199" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PAPtGzIZYBixMH-nspv7-17" value="&lt;span style=&quot;text-align: start; caret-color: rgb(51, 144, 236); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Формируется документ &quot;Приказ об отчислении&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" parent="lXRl14nX80XDygqNHP0N-2" vertex="1">
