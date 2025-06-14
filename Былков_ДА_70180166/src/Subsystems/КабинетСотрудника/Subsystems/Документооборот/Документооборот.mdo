@@ -11,5 +11,7 @@
   <content>Document.НаправлениеНаПересдачу</content>
   <content>Document.ВедомостьУчетаАкадемическихЗадолженностей</content>
   <content>Document.РекомендацииПоСтудентам</content>
+  <content>Document.ИдентификацияАкадемическихЗадолженностей</content>
+  <content>Document.ПротоколЗаседанияКомиссии</content>
   <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>
 </mdclass:Subsystem>

@@ -108,6 +108,224 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c346067d-fdbf-472a-815c-1cfd00302bcb">
+      <name>ИнформационныхТехнологий</name>
+      <description>Информационных технологий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="28f84043-7f57-44b2-a325-75ce9aee9d01">
+        <name>ИнформационныеСистемы</name>
+        <description>Информационные системы</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="d1deeb0a-a886-4fd2-a123-d6f4f52ba1b4">
+        <name>ИсследованияИнформационныхТехнологийНаБазеСервисаGitFlic</name>
+        <description>Исследования информационных технологий на базе сервиса «GitFlic»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="1b4e78a5-391a-4f49-bc1c-9ff1c8801390">
+        <name>МатематическиеИЕстественнонаучныеДисциплины</name>
+        <description>Математические и естественнонаучные дисциплины</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="0e2d322e-6cc6-4555-abf4-34b3da3272c1">
+        <name>ТехнологииИскусственногоИнтеллектаФИЦИУРАН</name>
+        <description>Технологии искусственного интеллекта «ФИЦ ИУ РАН»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+    </items>
+    <items id="9d7a5b15-d289-471b-b46b-4422595fd83a">
+      <name>КолледжФакультетСПО</name>
+      <description>Колледж (факультет СПО)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="5fef46cd-4249-42d7-b885-08900630057f">
+        <name>ГуманитарныеИЕстественнонаучныеДисциплины</name>
+        <description>Гуманитарные и естественнонаучные дисциплины</description>
+        <code xsi:type="core:StringValue">
+          <value>000000011</value>
+        </code>
+      </content>
+      <content id="af31b8cc-a480-4309-91ac-dffa8faefe82">
+        <name>МенеджментИМаркетинг</name>
+        <description>Менеджмент и маркетинг</description>
+        <code xsi:type="core:StringValue">
+          <value>000000012</value>
+        </code>
+      </content>
+      <content id="2cfe2d24-5588-4dfa-a640-d0dab70ec475">
+        <name>ЭкономикаФинансыИБухгалтерскийУчёт</name>
+        <description>Экономика, финансы и бухгалтерский учёт</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+      <content id="7d0a0019-37de-42be-804c-50110f124d8d">
+        <name>ЮридическиеДисциплины</name>
+        <description>Юридические дисциплины</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+    </items>
+    <items id="f3b72e2b-4a45-411d-80a6-218c8e8c3cb7">
+      <name>ПсихологоПедагогическогоОбразования</name>
+      <description>Психолого-педагогического образования</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="78282353-b166-4f40-ae5b-0f2746a83662">
+        <name>МБОУСОШ16имГерояСоветскогоСоюзаСережниковаАИ</name>
+        <description>МБОУ «СОШ № 16 им. Героя Советского Союза Сережникова А.И.»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000015</value>
+        </code>
+      </content>
+      <content id="5a9ed9b7-9856-4b32-83ba-6e101a3a8640">
+        <name>МБОУТридцатьПерваяШкола</name>
+        <description>МБОУ «Тридцать первая школа»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000016</value>
+        </code>
+      </content>
+      <content id="f4325e50-5812-406a-b7a8-d2060823cf9c">
+        <name>ПедагогическоеОбразование</name>
+        <description>Педагогическое образование</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+      <content id="3b35d0c8-5b92-41ed-9811-7ef2f47932aa">
+        <name>ПсихологияПедагогикиИСпециальноеОбразование</name>
+        <description>Психология, педагогики и специальное образование</description>
+        <code xsi:type="core:StringValue">
+          <value>000000018</value>
+        </code>
+      </content>
+      <content id="30fdec94-1c5c-4b29-9a9a-d5a979de76a4">
+        <name>СоциальноГуманитарныеДисциплины</name>
+        <description>Социально-гуманитарные дисциплины</description>
+        <code xsi:type="core:StringValue">
+          <value>000000019</value>
+        </code>
+      </content>
+    </items>
+    <items id="623d1558-00c4-49db-bd34-5d779fca6a7b">
+      <name>Управления</name>
+      <description>Управления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="da41221a-9d48-42c7-a92a-1e52a0f73fb4">
+        <name>Менеджмент</name>
+        <description>Менеджмент</description>
+        <code xsi:type="core:StringValue">
+          <value>000000020</value>
+        </code>
+      </content>
+      <content id="e517e033-1f9a-444a-8f8d-c75537e0a0e6">
+        <name>ОООПлатформаРазвитияГКЭйтика</name>
+        <description>ООО « Платформа развития» (ГК Эйтика)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000021</value>
+        </code>
+      </content>
+      <content id="3ad28ba2-db1d-458e-8aff-d33552ca2270">
+        <name>РекламаCopySpace</name>
+        <description>Реклама «CopySpace»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000022</value>
+        </code>
+      </content>
+      <content id="2b2cf440-26c5-4853-bef7-794382e63d79">
+        <name>РекламаИЧеловеческиеРесурсы</name>
+        <description>Реклама и человеческие ресурсы</description>
+        <code xsi:type="core:StringValue">
+          <value>000000023</value>
+        </code>
+      </content>
+    </items>
+    <items id="253c484f-6a96-4fbf-a8fd-db8b753b9378">
+      <name>ЭкономикиИФинансов</name>
+      <description>Экономики и финансов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4ec32a03-2681-4adb-9b44-d884c2c717fb">
+        <name>ФинансовоЭкономическаяЭкспертизаНаБазеАссоциацияСудебныхЭкспертовСибириИДальнегоВостока</name>
+        <description>Финансово-экономическая экспертиза на базе «Ассоциация судебных экспертов Сибири и Дальнего Востока»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000024</value>
+        </code>
+      </content>
+      <content id="e9da7a4e-696d-49f7-99f2-1b2846e29e1a">
+        <name>ФинансовыйУчет</name>
+        <description>Финансовый учет</description>
+        <code xsi:type="core:StringValue">
+          <value>000000025</value>
+        </code>
+      </content>
+      <content id="880507fc-8e0d-4a66-88f5-ee220b7c125f">
+        <name>ЭкономикаГородскогоХозяйстваИСферыОбслуживания</name>
+        <description>Экономика городского хозяйства и сферы обслуживания</description>
+        <code xsi:type="core:StringValue">
+          <value>000000026</value>
+        </code>
+      </content>
+    </items>
+    <items id="26904928-404b-4cac-ab6a-0e4b6c525dfb">
+      <name>Юридический</name>
+      <description>Юридический</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="7055eb29-64b5-4b7b-8a56-8b0f064b0901">
+        <name>ОООЮридическаяФирмаМельник</name>
+        <description>«ООО «Юридическая фирма «Мельник»</description>
+        <code xsi:type="core:StringValue">
+          <value>000000027</value>
+        </code>
+      </content>
+      <content id="f8443171-ec5b-431a-83b8-0a22945849c5">
+        <name>ГражданскоеПравоИПроцесс</name>
+        <description>Гражданское право и процесс</description>
+        <code xsi:type="core:StringValue">
+          <value>000000028</value>
+        </code>
+      </content>
+      <content id="2489b11c-8ef9-4fe8-bf0e-b9dfdd721eb5">
+        <name>ПубличноеПраво</name>
+        <description>Публичное право</description>
+        <code xsi:type="core:StringValue">
+          <value>000000029</value>
+        </code>
+      </content>
+      <content id="6ff639f1-1bf2-4035-823b-9ecb4e07113c">
+        <name>УголовноеПравоИПроцесс</name>
+        <description>Уголовное право и процесс</description>
+        <code xsi:type="core:StringValue">
+          <value>000000030</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Кафедры.Form.ФормаЭлемента</defaultObjectForm>

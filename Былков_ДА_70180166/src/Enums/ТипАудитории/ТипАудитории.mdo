@@ -19,13 +19,6 @@
       <value>Лекционная</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="9cace211-e07f-4987-a724-a250ffbaf545">
-    <name>Лабораторная</name>
-    <synonym>
-      <key>ru</key>
-      <value>Лабораторная</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="3bf2b370-3af9-47f2-a106-d0d0bfaf2aa2">
     <name>КомпьютерныйКласс</name>
     <synonym>

@@ -65,7 +65,8 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВедомостьУчетаАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>InformationRegister.ТекущийСтатусЗадолженностей</registerRecords>
+  <registerRecords>InformationRegister.СтатусыАкадемическихЗадолженностей</registerRecords>
+  <registerRecords>AccumulationRegister.УчетАкадемическихЗадолженностей</registerRecords>
   <registerRecords>InformationRegister.ОценкиСтудентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -80,6 +81,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -110,18 +112,19 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="30d90e14-2d01-48d2-99b5-5ce9eb80457b">
-    <name>НаименованиеКонтроля</name>
+    <name>ФормаКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование контроля</value>
+      <value>Форма контроля</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеКонтроля</types>
+      <types>EnumRef.ФормаКонтроля</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -155,6 +158,23 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e79d471-59fc-47a5-8c1c-ad5fd13961d8">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -168,10 +188,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="d52534a5-7601-4d6e-890d-e6bef2d92511">
+  <templates uuid="959ff50d-6e3b-49a9-8320-7998bb97f801">
     <name>Печать</name>
   </templates>
-  <commands uuid="470cca72-50e6-435b-a0ba-2572e7534bec">
+  <commands uuid="369f7280-afb5-4cdf-9059-b45ef7a8091b">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

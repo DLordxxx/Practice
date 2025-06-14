@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>11985b2d-3c94-4a85-8970-e8da3ca27797</id>
+		<id>7d5df6ab-7cfc-46cd-8354-1f6c17ff366a</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</id>
+		<id>2f375144-c0b5-4101-9e2e-227c7552136e</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>11985b2d-3c94-4a85-8970-e8da3ca27797</columnsID>
+			<columnsID>7d5df6ab-7cfc-46cd-8354-1f6c17ff366a</columnsID>
 			<formatIndex>6</formatIndex>
 			<c>
 				<i>1</i>
@@ -97,7 +97,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -121,7 +121,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -145,7 +145,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -169,7 +169,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -193,31 +193,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Причина продления</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>ПричинаПродления</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>9</index>
-		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -239,9 +215,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>9</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -249,7 +225,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование контроля</v8:content>
+							<v8:content>Форма контроля</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -257,15 +233,15 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>НаименованиеКонтроля</parameter>
+					<parameter>ФормаКонтроля</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>10</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -287,9 +263,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>11</index>
 		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
+			<columnsID>2f375144-c0b5-4101-9e2e-227c7552136e</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -297,7 +273,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приложенные документы</v8:content>
+							<v8:content>Причина продления</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -305,63 +281,15 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>ПриложенныеДокументы</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>13</index>
-		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подтверждение</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>Подтверждение</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>14</index>
-		<row>
-			<columnsID>b1f5bab0-fe6d-4f45-a290-cd6d908da26d</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Статус рассмотрения</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>СтатусРассмотрения</parameter>
+					<parameter>ПричинаПродления</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>10</defaultFormatIndex>
-	<height>15</height>
-	<vgRows>15</vgRows>
+	<height>12</height>
+	<vgRows>12</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -402,21 +330,6 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
-	<merge>
-		<r>12</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>13</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
-	<merge>
-		<r>14</r>
-		<c>2</c>
-		<w>1</w>
-	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -425,7 +338,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>11985b2d-3c94-4a85-8970-e8da3ca27797</columnsID>
+			<columnsID>7d5df6ab-7cfc-46cd-8354-1f6c17ff366a</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -433,7 +346,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>14</endRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -446,13 +359,13 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>201</width>
+		<width>172</width>
 	</format>
 	<format>
 		<width>0</width>
 	</format>
 	<format>
-		<width>438</width>
+		<width>467</width>
 	</format>
 	<format>
 		<font>0</font>

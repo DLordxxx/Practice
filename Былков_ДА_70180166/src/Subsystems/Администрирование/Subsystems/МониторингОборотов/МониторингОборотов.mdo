@@ -8,6 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</content>
-  <content>AccumulationRegister.УспешныеПересдачи</content>
+  <content>AccumulationRegister.КонтрольАкадемическойНеуспеваемости</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

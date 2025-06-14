@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4485af40-6d45-4312-b265-a810de0902f3">
+  <producedTypes>
+    <refType typeId="955296fa-d034-43db-addb-fc0df749e38d" valueTypeId="8a617e22-9196-4b3e-ab58-ff8a5858a788"/>
+    <listType typeId="8da18718-d115-44f8-ac3f-b898cbd247ab" valueTypeId="f9b65623-feca-49c5-b1b6-93eb0013b406"/>
+    <managerType typeId="105249b4-3ea6-49da-9c69-7d7951bcf333" valueTypeId="5be66880-d080-4734-88e6-5a5900449c7a"/>
+  </producedTypes>
+  <name>ФормаКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма контроля</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d93e0853-269d-44df-bfc8-7fa510dd8163">
+    <name>Экзамен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экзамен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89998f99-c3ef-4313-9700-126a53a34caf">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b866995-300c-4a07-8825-1aaa7fcc19c9">
+    <name>ЗачетСОценкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет с оценкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12b8868c-db85-47d3-85a8-c6f90fc57a98">
+    <name>Курсовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91a37ac1-2edd-4a51-b332-9419f468c10b">
+    <name>Практика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Практика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6dad9e3a-d386-4054-9fc3-95c4cf1e6708">
+    <name>РейтинговаяРаботаБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинговая работа (БРС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0715806d-72dc-4c07-bcfb-a2bfd32185b4">
+    <name>РефератБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реферат (БРС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8848e7ee-3a4a-47e3-9e43-ed718ea385ac">
+    <name>ГрупповойПроектБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповой проект (БРС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32621f44-94a2-44ac-9665-0b7ecd82d155">
+    <name>ДомашнееТворческоеЗаданиеБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домашнее творческое задание (БРС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6e62454-24df-4f6e-9054-638ccd4ce0cc">
+    <name>КонтрольнаяРаботаБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная работа (БРС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e49bf4b6-1c69-4055-9a88-62d5b1220b55">
+    <name>РасчетноАналитическоеЗаданиеБРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетно-аналитическое задание (БРС)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

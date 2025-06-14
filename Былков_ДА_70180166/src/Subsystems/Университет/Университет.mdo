@@ -11,7 +11,6 @@
     <picture>CommonPicture.МУИВ</picture>
   </picture>
   <content>CommonForm.КарточкаУниверситета</content>
-  <content>Enum.ВидыФинансирования</content>
   <content>CommonPicture.МУИВ</content>
   <subsystems>Документооборот</subsystems>
 </mdclass:Subsystem>

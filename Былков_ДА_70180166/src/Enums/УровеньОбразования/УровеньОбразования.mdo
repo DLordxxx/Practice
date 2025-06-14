@@ -13,17 +13,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="a85713a1-7dff-4a56-9bce-ff3fd13f8165">
-    <name>Бакалавриат</name>
+    <name>Бакалавр</name>
     <synonym>
       <key>ru</key>
-      <value>Бакалавриат</value>
+      <value>Бакалавр</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d11edacc-a33e-4db0-8aa7-8d03f0aca850">
-    <name>Магистратура</name>
+    <name>Магистр</name>
     <synonym>
       <key>ru</key>
-      <value>Магистратура</value>
+      <value>Магистр</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9c21dc00-c571-4c16-ad23-bd5405412f4d">
@@ -34,17 +34,24 @@
     </synonym>
   </enumValues>
   <enumValues uuid="dd7cf076-de69-46ce-98bd-5b24d7291cf7">
-    <name>Специалитет</name>
+    <name>Специалист</name>
     <synonym>
       <key>ru</key>
-      <value>Специалитет</value>
+      <value>Специалист</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="c84c7efa-6452-4b71-8c1c-c10966b7da2e">
-    <name>СреднееПрофессиональноеОбразование</name>
+  <enumValues uuid="f9db315c-982d-4728-ae1b-80470dc9a075">
+    <name>СПОБазовый</name>
     <synonym>
       <key>ru</key>
-      <value>СПО</value>
+      <value>СПОБазовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01f0fd62-369e-479f-8fc6-90999e746a22">
+    <name>Программист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программист</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

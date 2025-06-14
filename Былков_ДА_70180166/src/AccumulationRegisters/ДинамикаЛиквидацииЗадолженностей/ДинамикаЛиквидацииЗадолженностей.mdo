@@ -14,6 +14,7 @@
     <value>Динамика ликвидации задолженностей</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.Form.ФормаСписка</defaultListForm>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
@@ -63,21 +64,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="703a3e35-ef71-4109-a8b8-dd22be4c1da1">
-    <name>Группа</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Группы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="3a9793ff-387d-457d-80b3-018fe221d3e7">
+  <dimensions uuid="418c064b-e9d0-44ee-b244-8e26b182c0a3">
     <name>Семестр</name>
     <synonym>
       <key>ru</key>
@@ -91,4 +78,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <forms uuid="014f1344-d991-4195-bbfd-42cbd0d17308">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:AccumulationRegister>

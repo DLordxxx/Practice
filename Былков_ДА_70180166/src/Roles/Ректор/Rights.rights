@@ -27,13 +27,9 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ПричинаПродления</name>
+		<name>Catalog.Студенты.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -44,7 +40,95 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЛичныеИндексыСтудентов.Attribute.ЛичныйИндексСтудента</name>
+		<name>Catalog.Студенты.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ПричинаПродления</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -60,13 +144,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -75,20 +159,12 @@
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Predefined</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -97,20 +173,12 @@
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -119,20 +187,12 @@
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Owner</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -141,20 +201,12 @@
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Description</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Аудитории.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -169,17 +221,6 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ПриложенныеДокументы</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -217,24 +258,141 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
-		<name>Catalog.Группы.Attribute.НаправленияПодготовки</name>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЛичныеИндексыСотрудников.Attribute.ЛичныйИндексСотрудника</name>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.ФормаОбучения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.ПрофильСтудента</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Группы.Attribute.НаправлениеПодготовки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.AddressingAttribute.Пользователь</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -249,6 +407,20 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.НаправлениеНаПересдачу.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -373,66 +545,25 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ТекущийСтатусЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.СтуденческийБилет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</name>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -453,10 +584,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
@@ -467,17 +594,6 @@
 		<right>
 			<name>Edit</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.Подтверждение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -492,7 +608,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении.Attribute.НаправленияПодготовки</name>
+		<name>Document.ПриказОбОтчислении.Attribute.НаправлениеПодготовки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.Семестр</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -579,7 +706,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИдентификацияАкадемическихЗадолженностей.Attribute.НаправленияПодготовки</name>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей.Attribute.НаправлениеПодготовки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -656,6 +783,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Университет.Subsystem.Документооборот</name>
 		<right>
 			<name>View</name>
@@ -718,14 +852,43 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НаименованияКонтроляСтудентов</name>
+		<name>Catalog.ПрофилиПодготовкиСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.Группа</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПротоколЗаседанияКомиссии.Attribute.Студент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.НаправлениеПодготовки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -750,10 +913,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
@@ -773,23 +932,36 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ПриказОбОтчислении.Attribute.Семестр</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.РезультатыПредыдущихСессий.Attribute.Факультет</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -819,6 +991,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -904,13 +1083,119 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ИдентификацияАкадемическихЗадолженностей.TabularSection.Характеристика.Attribute.НаименованиеКонтроля</name>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СтуденческиеБилеты.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Студенты.Attribute.Факультет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей.TabularSection.Характеристика.Attribute.ФормаКонтроля</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -943,7 +1228,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Семестры</name>
+		<name>Catalog.СеместрыСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1067,7 +1352,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.TabularSection.ХарактеристикаСтудента.Attribute.Дисциплина</name>
+		<name>Catalog.Студенты.Attribute.ЛичныйИндекс</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АкадемическаяНеуспеваемость.TabularSection.ХарактеристикаСтудента.Attribute.Дисциплина</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1079,6 +1375,10 @@
 	</object>
 	<object>
 		<name>Catalog.Кафедры.Attribute.ЗаведущийКафедрой</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1218,7 +1518,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.TabularSection.ХарактеристикаСтудента.Attribute.Оценка</name>
+		<name>Document.АкадемическаяНеуспеваемость.TabularSection.ХарактеристикаСтудента.Attribute.Семестр</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1240,11 +1540,18 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Аудитории.Attribute.ВыделенныеМеста</name>
+		<name>Catalog.НаправленияПодготовки.Attribute.УровеньОбразования</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Аудитории.Attribute.ВыделенныеМеста</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1314,13 +1621,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1329,12 +1636,20 @@
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Predefined</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1343,12 +1658,20 @@
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.DeletionMark</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1357,12 +1680,20 @@
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Owner</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1371,6 +1702,10 @@
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Description</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1378,12 +1713,38 @@
 	<object>
 		<name>Catalog.Кафедры.StandardAttribute.Code</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.НаименованиеКонтроля</name>
+		<name>Catalog.СтуденческиеБилеты.Attribute.ФИОСтудента</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.ФормаКонтроля</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НаправленияПодготовки.Attribute.КодНаправленияПодготовки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1504,6 +1865,62 @@
 		</right>
 	</object>
 	<object>
+		<name>Task.Задачи.StandardAttribute.Executed</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.RoutePoint</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.BusinessProcess</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Task.Задачи.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</name>
 		<right>
 			<name>Read</name>
@@ -1515,7 +1932,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.Академ_задолженность</name>
+		<name>DataProcessor.БизнесАналитика</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -1526,7 +1943,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.Attribute.Студент</name>
+		<name>Document.АкадемическаяНеуспеваемость.Attribute.ИндексСтудента</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1539,23 +1956,19 @@
 	<object>
 		<name>Catalog.Аудитории.Attribute.ТипАудитории</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ФормыОбучения</name>
+		<name>Catalog.ФормыОбученияСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.StandardAttribute.Posted</name>
+		<name>Document.АкадемическаяНеуспеваемость.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1566,7 +1979,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.StandardAttribute.Ref</name>
+		<name>Document.АкадемическаяНеуспеваемость.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1577,7 +1990,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.StandardAttribute.DeletionMark</name>
+		<name>Document.АкадемическаяНеуспеваемость.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1588,7 +2001,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.StandardAttribute.Date</name>
+		<name>Document.АкадемическаяНеуспеваемость.StandardAttribute.Date</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1599,7 +2012,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.StandardAttribute.Number</name>
+		<name>Document.АкадемическаяНеуспеваемость.StandardAttribute.Number</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1661,90 +2074,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.РезультатыПредыдущихСессий.TabularSection.ХарактеристикаСтудента</name>
+		<name>Document.АкадемическаяНеуспеваемость.TabularSection.ХарактеристикаСтудента</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1767,6 +2097,10 @@
 	</object>
 	<object>
 		<name>Catalog.Группы.Attribute.ФормаОбучения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1927,6 +2261,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ИдентификацияАкадемическихЗадолженностей.StandardAttribute.Posted</name>
 		<right>
 			<name>View</name>
@@ -2005,13 +2346,13 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Catalog.Группы.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2020,12 +2361,20 @@
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Predefined</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2034,12 +2383,20 @@
 	<object>
 		<name>Catalog.Группы.StandardAttribute.DeletionMark</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Группы.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2048,12 +2405,20 @@
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Owner</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2062,6 +2427,10 @@
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Description</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2069,12 +2438,16 @@
 	<object>
 		<name>Catalog.Группы.StandardAttribute.Code</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Attribute.СтатусРассмотрения</name>
+		<name>Catalog.Студенты.Attribute.Курс</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

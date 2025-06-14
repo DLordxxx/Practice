@@ -78,8 +78,13 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный индекс</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <mask>99999999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -97,8 +102,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
-  <codeType>String</codeType>
+  <descriptionLength>10</descriptionLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -123,26 +127,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="20c1ffac-b828-4731-8862-fce029dae83f">
-    <name>ЛичныйИндексСотрудника</name>
-    <synonym>
-      <key>ru</key>
-      <value>Личный индекс</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>8</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="75993efc-4420-4729-851e-5678650c37e0">
+  <forms uuid="18b10e0f-ba06-465a-b548-b9a5db3a0a18">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -151,7 +136,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="459ae323-1999-4ea8-8237-a2ea2c9fb794">
+  <forms uuid="75513860-bf09-4898-ab66-327de04b2f80">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

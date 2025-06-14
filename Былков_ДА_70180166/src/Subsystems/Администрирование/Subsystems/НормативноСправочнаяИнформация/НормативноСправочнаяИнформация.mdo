@@ -10,11 +10,10 @@
   <content>Catalog.Студенты</content>
   <content>Catalog.Группы</content>
   <content>Catalog.Сотрудники</content>
-  <content>Catalog.Семестры</content>
-  <content>Catalog.НаименованияКонтроляСтудентов</content>
+  <content>Catalog.СеместрыСтудентов</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.СтуденческиеБилеты</content>
-  <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.ФормыОбученияСтудентов</content>
   <content>Catalog.ЛичныеИндексыСтудентов</content>
   <content>Catalog.ЛичныеИндексыСотрудников</content>
   <content>Catalog.Дисциплины</content>

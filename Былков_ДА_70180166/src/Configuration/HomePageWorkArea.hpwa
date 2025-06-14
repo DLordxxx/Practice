@@ -3,7 +3,7 @@
   <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
   <columns>
     <items>
-      <form>DataProcessor.Академ_задолженность.Form.Справочная_информация</form>
+      <form>DataProcessor.БизнесАналитика.Form.СправочнаяИнформация</form>
       <height>10</height>
       <visibility>
         <common>true</common>

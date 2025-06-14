@@ -71,7 +71,6 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПротоколЗаседанияКомиссии.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</registerRecords>
-  <registerRecords>AccumulationRegister.УспешныеПересдачи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="6235254d-f79c-4781-a945-6edbc9575e3f">
@@ -85,6 +84,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -100,6 +100,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -155,23 +156,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a02d672d-4eb3-4ef7-a1e6-ac947b9b8f85">
-    <name>ДокументОснование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ основание</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.РекомендацииПоСтудентам</types>
-      <types>DocumentRef</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f62a5fe6-7e79-48fe-9e4c-5de37732d0d9">
     <name>ПроцентЗадолженностей</name>
     <synonym>
@@ -190,6 +174,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a02d672d-4eb3-4ef7-a1e6-ac947b9b8f85">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РекомендацииПоСтудентам</types>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="95f6773f-5be5-42ff-819f-a33d36024893">
     <name>ФормаДокумента</name>
     <synonym>
@@ -199,10 +200,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="e402d311-dce0-403e-b417-d3bfd2676542">
+  <templates uuid="1d230785-3d51-4c72-9d3d-5c8d7fcd118e">
     <name>Печать</name>
   </templates>
-  <commands uuid="f82b5419-b688-40da-9b73-29fbcfc6b024">
+  <commands uuid="396dda76-6fd6-4694-953d-73a488659419">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

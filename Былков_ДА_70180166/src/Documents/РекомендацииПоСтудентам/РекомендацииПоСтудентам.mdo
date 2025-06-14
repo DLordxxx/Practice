@@ -80,6 +80,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -125,6 +126,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -157,6 +159,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -170,10 +173,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="39d0f83d-8f1c-479e-b752-dbe5c51606c2">
+  <templates uuid="e7c18e59-982a-4573-8c62-9208b99dedcd">
     <name>Печать</name>
   </templates>
-  <commands uuid="df97d3dd-0807-4805-9a09-d210f4bbdf2a">
+  <commands uuid="51caae4c-9687-46b7-b4ef-5b8c42532963">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

@@ -78,10 +78,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер аудитории</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <mask>999</mask>
@@ -99,6 +95,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -108,24 +105,199 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1f4acb2b-40e1-4365-93b1-92e3a831a40e">
+      <name>ВторойЭтаж</name>
+      <description>Второй этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="6da84f5f-c99f-47cd-b75c-561b15701431">
+        <name>ДвестиДесять</name>
+        <description>210</description>
+        <code xsi:type="core:StringValue">
+          <value>000000006</value>
+        </code>
+      </content>
+      <content id="b555787d-86d3-4365-a73a-e0180349602a">
+        <name>ДвестиДвенадцать</name>
+        <description>212</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+      <content id="a688554b-5946-4885-bc35-c942c0c6ebbe">
+        <name>ДвестиТринадцать</name>
+        <description>213</description>
+        <code xsi:type="core:StringValue">
+          <value>000000023</value>
+        </code>
+      </content>
+      <content id="f7a0f09e-5304-471f-a28e-14965c3686a9">
+        <name>ДвестиЧетырнадцать</name>
+        <description>214</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="a3f1c61a-fcfc-4f9e-a5bd-645b2938bf5b">
+        <name>ДвестиШестнадцать</name>
+        <description>216</description>
+        <code xsi:type="core:StringValue">
+          <value>000000025</value>
+        </code>
+      </content>
+    </items>
+    <items id="77f3a143-ecdc-432a-9ee6-c3ee8b64c783">
+      <name>ПервыйЭтаж</name>
+      <description>Первый этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4180c6c4-d58f-46e2-b796-11f87587d990">
+        <name>СтоЧетырнадцать</name>
+        <description>114</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+      <content id="3b57ffdd-e32c-45ef-8f17-8a4707755763">
+        <name>СтоДвадцатьДва</name>
+        <description>122</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+      <content id="add47d96-30a9-494a-9f78-9bf549cc861b">
+        <name>СтоДвадцатьТри</name>
+        <description>123</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+      <content id="0b68fe23-d659-4f8e-8d1c-8d123272edda">
+        <name>СтоДвадцатьЧетыре</name>
+        <description>124</description>
+        <code xsi:type="core:StringValue">
+          <value>000000026</value>
+        </code>
+      </content>
+    </items>
+    <items id="3688f590-feb8-4837-bfa5-13a3ea1bcefb">
+      <name>ПятыйЭтаж</name>
+      <description>Пятый этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e2d66c2b-f09b-48e0-be22-5b91bedeb961">
+        <name>ПятьсотПять</name>
+        <description>505</description>
+        <code xsi:type="core:StringValue">
+          <value>000000016</value>
+        </code>
+      </content>
+      <content id="aafed1ce-ae60-4c90-ba96-bf63515f955b">
+        <name>ПятьсотДевять</name>
+        <description>509</description>
+        <code xsi:type="core:StringValue">
+          <value>000000015</value>
+        </code>
+      </content>
+      <content id="4c80e3bf-d0c4-421c-8316-0a1f766dfeea">
+        <name>ПятьсотДвенадцать</name>
+        <description>512</description>
+        <code xsi:type="core:StringValue">
+          <value>000000017</value>
+        </code>
+      </content>
+      <content id="cb1eec97-e56b-49ef-85fa-103da01ca599">
+        <name>ПятьсотДвадцать</name>
+        <description>520</description>
+        <code xsi:type="core:StringValue">
+          <value>000000014</value>
+        </code>
+      </content>
+      <content id="5866e192-da2d-4b79-8657-59fd9e383a36">
+        <name>ПятьсотДвадцатьДва</name>
+        <description>522</description>
+        <code xsi:type="core:StringValue">
+          <value>000000013</value>
+        </code>
+      </content>
+    </items>
+    <items id="0d15ce2d-8750-42fe-a948-4d85c5410b20">
+      <name>ТретийЭтаж</name>
+      <description>Третий этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="cc7cb8a9-6a0a-42b7-8452-d12c556545ca">
+        <name>ТристаОдин</name>
+        <description>301</description>
+        <code xsi:type="core:StringValue">
+          <value>000000022</value>
+        </code>
+      </content>
+      <content id="efe90790-6121-4f28-b2a7-0d2f939f9729">
+        <name>ТристаДесять</name>
+        <description>310</description>
+        <code xsi:type="core:StringValue">
+          <value>000000021</value>
+        </code>
+      </content>
+      <content id="df98fa19-8f9f-4784-af2f-6e15d51e8ef0">
+        <name>ТристаДвадцать</name>
+        <description>320</description>
+        <code xsi:type="core:StringValue">
+          <value>000000018</value>
+        </code>
+      </content>
+      <content id="373c10c2-c6cf-4022-be60-e97fb0944d01">
+        <name>ТристаДвадцатьОдин</name>
+        <description>321</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="872f16da-ad07-483e-b00e-9420523ad989">
+        <name>ТристаДвадцатьШесть</name>
+        <description>326</description>
+        <code xsi:type="core:StringValue">
+          <value>000000020</value>
+        </code>
+      </content>
+    </items>
+    <items id="bb76168b-141d-4c4e-be1f-bb8e11d1c1bc">
+      <name>ЧетвертыйЭтаж</name>
+      <description>Четвертый этаж</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="31639f61-08e7-463e-a329-c8df49ca924c">
+        <name>ЧетырестаТридцатьОдин</name>
+        <description>431</description>
+        <code xsi:type="core:StringValue">
+          <value>000000019</value>
+        </code>
+      </content>
+      <content id="8b1226a3-f339-4e24-9512-8bd0dd47f94b">
+        <name>ЧетырестаТридцатьТри</name>
+        <description>433</description>
+        <code xsi:type="core:StringValue">
+          <value>000000024</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Аудитории.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="aaf3afc7-14b7-4c0e-878a-0db9a522585b">
-    <name>ВыделенныеМеста</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выделенные места</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВыделенныеМеста</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+  <defaultListForm>Catalog.Аудитории.Form.ФормаСписка</defaultListForm>
   <attributes uuid="c815194c-e196-4054-9db3-c3d64adabd6c">
     <name>ТипАудитории</name>
     <synonym>
@@ -141,11 +313,35 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="aaf3afc7-14b7-4c0e-878a-0db9a522585b">
+    <name>ВыделенныеМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделенные места</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВыделенныеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="af404acb-3ae1-4241-a2e4-e26f09dc788e">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ee6db49-2dce-42d5-9d42-d28ea506ab7b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

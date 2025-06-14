@@ -60,7 +60,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <basedOn>Document.РезультатыПредыдущихСессий</basedOn>
+  <basedOn>Document.АкадемическаяНеуспеваемость</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -70,8 +70,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ИдентификацияАкадемическихЗадолженностей.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.НеудачныеПересдачи</registerRecords>
-  <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="28d58dcf-a591-453f-b42b-d65b388f6bb9">
@@ -85,6 +83,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -131,11 +130,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="56d87ece-1746-46bd-8e56-fe237f070368">
-    <name>НаправленияПодготовки</name>
+  <attributes uuid="8eaf30d2-5593-4043-a40c-c5d42bbbae50">
+    <name>Факультет</name>
     <synonym>
       <key>ru</key>
-      <value>Направления подготовки</value>
+      <value>Факультет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Факультеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56d87ece-1746-46bd-8e56-fe237f070368">
+    <name>НаправлениеПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>
@@ -146,14 +160,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8eaf30d2-5593-4043-a40c-c5d42bbbae50">
-    <name>Факультет</name>
+  <attributes uuid="d3d3842d-c36e-41a7-aad9-9eca5f1fcb62">
+    <name>ПрофильСтудента</name>
     <synonym>
       <key>ru</key>
-      <value>Факультет</value>
+      <value>Профиль студента</value>
     </synonym>
     <type>
-      <types>CatalogRef.Факультеты</types>
+      <types>CatalogRef.ПрофилиПодготовкиСтудентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -187,6 +201,22 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf38c846-1932-40d8-b140-e19fd6e2b2f3">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.АкадемическаяНеуспеваемость</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -225,13 +255,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="76f03fb9-0742-4e0f-a9eb-44a592c6be22">
-      <name>НаименованиеКонтроля</name>
+      <name>ФормаКонтроля</name>
       <synonym>
         <key>ru</key>
-        <value>Наименование контроля</value>
+        <value>Форма контроля</value>
       </synonym>
       <type>
-        <types>EnumRef.НаименованиеКонтроля</types>
+        <types>EnumRef.ФормаКонтроля</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -239,10 +269,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="de4eac79-833c-4b0a-8081-bb08f01c7459">
+  <templates uuid="6e87491d-e135-49a1-8cee-fcf39c8ee7cb">
     <name>Печать</name>
   </templates>
-  <commands uuid="23222f13-524a-4436-91d8-936433cc34fd">
+  <commands uuid="c5309563-c746-4454-9966-bdb56c655d49">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

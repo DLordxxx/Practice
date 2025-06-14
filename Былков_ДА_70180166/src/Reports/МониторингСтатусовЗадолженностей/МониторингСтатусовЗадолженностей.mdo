@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26c2a84-89a9-4bb8-8d1b-c70c92781c7b">
+  <producedTypes>
+    <objectType typeId="367d36c2-2e2f-4248-a30b-bd851f673f03" valueTypeId="ecf70f7f-ee16-4a7b-a599-9217d52595bc"/>
+    <managerType typeId="8c76214b-5052-4435-b675-d3e1fb180f32" valueTypeId="35005a0a-e077-43a0-a961-9934385a8682"/>
+  </producedTypes>
+  <name>МониторингСтатусовЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг статусов задолженностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МониторингСтатусовЗадолженностей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="615a233a-49d7-4104-826a-e94706ef2112">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

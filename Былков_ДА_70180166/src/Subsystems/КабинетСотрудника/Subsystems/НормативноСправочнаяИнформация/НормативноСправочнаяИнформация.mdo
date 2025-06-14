@@ -12,11 +12,10 @@
   <content>Catalog.СтуденческиеБилеты</content>
   <content>Catalog.НаправленияПодготовки</content>
   <content>Catalog.Дисциплины</content>
-  <content>Catalog.ПричинаВозникновенияЗадолженностей</content>
-  <content>Catalog.Семестры</content>
+  <content>Catalog.СеместрыСтудентов</content>
   <content>Catalog.Аудитории</content>
-  <content>Catalog.НаименованияКонтроляСтудентов</content>
-  <content>Catalog.ФормыОбучения</content>
+  <content>Catalog.ПрофилиПодготовкиСтудентов</content>
+  <content>Catalog.ФормыОбученияСтудентов</content>
   <content>Catalog.Факультеты</content>
   <content>Catalog.Кафедры</content>
   <parentSubsystem>Subsystem.КабинетСотрудника</parentSubsystem>

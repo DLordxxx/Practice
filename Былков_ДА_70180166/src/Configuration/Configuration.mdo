@@ -53,7 +53,7 @@
   <roles>Role.ЗаведующийКафедрой</roles>
   <roles>Role.Преподаватель</roles>
   <roles>Role.Студент</roles>
-  <commonModules>CommonModule.ОбщиеПроцедурыДляСправочников</commonModules>
+  <commonModules>CommonModule.ОбщиеПроцедурыСистемы</commonModules>
   <constants>Constant.НаименованиеУниверситета</constants>
   <constants>Constant.ЮридическийАдрес</constants>
   <commonForms>CommonForm.КарточкаУниверситета</commonForms>
@@ -67,13 +67,12 @@
   <catalogs>Catalog.Дисциплины</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ЛичныеИндексыСотрудников</catalogs>
-  <catalogs>Catalog.ПричинаВозникновенияЗадолженностей</catalogs>
-  <catalogs>Catalog.Семестры</catalogs>
+  <catalogs>Catalog.СеместрыСтудентов</catalogs>
   <catalogs>Catalog.Аудитории</catalogs>
-  <catalogs>Catalog.НаименованияКонтроляСтудентов</catalogs>
+  <catalogs>Catalog.ПрофилиПодготовкиСтудентов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.ФормыОбучения</catalogs>
-  <documents>Document.РезультатыПредыдущихСессий</documents>
+  <catalogs>Catalog.ФормыОбученияСтудентов</catalogs>
+  <documents>Document.АкадемическаяНеуспеваемость</documents>
   <documents>Document.ИдентификацияАкадемическихЗадолженностей</documents>
   <documents>Document.НаправлениеНаПересдачу</documents>
   <documents>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей</documents>
@@ -88,30 +87,30 @@
   <enums>Enum.УровеньОбразования</enums>
   <enums>Enum.УченоеЗвание</enums>
   <enums>Enum.НаименованиеСтатуса</enums>
-  <enums>Enum.ОписаниеПричины</enums>
   <enums>Enum.ТипАудитории</enums>
-  <enums>Enum.НаименованиеКонтроля</enums>
+  <enums>Enum.ФормаКонтроля</enums>
   <enums>Enum.Оценка</enums>
   <enums>Enum.РольВКомиссии</enums>
   <enums>Enum.РешениеКомиссии</enums>
-  <enums>Enum.СтатусРассмотрения</enums>
-  <enums>Enum.ВидыФинансирования</enums>
   <enums>Enum.Семестры</enums>
+  <enums>Enum.Курсы</enums>
   <enums>Enum.ВыделенныеМеста</enums>
   <enums>Enum.Время</enums>
-  <reports>Report.АнализЗадолженностей</reports>
-  <reports>Report.РаспределениеРолейПоЗадачам</reports>
-  <reports>Report.РезультатыСессии</reports>
-  <reports>Report.МониторингВозникшихЗадолженностей</reports>
+  <enums>Enum.ПричинаВозникновенияЗадолженности</enums>
+  <reports>Report.АнализАкадемическойНеуспеваемости</reports>
+  <reports>Report.МониторингТекущихОценокСтудентов</reports>
   <reports>Report.КоличественныйАнализЗадолженностей</reports>
-  <dataProcessors>DataProcessor.Академ_задолженность</dataProcessors>
-  <informationRegisters>InformationRegister.ТекущийСтатусЗадолженностей</informationRegisters>
+  <reports>Report.МониторингСтатусовЗадолженностей</reports>
+  <reports>Report.СтатистикаПоОтчисленнымСтудентам</reports>
+  <dataProcessors>DataProcessor.БизнесАналитика</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаJSONФайлов</dataProcessors>
+  <informationRegisters>InformationRegister.СтатусыАкадемическихЗадолженностей</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПересдач</informationRegisters>
   <informationRegisters>InformationRegister.ОценкиСтудентов</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженности</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.НеудачныеПересдачи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УчетАкадемическихЗадолженностей</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПросроченныеЗадолженностиДляОтчисления</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.УспешныеПересдачи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КонтрольАкадемическойНеуспеваемости</accumulationRegisters>
   <businessProcesses>BusinessProcess.КонтрольАкадемическойУспеваемости</businessProcesses>
   <tasks>Task.Задачи</tasks>
 </mdclass:Configuration>

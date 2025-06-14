@@ -78,6 +78,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование дисциплины</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -94,7 +98,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -107,14 +110,15 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Дисциплины.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Дисциплины.Form.ФормаСписка</defaultListForm>
   <attributes uuid="3f0ff4b9-295e-4e97-bf66-e2bc5e7d8f88">
-    <name>НаименованиеКонтроля</name>
+    <name>ФормаКонтроля</name>
     <synonym>
       <key>ru</key>
       <value>Форма контроля</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеКонтроля</types>
+      <types>EnumRef.ФормаКонтроля</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -128,6 +132,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5655616-4bcf-4567-b973-f2f038d4a07f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

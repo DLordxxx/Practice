@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07762ee4-5aab-46cd-b606-ab001efca4f8">
+  <producedTypes>
+    <refType typeId="7a8a16c5-2437-4470-a3a2-90398e564062" valueTypeId="1077f8c5-3009-4ed2-aa33-18b7653ba153"/>
+    <listType typeId="fd573792-8b23-43d4-931a-7898a7dce096" valueTypeId="f104c912-d90e-4429-8dca-e02f5f286238"/>
+    <managerType typeId="a9949f85-5b09-431f-b7e8-ddab62dc4969" valueTypeId="88611cd3-91f4-4efb-83ba-6f50664f5a8b"/>
+  </producedTypes>
+  <name>ПричинаВозникновенияЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина возникновения задолженности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a4e0520-66dd-4fc6-9b3e-db03dccec99a">
+    <name>Неявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неявка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7701ab1-476d-4230-be40-58471694a858">
+    <name>Незачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Незачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="001d36c3-e45e-4158-b0da-0d1d3784c267">
+    <name>Неудовлетворительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неудовлетворительно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91a28353-807c-4ce9-bf79-e645796ce0b8">
+    <name>НеДопущен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не допущен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="806744e3-0dba-4c78-8b1c-e1fa3851b220">
+    <name>ДругаяПричина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другая причина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

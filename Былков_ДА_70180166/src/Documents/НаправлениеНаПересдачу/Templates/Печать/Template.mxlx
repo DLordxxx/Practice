@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>bac916c1-cce3-4bff-ba25-4af8ab43cf24</id>
+		<id>8e6036e7-9452-4783-bbbf-0ff77b67969c</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>9c66c34e-5659-4b70-beca-46ef3125c2a1</id>
+		<id>adcabcbc-dd32-472b-b177-6e3bc550da51</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>bac916c1-cce3-4bff-ba25-4af8ab43cf24</columnsID>
+			<columnsID>8e6036e7-9452-4783-bbbf-0ff77b67969c</columnsID>
 			<formatIndex>6</formatIndex>
 			<c>
 				<i>1</i>
@@ -97,7 +97,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -121,7 +121,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -145,151 +145,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Направления подготовки</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>НаправленияПодготовки</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>7</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Курс</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>10</f>
-					<parameter>Курс</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>8</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>Группа</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>9</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Факультет</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>Факультет</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>10</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дисциплина</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>Дисциплина</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>11</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Преподаватель</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<parameter>Преподаватель</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>12</index>
-		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -311,9 +167,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>7</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -328,16 +184,88 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>10</f>
 					<parameter>ЛичныйИндекс</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>14</index>
+		<index>8</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Факультет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Факультет</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Направление подготовки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>НаправлениеПодготовки</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Группа</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -359,9 +287,129 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>12</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курс</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Курс</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дисциплина</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Дисциплина</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Форма контроля</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>ФормаКонтроля</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>15</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преподаватель</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Преподаватель</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Время</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -383,9 +431,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>18</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -407,9 +455,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>19</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -417,7 +465,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование контроля</v8:content>
+							<v8:content>Основание</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -425,15 +473,375 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>НаименованиеКонтроля</parameter>
+					<parameter>Основание</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>20</index>
 		<row>
-			<columnsID>9c66c34e-5659-4b70-beca-46ef3125c2a1</columnsID>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Номер</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Дата</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Студент</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Студент</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Личный индекс</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<parameter>ЛичныйИндекс</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Факультет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Факультет</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Направление подготовки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>НаправлениеПодготовки</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Группа</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Форма обучения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>ФормаОбучения</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курс</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Курс</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дисциплина</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Дисциплина</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Форма контроля</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>ФормаКонтроля</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преподаватель</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Преподаватель</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аудитория</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Аудитория</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата проведения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>ДатаПроведения</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Время</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<columnsID>adcabcbc-dd32-472b-b177-6e3bc550da51</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -455,9 +863,9 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>12</defaultFormatIndex>
-	<height>19</height>
-	<vgRows>19</vgRows>
+	<defaultFormatIndex>11</defaultFormatIndex>
+	<height>36</height>
+	<vgRows>36</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -499,6 +907,11 @@
 		<w>1</w>
 	</merge>
 	<merge>
+		<r>13</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
 		<r>14</r>
 		<c>2</c>
 		<w>1</w>
@@ -523,6 +936,86 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<merge>
+		<r>19</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>21</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>25</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>26</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>27</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>29</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>30</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>31</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>33</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>34</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>35</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -531,7 +1024,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>bac916c1-cce3-4bff-ba25-4af8ab43cf24</columnsID>
+			<columnsID>8e6036e7-9452-4783-bbbf-0ff77b67969c</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -539,7 +1032,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>18</endRow>
+			<endRow>35</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -575,19 +1068,6 @@
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<markNegatives>false</markNegatives>
-	</format>
-	<format>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Block</textPlacement>
-		<fillType>Parameter</fillType>
-		<markNegatives>false</markNegatives>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧЦ=1;ЧДЦ=0</v8:content>
-			</v8:item>
-		</format>
 	</format>
 	<format>
 		<horizontalAlignment>Right</horizontalAlignment>

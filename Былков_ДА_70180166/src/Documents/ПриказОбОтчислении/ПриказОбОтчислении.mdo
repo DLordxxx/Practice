@@ -70,7 +70,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриказОбОтчислении.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ПросроченныеЗадолженности</registerRecords>
+  <registerRecords>AccumulationRegister.ПросроченныеЗадолженностиДляОтчисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="19af752d-a289-484e-8251-17efc5ec5c8a">
@@ -84,6 +84,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -104,10 +105,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="450c0c26-53bc-47db-a31e-bfb47c051d74">
-    <name>НаправленияПодготовки</name>
+    <name>НаправлениеПодготовки</name>
     <synonym>
       <key>ru</key>
-      <value>Направления подготовки</value>
+      <value>Направление подготовки</value>
     </synonym>
     <type>
       <types>CatalogRef.НаправленияПодготовки</types>
@@ -147,6 +148,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -162,6 +164,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -175,10 +178,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="974df57e-ffcc-41fa-a9d2-92180d31c4c1">
+  <templates uuid="01d51c08-f7a9-46b2-bec4-fcc01fd34641">
     <name>Печать</name>
   </templates>
-  <commands uuid="95d2a173-91ef-4322-b2e1-3148f485bfae">
+  <commands uuid="ad23c68c-9048-45d4-a982-f693f6770c70">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

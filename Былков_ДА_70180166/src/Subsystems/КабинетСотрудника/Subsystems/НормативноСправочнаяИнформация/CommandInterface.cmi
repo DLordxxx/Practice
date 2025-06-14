@@ -3,15 +3,14 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>Catalog.ФормыОбучения.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФормыОбученияСтудентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Факультеты.StandardCommand.OpenList</commands>
       <commands>Catalog.Кафедры.StandardCommand.OpenList</commands>
       <commands>Catalog.НаправленияПодготовки.StandardCommand.OpenList</commands>
-      <commands>Catalog.Семестры.StandardCommand.OpenList</commands>
+      <commands>Catalog.СеместрыСтудентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Группы.StandardCommand.OpenList</commands>
       <commands>Catalog.Дисциплины.StandardCommand.OpenList</commands>
-      <commands>Catalog.НаименованияКонтроляСтудентов.StandardCommand.OpenList</commands>
-      <commands>Catalog.ПричинаВозникновенияЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПрофилиПодготовкиСтудентов.StandardCommand.OpenList</commands>
       <commands>Catalog.Аудитории.StandardCommand.OpenList</commands>
       <commands>Catalog.Студенты.StandardCommand.OpenList</commands>
       <commands>Catalog.СтуденческиеБилеты.StandardCommand.OpenList</commands>

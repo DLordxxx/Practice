@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf26a8e-7e8b-4394-8449-9f3caeecde2e">
+  <producedTypes>
+    <objectType typeId="54251438-f649-42fe-8ec4-112178594ae3" valueTypeId="5206e069-d67b-4a81-9fbb-ebf64248d589"/>
+    <refType typeId="a28b84b0-caca-413d-8b76-ab661e3f3f88" valueTypeId="0fffba7e-d484-4caf-89f5-87edb675afab"/>
+    <selectionType typeId="0c178efa-11c6-4634-b276-931a6c496108" valueTypeId="d8f87e81-d771-497e-9152-0ef15628a3b9"/>
+    <listType typeId="40c85700-dc87-4247-b635-48a83a832419" valueTypeId="c78f80e8-61bf-44d1-ad59-05c1f948691f"/>
+    <managerType typeId="23f59bea-6a8a-4e92-8f39-36d1d65c5c42" valueTypeId="a3f1ca5b-a53c-4b78-a25d-1a620f9bc04f"/>
+  </producedTypes>
+  <name>АкадемическаяНеуспеваемость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Академическая неуспеваемость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АкадемическаяНеуспеваемость.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.АкадемическаяНеуспеваемость.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.КонтрольАкадемическойНеуспеваемости</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c7ea9843-6616-431d-96b1-a33ac75266a8">
+    <name>ИндексСтудента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс студента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="849a3c44-9585-44f9-9277-609cef75cdc7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="dc7e865f-e9c0-45e2-88db-f8e8772f764d">
+    <producedTypes>
+      <objectType typeId="3919df0f-956a-43aa-a4d7-1ca7469b04cf" valueTypeId="33055a7a-ff25-435f-930d-784e6d44ca48"/>
+      <rowType typeId="0d414cd3-b9aa-4d9e-8c65-7b497c21f9d3" valueTypeId="069a1f90-6cd7-4de7-9ac4-500faee325e5"/>
+    </producedTypes>
+    <name>ХарактеристикаСтудента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика студента</value>
+    </synonym>
+    <attributes uuid="915779bc-34b8-4eb7-9580-1fc93525f6b9">
+      <name>Дисциплина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дисциплина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дисциплины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0016706d-6c6a-4714-b404-0b7f08cf5a43">
+      <name>ФормаКонтроля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Форма контроля</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ФормаКонтроля</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f951c244-8ced-4001-9c83-1026a4fdea30">
+      <name>ПричинаВозникновенияЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПричинаВозникновенияЗадолженности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ebe66be-23df-42d8-bbdf-771f9ff028dc">
+      <name>Семестр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Семестр</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Семестры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="ed3fd8f1-9a8c-4c70-8e16-5a7c8473f42d">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="b7bd9b9c-e178-412c-9454-35edecb6ce4a">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.АкадемическаяНеуспеваемость</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd04f9a3-b963-4627-b7a4-8830d2088850">
+  <producedTypes>
+    <objectType typeId="a50fe7c9-7774-4710-8fd5-7291c19da89d" valueTypeId="f9a42e01-395f-4aa9-a626-558cd77e5ba4"/>
+    <managerType typeId="eb050d6f-da46-4209-b98e-6b99bbd0f137" valueTypeId="05f62871-fad6-48e4-a33c-dff8f4131a51"/>
+  </producedTypes>
+  <name>МониторингТекущихОценокСтудентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг текущих оценок студентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МониторингТекущихОценокСтудентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ca35c7f3-8a09-4a81-80ae-6944707920dd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

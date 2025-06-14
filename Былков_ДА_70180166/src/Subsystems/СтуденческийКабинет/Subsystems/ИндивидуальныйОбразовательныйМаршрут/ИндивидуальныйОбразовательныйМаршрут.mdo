@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности</content>
   <content>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</content>
+  <content>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</content>
   <parentSubsystem>Subsystem.СтуденческийКабинет</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2da4be3b-f911-4215-bee7-a5fbafeab6ad">
+  <producedTypes>
+    <selectionType typeId="4674a990-5b6b-4840-aa31-c657dc5a76c4" valueTypeId="bd4e86d9-a3a8-4f12-8622-6941b767f35b"/>
+    <listType typeId="b4e94f60-36f8-430e-bdc5-96e8bc2a430d" valueTypeId="cf28753f-1a0c-4f95-99a4-2fe3da1b3c6b"/>
+    <managerType typeId="67f54be0-c997-4aa1-8d07-a3976ecf8803" valueTypeId="6d4f524a-4566-4f76-ac2f-bc2782dc1846"/>
+    <recordSetType typeId="20c50963-68e9-4383-98cb-0a44855a4afe" valueTypeId="58d90730-c459-4af2-970a-f0c1939bc8f1"/>
+    <recordKeyType typeId="f788e670-1cac-4402-82b4-2f89a0f59be1" valueTypeId="1ed5ab2f-0ae6-4b0e-a434-0fa5e741949b"/>
+    <recordType typeId="7784cd1c-36c1-4cec-8ebf-3661c4b1f21f" valueTypeId="79c3f9c6-16e9-40e2-9193-c4a1b2d56807"/>
+    <recordManagerType typeId="377b28d9-e763-49a6-9a9d-4fc21eddda28" valueTypeId="3c273e06-7807-435a-96b2-244b655d8011"/>
+  </producedTypes>
+  <name>СтатусыАкадемическихЗадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы академических задолженностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="297db9cd-4bc8-432f-b0b7-cc583771cb36">
+    <name>СтатусЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задолженности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаименованиеСтатуса</types>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН=-</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c7229e1d-6b3c-4154-ae2f-c7f33c5e258d">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03cd1242-d5eb-427b-8420-40624adc665a">
+    <name>Дисциплина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисциплина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дисциплины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="15a3b1f7-aee0-4e8d-9fc9-b845af7a17ca">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

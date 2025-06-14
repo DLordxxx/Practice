@@ -265,7 +265,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ФормаКонтроля</name>
+      <name>ВремяПересдачи</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -273,10 +273,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ФормаКонтроля</segments>
+        <segments>Список.ВремяПересдачи</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ФормаКонтроляРасширеннаяПодсказка</name>
+        <name>ВремяПересдачиРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -286,7 +286,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ФормаКонтроляКонтекстноеМеню</name>
+        <name>ВремяПересдачиКонтекстноеМеню</name>
         <id>35</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -429,7 +429,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>FormCommandBar</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>

@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Студент</name>
-    <id>4</id>
+    <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +17,7 @@
     </handlers>
     <extendedTooltip>
       <name>СтудентРасширеннаяПодсказка</name>
-      <id>6</id>
+      <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -27,7 +27,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СтудентКонтекстноеМеню</name>
-      <id>5</id>
+      <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -46,19 +46,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ЛичныйИндексСтудента</name>
-    <id>7</id>
+    <name>Наименование</name>
+    <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ЛичныйИндексСтудента</segments>
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЛичныйИндексСтудентаРасширеннаяПодсказка</name>
-      <id>9</id>
+      <name>НаименованиеРасширеннаяПодсказка</name>
+      <id>6</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -67,11 +67,12 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ЛичныйИндексСтудентаКонтекстноеМеню</name>
-      <id>8</id>
+      <name>НаименованиеКонтекстноеМеню</name>
+      <id>5</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
+    <readOnly>true</readOnly>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -121,5 +122,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+  </extInfo>
 </form:Form>

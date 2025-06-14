@@ -104,6 +104,13 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="86e8eb6b-6d7d-476b-a38e-2bb38d876421">
+      <name>Аспирантура</name>
+      <description>Аспирантура</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
     <items id="1597bbb0-c75b-4ff4-865f-ae9fe031ca4f">
       <name>ИнформационныхТехнологий</name>
       <description>Информационных технологий</description>
@@ -116,6 +123,13 @@
       <description>Колледж (факультет СПО)</description>
       <code xsi:type="core:StringValue">
         <value>000000002</value>
+      </code>
+    </items>
+    <items id="9a03870e-31b7-4029-ace2-18fe5139c173">
+      <name>Объединенный</name>
+      <description>Объединенный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
       </code>
     </items>
     <items id="335bac03-c47b-4708-a7c0-ca493631c907">

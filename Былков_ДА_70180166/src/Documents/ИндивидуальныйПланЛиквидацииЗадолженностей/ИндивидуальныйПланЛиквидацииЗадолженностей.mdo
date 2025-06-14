@@ -88,6 +88,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -118,21 +119,38 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="bd526e6d-7881-4773-adc7-1b56a25df901">
-    <name>НаименованиеКонтроля</name>
+    <name>ФормаКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование контроля</value>
+      <value>Форма контроля</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеКонтроля</types>
+      <types>EnumRef.ФормаКонтроля</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baa71845-21f7-4f3f-a4b1-9eb9a79a1faa">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -148,6 +166,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -170,17 +189,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="baa71845-21f7-4f3f-a4b1-9eb9a79a1faa">
-    <name>Преподаватель</name>
+  <attributes uuid="da5a6e86-3a17-4a50-9599-4e42ec1d8b05">
+    <name>Время</name>
     <synonym>
       <key>ru</key>
-      <value>Преподаватель</value>
+      <value>Время</value>
     </synonym>
     <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>EnumRef.Время</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -196,21 +216,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="da5a6e86-3a17-4a50-9599-4e42ec1d8b05">
-    <name>Время</name>
-    <synonym>
-      <key>ru</key>
-      <value>Время</value>
-    </synonym>
-    <type>
-      <types>EnumRef.Время</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -224,10 +230,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="4d857066-3aa9-4e4a-be79-ee9a6fa884c0">
+  <templates uuid="d4e0d1b9-961e-4f8e-91d8-66220d159a36">
     <name>Печать</name>
   </templates>
-  <commands uuid="9fe9759c-c6c3-4402-9e24-6950d796ba66">
+  <commands uuid="5a7f0621-5efd-4090-b9c4-73575df307d0">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

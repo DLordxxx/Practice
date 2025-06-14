@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Task.Задачи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Task.Задачи.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
   <subsystemsOrder>
     <subsystems>Subsystem.КабинетСотрудника.Subsystem.Документооборот</subsystems>
     <subsystems>Subsystem.КабинетСотрудника.Subsystem.ИндивидуальныйОбразовательныйМаршрут</subsystems>

@@ -52,6 +52,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Description</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>НаименованиеПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
       <id>6</id>
@@ -362,5 +366,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+  </extInfo>
 </form:Form>

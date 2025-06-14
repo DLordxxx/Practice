@@ -8,7 +8,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.УспешныеПересдачи.StandardCommand.OpenList</command>
+      <command>AccumulationRegister.КонтрольАкадемическойНеуспеваемости.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -18,7 +18,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>AccumulationRegister.ДинамикаЛиквидацииЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.УспешныеПересдачи.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.КонтрольАкадемическойНеуспеваемости.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

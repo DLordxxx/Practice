@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>AccumulationRegister.ПросроченныеЗадолженности</content>
-  <content>AccumulationRegister.НеудачныеПересдачи</content>
+  <content>AccumulationRegister.УчетАкадемическихЗадолженностей</content>
+  <content>AccumulationRegister.ПросроченныеЗадолженностиДляОтчисления</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

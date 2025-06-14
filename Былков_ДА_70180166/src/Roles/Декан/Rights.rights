@@ -107,13 +107,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Студенты</name>
 		<right>
 			<name>Read</name>
@@ -540,7 +533,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИдентификацияАкадемическихЗадолженностей.Command.Печать</name>
+		<name>Document.НаправлениеНаПересдачу.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -650,7 +650,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ТекущийСтатусЗадолженностей</name>
+		<name>InformationRegister.СтатусыАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -717,6 +717,20 @@
 	</object>
 	<object>
 		<name>Subsystem.Администрирование.Subsystem.НормативноСправочнаяИнформация</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.Command.Печать</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПротоколЗаседанияКомиссии.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -830,6 +844,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявлениеНаПродлениеСроковЛиквидацииЗадолженности.Command.Печать</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -959,13 +980,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьУчетаАкадемическихЗадолженностей.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Администрирование.Subsystem.УправлениеАкадемическимиЗадолженностями</name>
 		<right>
 			<name>View</name>
@@ -1023,6 +1037,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.РекомендацииПоСтудентам.Command.Печать</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1110,6 +1131,13 @@
 	</object>
 	<object>
 		<name>CommonForm.КарточкаУниверситета</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1234,7 +1262,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.НаименованияКонтроляСтудентов</name>
+		<name>Catalog.ПрофилиПодготовкиСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1333,6 +1361,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Command.Печать</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1551,7 +1586,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.НеудачныеПересдачи</name>
+		<name>AccumulationRegister.КонтрольАкадемическойНеуспеваемости</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1806,7 +1841,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Семестры</name>
+		<name>Catalog.СеместрыСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2020,7 +2055,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.АнализЗадолженностей</name>
+		<name>Report.АнализАкадемическойНеуспеваемости</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -2032,20 +2067,6 @@
 	</object>
 	<object>
 		<name>Subsystem.КабинетСотрудника.Subsystem.Документооборот</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПриказОбОтчислении.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.НаправлениеНаПересдачу.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2163,13 +2184,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ИндивидуальныйПланЛиквидацииЗадолженностей.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ЮридическийАдрес</name>
 		<right>
 			<name>Read</name>
@@ -2217,7 +2231,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий.Command.Печать</name>
+		<name>Document.ПриказОбОтчислении.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2327,7 +2341,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.РезультатыСессии</name>
+		<name>Report.МониторингСтатусовЗадолженностей</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -2338,7 +2352,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ПросроченныеЗадолженности</name>
+		<name>AccumulationRegister.УчетАкадемическихЗадолженностей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2361,7 +2375,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ.Command.Печать</name>
+		<name>Document.АкадемическаяНеуспеваемость.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2779,7 +2793,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.УспешныеПересдачи</name>
+		<name>AccumulationRegister.ПросроченныеЗадолженностиДляОтчисления</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2913,11 +2927,18 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.Академ_задолженность</name>
+		<name>DataProcessor.БизнесАналитика</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ИдентификацияАкадемическихЗадолженностей.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2931,14 +2952,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОНазначенииКомиссииПоЛиквидацииЗадолженностей.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ФормыОбучения</name>
+		<name>Catalog.ФормыОбученияСтудентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -3041,7 +3055,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РезультатыПредыдущихСессий</name>
+		<name>Document.АкадемическаяНеуспеваемость</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -3152,117 +3166,18 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ЗагрузкаJSONФайлов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Университет</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПричинаВозникновенияЗадолженностей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.РекомендацииПоСтудентам.Command.Печать</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -3781,14 +3696,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПротоколЗаседанияКомиссии.Command.Печать</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.РаспределениеРолейПоЗадачам</name>
+		<name>Report.СтатистикаПоОтчисленнымСтудентам</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -3799,7 +3707,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Report.МониторингВозникшихЗадолженностей</name>
+		<name>Report.МониторингТекущихОценокСтудентов</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

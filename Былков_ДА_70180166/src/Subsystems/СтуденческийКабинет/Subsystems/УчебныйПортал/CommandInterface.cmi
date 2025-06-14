@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>InformationRegister.ТекущийСтатусЗадолженностей.StandardCommand.OpenList</command>
+      <command>InformationRegister.СтатусыАкадемическихЗадолженностей.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -17,8 +17,8 @@
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
-      <commands>InformationRegister.ТекущийСтатусЗадолженностей.StandardCommand.OpenList</commands>
-      <commands>Document.РезультатыПредыдущихСессий.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СтатусыАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
+      <commands>Document.АкадемическаяНеуспеваемость.StandardCommand.OpenList</commands>
       <commands>Document.НаправлениеНаПересдачу.StandardCommand.OpenList</commands>
       <commands>Document.ВедомостьУчетаАкадемическихЗадолженностей.StandardCommand.OpenList</commands>
       <commands>Document.РекомендацииПоСтудентам.StandardCommand.OpenList</commands>

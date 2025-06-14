@@ -10,10 +10,11 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Статистика</picture>
   </picture>
-  <content>DataProcessor.Академ_задолженность</content>
-  <content>Report.АнализЗадолженностей</content>
-  <content>Report.РаспределениеРолейПоЗадачам</content>
-  <content>Report.РезультатыСессии</content>
+  <content>DataProcessor.БизнесАналитика</content>
+  <content>Report.АнализАкадемическойНеуспеваемости</content>
+  <content>Report.СтатистикаПоОтчисленнымСтудентам</content>
+  <content>Report.МониторингСтатусовЗадолженностей</content>
   <content>Report.КоличественныйАнализЗадолженностей</content>
-  <content>Report.МониторингВозникшихЗадолженностей</content>
+  <content>Report.МониторингТекущихОценокСтудентов</content>
+  <content>DataProcessor.ЗагрузкаJSONФайлов</content>
 </mdclass:Subsystem>

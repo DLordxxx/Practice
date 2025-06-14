@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d048be3d-d587-4fc4-b81b-0ffb74efbddf">
+  <producedTypes>
+    <objectType typeId="e5dd551d-5765-4af5-b8e8-a444e695d271" valueTypeId="4dfa4572-781f-4f23-8803-dcddf62fced2"/>
+    <managerType typeId="3e7302fb-f039-4bda-80e6-3c7f4fe84095" valueTypeId="0b39a1f7-18b1-4928-b3e4-36c848d25d78"/>
+  </producedTypes>
+  <name>ЗагрузкаJSONФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка JSON-файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаJSONФайлов.Form.Форма</defaultForm>
+  <forms uuid="93670842-912d-4e21-ae67-b73265c2d5c5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

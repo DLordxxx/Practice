@@ -22,10 +22,6 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Группа</dataPath>
-			<field>Группа</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоЛиквидированныхЗадолженностейОборот</dataPath>
 			<field>КоличествоЛиквидированныхЗадолженностейОборот</field>
 		</field>

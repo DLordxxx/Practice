@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>e9ffbb9f-f69c-4eff-8051-1e983c2c0b9f</id>
+		<id>0eb6ddcc-f305-42e1-9aae-da9b36142162</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</id>
+		<id>afd5effe-42ea-435e-a5d0-6406e494de53</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -71,7 +71,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>e9ffbb9f-f69c-4eff-8051-1e983c2c0b9f</columnsID>
+			<columnsID>0eb6ddcc-f305-42e1-9aae-da9b36142162</columnsID>
 			<formatIndex>6</formatIndex>
 			<c>
 				<i>1</i>
@@ -80,7 +80,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ведомость о системе академических задолженностей</v8:content>
+							<v8:content>Ведомость учета академических задолженностей</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -97,7 +97,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -121,7 +121,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -145,7 +145,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -169,7 +169,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -193,7 +193,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -217,7 +217,7 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -225,7 +225,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование контроля</v8:content>
+							<v8:content>Форма контроля</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -233,7 +233,7 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>НаименованиеКонтроля</parameter>
+					<parameter>ФормаКонтроля</parameter>
 				</c>
 			</c>
 		</row>
@@ -241,7 +241,7 @@
 	<rowsItem>
 		<index>10</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -265,7 +265,7 @@
 	<rowsItem>
 		<index>11</index>
 		<row>
-			<columnsID>9ad944e1-2b66-4829-8f29-3fdadf6e3f89</columnsID>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -286,10 +286,34 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<columnsID>afd5effe-42ea-435e-a5d0-6406e494de53</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<parameter>Основание</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>10</defaultFormatIndex>
-	<height>12</height>
-	<vgRows>12</vgRows>
+	<height>13</height>
+	<vgRows>13</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -330,6 +354,11 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<merge>
+		<r>12</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -338,7 +367,7 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>e9ffbb9f-f69c-4eff-8051-1e983c2c0b9f</columnsID>
+			<columnsID>0eb6ddcc-f305-42e1-9aae-da9b36142162</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -346,7 +375,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>11</endRow>
+			<endRow>12</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -359,13 +388,13 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>201</width>
+		<width>192</width>
 	</format>
 	<format>
 		<width>0</width>
 	</format>
 	<format>
-		<width>438</width>
+		<width>448</width>
 	</format>
 	<format>
 		<font>0</font>

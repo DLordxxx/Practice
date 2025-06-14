@@ -68,18 +68,32 @@
       <value>8</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f4f7a7d0-6d3b-41ca-85f5-5c54c4264429">
+  <enumValues uuid="f809c6f9-decb-45d6-8867-4c7d05a99b01">
     <name>Девятый</name>
     <synonym>
       <key>ru</key>
       <value>9</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="442a70fa-b7d3-4aeb-b645-2e90c40626b3">
+  <enumValues uuid="6c66758d-b0b4-4de6-a663-22094dd924e5">
     <name>Десятый</name>
     <synonym>
       <key>ru</key>
       <value>10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c54eb8c5-d59c-4126-8769-bb58b485c959">
+    <name>Одиннадцатый</name>
+    <synonym>
+      <key>ru</key>
+      <value>11</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9fbbd69-bd76-4440-ba7c-9522fc9d45e9">
+    <name>Двенадцатый</name>
+    <synonym>
+      <key>ru</key>
+      <value>12</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

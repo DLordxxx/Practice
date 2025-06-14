@@ -19,7 +19,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>d7558413-2ee4-4816-81dd-5fd5152bc26a</id>
+		<id>1ddd02ce-2337-4a42-ae87-16417a1763bc</id>
 		<size>2</size>
 		<columnsItem>
 			<index>0</index>
@@ -35,7 +35,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>99565c08-6f57-4f3c-b741-bd136774ed09</id>
+		<id>c5b885e8-6a81-4edb-8d8f-c423251e79aa</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -63,7 +63,7 @@
 		</columnsItem>
 	</columns>
 	<columns>
-		<id>83355ce7-95f4-4b94-ad93-8cd06a128d23</id>
+		<id>191be618-6d3e-4e9f-a006-191f84c53a1f</id>
 		<size>4</size>
 		<columnsItem>
 			<index>0</index>
@@ -99,7 +99,7 @@
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<columnsID>d7558413-2ee4-4816-81dd-5fd5152bc26a</columnsID>
+			<columnsID>1ddd02ce-2337-4a42-ae87-16417a1763bc</columnsID>
 			<formatIndex>9</formatIndex>
 			<c>
 				<i>1</i>
@@ -125,7 +125,7 @@
 	<rowsItem>
 		<index>4</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -149,7 +149,7 @@
 	<rowsItem>
 		<index>5</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -173,7 +173,7 @@
 	<rowsItem>
 		<index>6</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -197,7 +197,7 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -221,7 +221,7 @@
 	<rowsItem>
 		<index>8</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -245,31 +245,7 @@
 	<rowsItem>
 		<index>9</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
-			<c>
-				<i>1</i>
-				<c>
-					<f>11</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Направления подготовки</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>12</f>
-					<parameter>НаправленияПодготовки</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>10</index>
-		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -291,9 +267,57 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>10</index>
+		<row>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Направление подготовки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<parameter>НаправлениеПодготовки</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>11</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Профиль студента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<parameter>ПрофильСтудента</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -315,9 +339,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
-			<columnsID>99565c08-6f57-4f3c-b741-bd136774ed09</columnsID>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -339,16 +363,40 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
-		<indexTo>15</indexTo>
+		<index>14</index>
+		<row>
+			<columnsID>c5b885e8-6a81-4edb-8d8f-c423251e79aa</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<parameter>Основание</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<indexTo>17</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>18</index>
 		<row>
-			<columnsID>83355ce7-95f4-4b94-ad93-8cd06a128d23</columnsID>
+			<columnsID>191be618-6d3e-4e9f-a006-191f84c53a1f</columnsID>
 			<c>
 				<c>
 					<f>14</f>
@@ -382,7 +430,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование контроля</v8:content>
+							<v8:content>Форма контроля</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -390,9 +438,9 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>19</index>
 		<row>
-			<columnsID>83355ce7-95f4-4b94-ad93-8cd06a128d23</columnsID>
+			<columnsID>191be618-6d3e-4e9f-a006-191f84c53a1f</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -409,15 +457,15 @@
 			<c>
 				<c>
 					<f>17</f>
-					<parameter>НаименованиеКонтроля</parameter>
+					<parameter>ФормаКонтроля</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>18</defaultFormatIndex>
-	<height>18</height>
-	<vgRows>18</vgRows>
+	<height>20</height>
+	<vgRows>20</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -458,6 +506,16 @@
 		<c>2</c>
 		<w>1</w>
 	</merge>
+	<merge>
+		<r>13</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>14</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -466,26 +524,26 @@
 			<endRow>1</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>d7558413-2ee4-4816-81dd-5fd5152bc26a</columnsID>
+			<columnsID>1ddd02ce-2337-4a42-ae87-16417a1763bc</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Характеристика</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>17</beginRow>
-			<endRow>17</endRow>
+			<beginRow>19</beginRow>
+			<endRow>19</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>83355ce7-95f4-4b94-ad93-8cd06a128d23</columnsID>
+			<columnsID>191be618-6d3e-4e9f-a006-191f84c53a1f</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ХарактеристикаШапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>15</beginRow>
-			<endRow>16</endRow>
+			<beginRow>17</beginRow>
+			<endRow>18</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -495,7 +553,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>12</endRow>
+			<endRow>14</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -527,7 +585,7 @@
 		<width>307</width>
 	</format>
 	<format>
-		<width>302</width>
+		<width>201</width>
 	</format>
 	<format>
 		<font>0</font>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11be4bf-07b5-48cd-9eb3-765f9f305f6f">
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11be4bf-07b5-48cd-9eb3-765f9f305f6f">
   <producedTypes>
     <objectType typeId="ab2775d2-49bb-4257-8a7f-f13357f51f0f" valueTypeId="761f5aed-a900-4258-8013-9d817d4c04af"/>
     <refType typeId="97af375e-7b8d-45c3-a574-457f85d651ab" valueTypeId="e777b6db-e475-4b20-993e-47bf71f724ee"/>
@@ -28,6 +28,51 @@
   <autonumbering>true</autonumbering>
   <task>Task.Задачи</task>
   <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="5a7be3ef-468d-4720-b7a8-4efec5f96137">
+    <name>ЕстьАкадемическиеЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть академические задолженности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53642dae-d23c-4fee-84fa-704abb3590fd">
+    <name>ИндивидуальныйОбразовательныйМаршрут</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИОМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7336c5ed-cf88-4a04-866a-5119bacb4a1c">
+    <name>НеудачнаяВтораяПересдача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неудачная вторая пересдача</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d522fc12-8031-4fe8-9f56-e5e0dc761271">
     <name>ФормаБизнесПроцесса</name>
     <synonym>

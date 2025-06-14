@@ -99,33 +99,18 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="cfa02f9a-a342-4431-8249-666d97faa84d">
-    <name>ВидКонтроля</name>
+    <name>ФормаКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Вид контроля</value>
+      <value>Форма контроля</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеКонтроля</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="c1e31136-679f-4c2c-ac5c-12102751a3da">
-    <name>Преподаватель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Преподаватель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
+      <types>EnumRef.ФормаКонтроля</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

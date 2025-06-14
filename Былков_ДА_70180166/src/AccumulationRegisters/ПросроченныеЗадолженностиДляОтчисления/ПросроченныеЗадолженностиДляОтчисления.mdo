@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c48722f1-df05-4fba-84f1-1c4fda3fddb8">
+  <producedTypes>
+    <selectionType typeId="b1993fa9-3a6b-41c1-960b-2dfac45c25e4" valueTypeId="5089c2d4-4005-4fff-a3d3-4f7db0426e4e"/>
+    <listType typeId="26e7af94-6438-48b1-a6ec-7e3a8387fc26" valueTypeId="0d4e45f1-9820-40ca-a39b-d6c51722a24c"/>
+    <managerType typeId="7834c83c-a13f-4fe0-94a5-a47e1472168c" valueTypeId="12da05f8-ae74-4918-93f1-618b5213f2f4"/>
+    <recordSetType typeId="62f3f169-4278-4fd9-97c8-4868257f8365" valueTypeId="6d3ab5dd-6e03-4f97-afd1-31418de43fd1"/>
+    <recordKeyType typeId="32a9dd78-cce4-4428-bc7b-0b41283287d9" valueTypeId="83efe18f-9caa-4981-8f6c-492754bb3966"/>
+    <recordType typeId="de018342-13cb-40f7-b406-83ab38fac3cd" valueTypeId="96d7355c-35dd-4768-a6cd-033f5595a1c0"/>
+  </producedTypes>
+  <name>ПросроченныеЗадолженностиДляОтчисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просроченные задолженности для отчисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ПросроченныеЗадолженностиДляОтчисления.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="38c428f2-6ef4-405c-86df-50b456fdefeb">
+    <name>КоличествоПросроченныхЗадолженностейДляОтчисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество просроченных задолженностей для отчисления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b69484a5-5a92-466e-a1b6-af583872446a">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="076253d5-0016-487b-8bcc-ecba97258b49">
+    <name>Семестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семестр</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Семестры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="29f9ab16-dc69-486e-b054-2e3726494182">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

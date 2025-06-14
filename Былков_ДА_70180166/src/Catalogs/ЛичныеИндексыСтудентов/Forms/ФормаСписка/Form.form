@@ -48,7 +48,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ЛичныйИндексСтудента</name>
+      <name>Студент</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -56,10 +56,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ЛичныйИндексСтудента</segments>
+        <segments>Список.Студент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЛичныйИндексСтудентаРасширеннаяПодсказка</name>
+        <name>СтудентРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -69,7 +69,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЛичныйИндексСтудентаКонтекстноеМеню</name>
+        <name>СтудентКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -84,19 +84,20 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Студент</name>
-      <id>19</id>
+      <name>Наименование</name>
+      <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Студент</segments>
+        <segments>Список.Description</segments>
       </dataPath>
+      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>СтудентРасширеннаяПодсказка</name>
-        <id>21</id>
+        <name>НаименованиеРасширеннаяПодсказка</name>
+        <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -105,8 +106,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СтудентКонтекстноеМеню</name>
-        <id>20</id>
+        <name>НаименованиеКонтекстноеМеню</name>
+        <id>17</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

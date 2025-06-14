@@ -64,6 +64,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <basedOn>Document.РекомендацииПоСтудентам</basedOn>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
@@ -106,25 +107,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="091fdb06-2571-4e03-ad8a-edcdda677519">
-    <name>ПричинаПродления</name>
-    <synonym>
-      <key>ru</key>
-      <value>Причина продления</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="9eb667f7-e5f2-45bc-9db2-098de8a1eb36">
     <name>Дисциплина</name>
     <synonym>
@@ -142,13 +124,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b68eaabc-a543-4f0e-bdfe-c0838d82b7f7">
-    <name>НаименованиеКонтроля</name>
+    <name>ФормаКонтроля</name>
     <synonym>
       <key>ru</key>
-      <value>Наименование контроля</value>
+      <value>Форма контроля</value>
     </synonym>
     <type>
-      <types>EnumRef.НаименованиеКонтроля</types>
+      <types>EnumRef.ФормаКонтроля</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -175,50 +157,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="128d8222-2e18-4345-a219-63e9a4a89c17">
-    <name>ПриложенныеДокументы</name>
+  <attributes uuid="091fdb06-2571-4e03-ad8a-edcdda677519">
+    <name>ПричинаПродления</name>
     <synonym>
       <key>ru</key>
-      <value>Приложенные документы</value>
+      <value>Причина продления</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>DocumentRef.РекомендацииПоСтудентам</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="3ae28f9f-f94e-4646-a8d2-d9d829cd2866">
-    <name>Подтверждение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подтверждение</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f0b3e2fc-6460-4f89-8bd8-d27e600c440b">
-    <name>СтатусРассмотрения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус рассмотрения</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусРассмотрения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -232,10 +182,10 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="43ccda8e-e5f9-4949-9d57-1107480e8823">
+  <templates uuid="e4d6b0c6-3757-49ab-bafa-96068cf31310">
     <name>Печать</name>
   </templates>
-  <commands uuid="06c3e823-543c-4e68-8198-99bcd11081e3">
+  <commands uuid="3ad7c842-8895-45a7-b50d-a2e368791aae">
     <name>Печать</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>

@@ -8,10 +8,8 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.РекомендацииПоСтудентам</content>
-  <content>InformationRegister.ТекущийСтатусЗадолженностей</content>
   <content>Document.НаправлениеНаПересдачу</content>
-  <content>InformationRegister.ОценкиСтудентов</content>
-  <content>Document.РезультатыПредыдущихСессий</content>
+  <content>Document.АкадемическаяНеуспеваемость</content>
   <content>Document.ВедомостьУчетаАкадемическихЗадолженностей</content>
   <parentSubsystem>Subsystem.СтуденческийКабинет</parentSubsystem>
 </mdclass:Subsystem>
