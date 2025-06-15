@@ -21,16 +21,22 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоПросроченныхЗадолженностейДляОтчисленияРасход</dataPath>
-			<field>КоличествоПросроченныхЗадолженностейДляОтчисленияРасход</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Факультет</dataPath>
 			<field>Факультет</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПросроченныхЗадолженностей</dataPath>
+			<field>КоличествоПросроченныхЗадолженностей</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество просроченных задолженностей</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ПросроченныеЗадолженностиДляОтчисленияОстаткиИОбороты.КоличествоПросроченныхЗадолженностейДляОтчисленияРасход КАК КоличествоПросроченныхЗадолженностейДляОтчисленияРасход,
+	ПросроченныеЗадолженностиДляОтчисленияОстаткиИОбороты.КоличествоПросроченныхЗадолженностейДляОтчисленияРасход КАК КоличествоПросроченныхЗадолженностей,
 	ПросроченныеЗадолженностиДляОтчисленияОстаткиИОбороты.Студент КАК Студент,
 	ПросроченныеЗадолженностиДляОтчисленияОстаткиИОбороты.Семестр КАК Семестр,
 	Студенты.Факультет КАК Факультет
@@ -40,8 +46,8 @@
 		ПО ПросроченныеЗадолженностиДляОтчисленияОстаткиИОбороты.Студент = Студенты.Ссылка</query>
 	</dataSet>
 	<totalField>
-		<dataPath>КоличествоПросроченныхЗадолженностейДляОтчисленияРасход</dataPath>
-		<expression>Сумма(КоличествоПросроченныхЗадолженностейДляОтчисленияРасход)</expression>
+		<dataPath>КоличествоПросроченныхЗадолженностей</dataPath>
+		<expression>Сумма(КоличествоПросроченныхЗадолженностей)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -83,7 +89,7 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КоличествоПросроченныхЗадолженностейДляОтчисленияРасход</dcsset:field>
+					<dcsset:field>КоличествоПросроченныхЗадолженностей</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Студент</dcsset:field>

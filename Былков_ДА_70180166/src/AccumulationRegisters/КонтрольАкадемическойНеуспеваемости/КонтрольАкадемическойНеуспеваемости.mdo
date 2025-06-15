@@ -19,10 +19,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="6d58bc3c-6b08-49d9-882a-ee6f04ae5644">
-    <name>КоличествоПересдачПоДисциплинам</name>
+    <name>КоличествоПричинПоДисциплинам</name>
     <synonym>
       <key>ru</key>
-      <value>Количество пересдач по дисциплинам</value>
+      <value>Количество причин по дисциплинам</value>
     </synonym>
     <type>
       <types>Number</types>

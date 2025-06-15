@@ -25,24 +25,30 @@
 			<field>ИндексСтудента</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоПересдачПоДисциплинамОборот</dataPath>
-			<field>КоличествоПересдачПоДисциплинамОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Дисциплина</dataPath>
 			<field>Дисциплина</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПричинПоДисциплинам</dataPath>
+			<field>КоличествоПричинПоДисциплинам</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество причин по дисциплинам</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	КонтрольАкадемическойНеуспеваемостиОбороты.Семестр КАК Семестр,
-	КонтрольАкадемическойНеуспеваемостиОбороты.КоличествоПересдачПоДисциплинамОборот КАК КоличествоПересдачПоДисциплинамОборот,
-	КонтрольАкадемическойНеуспеваемостиОбороты.ПричинаВозникновения КАК ПричинаВозникновения
+	КонтрольАкадемическойНеуспеваемостиОбороты.КоличествоПричинПоДисциплинамОборот КАК КоличествоПричинПоДисциплинам,
+	КонтрольАкадемическойНеуспеваемостиОбороты.ПричинаВозникновения КАК ПричинаВозникновения,
+	КонтрольАкадемическойНеуспеваемостиОбороты.Семестр КАК Семестр
 ИЗ
 	РегистрНакопления.КонтрольАкадемическойНеуспеваемости.Обороты КАК КонтрольАкадемическойНеуспеваемостиОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>КоличествоПересдачПоДисциплинамОборот</dataPath>
-		<expression>Сумма(КоличествоПересдачПоДисциплинамОборот)</expression>
+		<dataPath>КоличествоПричинПоДисциплинам</dataPath>
+		<expression>Сумма(КоличествоПричинПоДисциплинам)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -104,10 +110,7 @@
 					<dcsset:field>ПричинаВозникновения</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КоличествоПересдачПоДисциплинамОборот.ПроцентОбщий</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ИндексСтудента</dcsset:field>
+					<dcsset:field>КоличествоПричинПоДисциплинам.ПроцентОбщий</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
