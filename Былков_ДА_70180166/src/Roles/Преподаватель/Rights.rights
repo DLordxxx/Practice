@@ -1497,7 +1497,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПриказОбОтчислении.Attribute.КоличествоЛиквидированныхЗадолженностей</name>
+		<name>Document.ПриказОбОтчислении.Attribute.КоличествоПросроченныхЗадолженностей</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
