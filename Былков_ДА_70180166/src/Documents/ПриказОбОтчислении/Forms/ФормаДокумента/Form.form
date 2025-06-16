@@ -259,7 +259,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.КоличествоВозникшихЗадолженностей</segments>
+      <segments>Объект.КоличествоЛиквидированныхЗадолженностей</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
