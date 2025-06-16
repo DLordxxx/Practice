@@ -83,6 +83,7 @@
   <documents>Document.ИндивидуальныйПланЛиквидацииЗадолженностей</documents>
   <documents>Document.ВедомостьУчетаАкадемическихЗадолженностейДляСтудентовсИОМ</documents>
   <documents>Document.ПриказОбОтчислении</documents>
+  <documents>Document.Документ1</documents>
   <enums>Enum.ФормаОбучения</enums>
   <enums>Enum.УровеньОбразования</enums>
   <enums>Enum.УченоеЗвание</enums>

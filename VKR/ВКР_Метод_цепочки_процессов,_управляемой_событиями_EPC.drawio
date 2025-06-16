@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
   <diagram name="Страница — 1" id="2CosSSrfe7D99ffmcuYE">
-    <mxGraphModel dx="3009" dy="3560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2718" dy="3397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -362,14 +362,14 @@
         <mxCell id="BsVbVjvEwacsZ77UHzFk-4" value="&lt;font&gt;выполняет&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" parent="BsVbVjvEwacsZ77UHzFk-3" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jiMIM2_yLta-thXVdgK0-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ngm4Al6N2siI-02iGA12-29" target="3zQtas0TBDlNP7FKO63y-1">
+        <mxCell id="jiMIM2_yLta-thXVdgK0-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Ngm4Al6N2siI-02iGA12-29" target="3zQtas0TBDlNP7FKO63y-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="1030" as="sourcePoint" />
             <mxPoint x="1289" y="1030" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jiMIM2_yLta-thXVdgK0-2" value="&lt;font&gt;выполняет&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" connectable="0" vertex="1" parent="jiMIM2_yLta-thXVdgK0-1">
+        <mxCell id="jiMIM2_yLta-thXVdgK0-2" value="&lt;font&gt;выполняет&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" parent="jiMIM2_yLta-thXVdgK0-1" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
